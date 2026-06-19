@@ -1,0 +1,25 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Local/secret state — НИКОГДА не коммитить
+*.env
+.env
+*.db
+*.bak
+*.bak_*
+notes.json.bak_*
+
+# Generated content (PDF/audio догружаются/рендерятся на сервере)
+notes/
+
+# OS
+.DS_Store
+
+# Wrangler local cache
+.wrangler/
+
+# Временные скрипты сессии
+_*.py

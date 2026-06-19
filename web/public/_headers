@@ -1,0 +1,18 @@
+/*
+  Permissions-Policy: microphone=(self)
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: no-referrer
+
+# Только HTML мини-аппы/тюнера НЕ кэшируем (Telegram-вебвью держал старое). Картинки (/tuner/img/*) кэшируются нормально.
+/
+  Cache-Control: no-store
+/index.html
+  Cache-Control: no-store
+/tuner/
+  Cache-Control: no-store
+/tuner/index.html
+  Cache-Control: no-store
+/app/
+  Cache-Control: no-store
+/app/index.html
+  Cache-Control: no-store

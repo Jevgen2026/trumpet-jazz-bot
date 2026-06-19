@@ -1,0 +1,6311 @@
+[
+  {
+    "id": 23,
+    "title": "Manha de Carnaval (Black Orpheus)",
+    "composer": "Luiz Bonfá",
+    "genre": "jazz",
+    "type": "piece",
+    "file_path": "Luiz Bonfá - Manha de Carnaval ( Black Orpheus ).pdf",
+    "file_id": null
+  },
+  {
+    "id": 44,
+    "title": "Philly Twist",
+    "composer": "Kenny Dorham",
+    "genre": "jazz",
+    "type": "piece",
+    "file_path": "Composition _ Kenny Dorham_Transcription _ Stéphane Merlo - Philly Twist.pdf",
+    "file_id": null
+  },
+  {
+    "id": 54,
+    "title": "Wes Tune",
+    "composer": "Wes Montgomery",
+    "genre": "jazz",
+    "type": "piece",
+    "file_path": "Wes Montgomery_Transcription _ Stéphane Merlo - Wes Tune.pdf",
+    "file_id": null
+  },
+  {
+    "id": 57,
+    "title": "Гаммы и этюды для трубы",
+    "composer": "Тимофей Докшицер",
+    "genre": "classical",
+    "type": "etude",
+    "file_path": "Докшицер-Гаммы-и-этюды-Труба-Корнет-pdf.io_.pdf",
+    "file_id": null
+  },
+  {
+    "id": 58,
+    "title": "Избранные этюды для трубы",
+    "composer": "Вурм",
+    "genre": "classical",
+    "type": "etude",
+    "file_path": "000199_000009_004465262-Избранные_этюды_(62)__для_трубы.pdf",
+    "file_id": null
+  },
+  {
+    "id": 61,
+    "title": "Complete Conservatory Method (Cornet/Trumpet)",
+    "composer": "Jean-Baptiste Arban",
+    "genre": "classical",
+    "type": "book",
+    "file_path": "Arban - Complete Method (Cornet_Trumpet, 1893).pdf",
+    "file_id": null
+  },
+  {
+    "id": 62,
+    "title": "New & Modern Grand Method for Cornet/Trumpet",
+    "composer": "Louis Saint-Jacome",
+    "genre": "classical",
+    "type": "book",
+    "file_path": "Saint-Jacome - Grand Method for Cornet_Trumpet.pdf",
+    "file_id": null
+  },
+  {
+    "id": 63,
+    "title": "Daily Exercises and Scales (Trumpet)",
+    "composer": "Gabriel Parès",
+    "genre": "classical",
+    "type": "etude",
+    "file_path": "Pares - Daily Exercises and Scales (Trumpet).pdf",
+    "file_id": null
+  },
+  {
+    "id": 64,
+    "title": "60 Selected Studies (Trombone)",
+    "composer": "Georg Kopprasch",
+    "genre": "classical",
+    "type": "etude",
+    "file_path": "Kopprasch - 60 Selected Studies (Trombone).pdf",
+    "file_id": null
+  },
+  {
+    "id": 65,
+    "title": "Melodious Etudes for Trombone",
+    "composer": "Marco Bordogni / Joannès Rochut",
+    "genre": "classical",
+    "type": "etude",
+    "file_path": "Rochut-Bordogni - Melodious Etudes for Trombone.pdf",
+    "file_id": null
+  },
+  {
+    "id": 66,
+    "title": "Fig Leaf Rag",
+    "composer": "Scott Joplin",
+    "genre": "ragtime",
+    "type": "piece",
+    "file_path": "Joplin_-_Fig_Leaf_Rag.pdf",
+    "file_id": null
+  },
+  {
+    "id": 67,
+    "title": "Pineapple Rag",
+    "composer": "Scott Joplin",
+    "genre": "ragtime",
+    "type": "piece",
+    "file_path": "Joplin_-_Pineapple_Rag.pdf",
+    "file_id": null
+  },
+  {
+    "id": 68,
+    "title": "Blues and Stomps",
+    "composer": "Jelly Roll Morton",
+    "genre": "jazz",
+    "type": "book",
+    "file_path": "Morton_-_Blues_and_Stomps.pdf",
+    "file_id": null
+  },
+  {
+    "id": 69,
+    "title": "Maple Leaf Rag",
+    "composer": "Scott Joplin",
+    "genre": "ragtime",
+    "type": "piece",
+    "file_path": "Joplin_-_Maple_Leaf_Rag.pdf",
+    "file_id": null
+  },
+  {
+    "id": 70,
+    "title": "Dead Man Blues",
+    "composer": "Jelly Roll Morton",
+    "genre": "jazz",
+    "type": "piece",
+    "file_path": "Morton_-_Dead_Man_Blues.pdf",
+    "file_id": null
+  },
+  {
+    "id": 71,
+    "title": "The Easy Winners",
+    "composer": "Scott Joplin",
+    "genre": "ragtime",
+    "type": "piece",
+    "file_path": "Joplin_-_The_Easy_Winners.pdf",
+    "file_id": null
+  },
+  {
+    "id": 72,
+    "title": "Gladiolus Rag",
+    "composer": "Scott Joplin",
+    "genre": "ragtime",
+    "type": "piece",
+    "file_path": "Joplin_-_Gladiolus_Rag.pdf",
+    "file_id": "BQACAgIAAxkDAAIBHWowXUOhx7QGunBukOcnJXXD44tZAALVtwAC80eASUj7Yzyd9PSCPAQ"
+  },
+  {
+    "id": 73,
+    "title": "Elite Syncopations",
+    "composer": "Scott Joplin",
+    "genre": "ragtime",
+    "type": "piece",
+    "file_path": "Joplin_-_Elite_Syncopations.pdf",
+    "file_id": null
+  },
+  {
+    "id": 74,
+    "title": "The Cascades",
+    "composer": "Scott Joplin",
+    "genre": "ragtime",
+    "type": "piece",
+    "file_path": "Joplin_-_The_Cascades.pdf",
+    "file_id": null
+  },
+  {
+    "id": 75,
+    "title": "Original Rags",
+    "composer": "Scott Joplin",
+    "genre": "ragtime",
+    "type": "piece",
+    "file_path": "Joplin_-_Original_Rags.pdf",
+    "file_id": null
+  },
+  {
+    "id": 76,
+    "title": "Euphonic Sounds",
+    "composer": "Scott Joplin",
+    "genre": "ragtime",
+    "type": "piece",
+    "file_path": "Joplin_-_Euphonic_Sounds.pdf",
+    "file_id": "BQACAgIAAxkDAAIBHGowXTLw6-EZiEOBcu2IRFe8SsQ2AALUtwAC80eASV1fGEGb0fVYPAQ"
+  },
+  {
+    "id": 77,
+    "title": "Something Doing",
+    "composer": "Scott Joplin",
+    "genre": "ragtime",
+    "type": "piece",
+    "file_path": "Joplin_-_Something_Doing.pdf",
+    "file_id": null
+  },
+  {
+    "id": 78,
+    "title": "Heliotrope Bouquet",
+    "composer": "Scott Joplin",
+    "genre": "ragtime",
+    "type": "piece",
+    "file_path": "Joplin_-_Heliotrope_Bouquet.pdf",
+    "file_id": null
+  },
+  {
+    "id": 79,
+    "title": "Sugar Cane",
+    "composer": "Scott Joplin",
+    "genre": "ragtime",
+    "type": "piece",
+    "file_path": "Joplin_-_Sugar_Cane.pdf",
+    "file_id": null
+  },
+  {
+    "id": 80,
+    "title": "Wall Street Rag",
+    "composer": "Scott Joplin",
+    "genre": "ragtime",
+    "type": "piece",
+    "file_path": "Joplin_-_Wall_Street_Rag.pdf",
+    "file_id": null
+  },
+  {
+    "id": 81,
+    "title": "Country Club",
+    "composer": "Scott Joplin",
+    "genre": "ragtime",
+    "type": "piece",
+    "file_path": "Joplin_-_Country_Club.pdf",
+    "file_id": null
+  },
+  {
+    "id": 82,
+    "title": "Sunflower Slow Drag",
+    "composer": "Scott Joplin",
+    "genre": "ragtime",
+    "type": "piece",
+    "file_path": "Joplin_-_Sunflower_Slow_Drag.pdf",
+    "file_id": "BQACAgIAAxkDAAIBHmowXUnvSh4hl-nd3vimtg5cYzW8AALWtwAC80eASTPB66mKdLRQPAQ"
+  },
+  {
+    "id": 83,
+    "title": "When the Saints Go Marching In",
+    "composer": "Traditional",
+    "genre": "dixieland",
+    "type": "piece",
+    "style": "dixieland",
+    "key_concert": "C",
+    "versions": [
+      {
+        "instrument": "trumpet",
+        "transposition": 2,
+        "clef": "treble",
+        "key_written": "D",
+        "file": "when_the_saints_go_marching_in_Bb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "clarinet",
+        "transposition": 2,
+        "clef": "treble",
+        "key_written": "D",
+        "file": "when_the_saints_go_marching_in_Bb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "tenorsax",
+        "transposition": 14,
+        "clef": "treble",
+        "key_written": "D",
+        "file": "when_the_saints_go_marching_in_Bb_tenor.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "altosax",
+        "transposition": 9,
+        "clef": "treble",
+        "key_written": "A",
+        "file": "when_the_saints_go_marching_in_Eb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "trombone",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "C",
+        "file": "when_the_saints_go_marching_in_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "concert",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "C",
+        "file": "when_the_saints_go_marching_in_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "piano",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "C",
+        "file": "when_the_saints_go_marching_in_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "guitar",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "C",
+        "file": "when_the_saints_go_marching_in_guitar.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "contrabass",
+        "transposition": -12,
+        "clef": "bass",
+        "key_written": "C",
+        "file": "when_the_saints_go_marching_in_bass.pdf",
+        "file_id": null
+      }
+    ]
+  },
+  {
+    "id": 84,
+    "title": "Buddy Bolden's Blues",
+    "composer": "Jelly Roll Morton",
+    "genre": "jazz",
+    "type": "piece",
+    "style": "early jazz",
+    "key_concert": "E♭",
+    "versions": [
+      {
+        "instrument": "trumpet",
+        "transposition": 2,
+        "clef": "treble",
+        "key_written": "F",
+        "file": "buddy_bolden_s_blues_Bb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "clarinet",
+        "transposition": 2,
+        "clef": "treble",
+        "key_written": "F",
+        "file": "buddy_bolden_s_blues_Bb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "tenorsax",
+        "transposition": 14,
+        "clef": "treble",
+        "key_written": "F",
+        "file": "buddy_bolden_s_blues_Bb_tenor.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "altosax",
+        "transposition": 9,
+        "clef": "treble",
+        "key_written": "C",
+        "file": "buddy_bolden_s_blues_Eb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "trombone",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "E♭",
+        "file": "buddy_bolden_s_blues_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "concert",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "E♭",
+        "file": "buddy_bolden_s_blues_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "piano",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "E♭",
+        "file": "buddy_bolden_s_blues_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "guitar",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "E♭",
+        "file": "buddy_bolden_s_blues_guitar.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "contrabass",
+        "transposition": -12,
+        "clef": "bass",
+        "key_written": "E♭",
+        "file": "buddy_bolden_s_blues_bass.pdf",
+        "file_id": null
+      }
+    ]
+  },
+  {
+    "id": 85,
+    "title": "Charleston",
+    "composer": "James P. Johnson",
+    "genre": "jazz",
+    "type": "piece",
+    "style": "stride",
+    "key_concert": "B♭",
+    "versions": [
+      {
+        "instrument": "trumpet",
+        "transposition": 2,
+        "clef": "treble",
+        "key_written": "C",
+        "file": "charleston_Bb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "clarinet",
+        "transposition": 2,
+        "clef": "treble",
+        "key_written": "C",
+        "file": "charleston_Bb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "tenorsax",
+        "transposition": 14,
+        "clef": "treble",
+        "key_written": "C",
+        "file": "charleston_Bb_tenor.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "altosax",
+        "transposition": 9,
+        "clef": "treble",
+        "key_written": "G",
+        "file": "charleston_Eb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "trombone",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "B♭",
+        "file": "charleston_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "concert",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "B♭",
+        "file": "charleston_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "piano",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "B♭",
+        "file": "charleston_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "guitar",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "B♭",
+        "file": "charleston_guitar.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "contrabass",
+        "transposition": -12,
+        "clef": "bass",
+        "key_written": "B♭",
+        "file": "charleston_bass.pdf",
+        "file_id": null
+      }
+    ]
+  },
+  {
+    "id": 86,
+    "title": "That's a Plenty",
+    "composer": "Lew Pollack",
+    "genre": "jazz",
+    "type": "piece",
+    "style": "dixieland",
+    "key_concert": "F",
+    "versions": [
+      {
+        "instrument": "trumpet",
+        "transposition": 2,
+        "clef": "treble",
+        "key_written": "G",
+        "file": "that_s_a_plenty_Bb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "clarinet",
+        "transposition": 2,
+        "clef": "treble",
+        "key_written": "G",
+        "file": "that_s_a_plenty_Bb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "tenorsax",
+        "transposition": 14,
+        "clef": "treble",
+        "key_written": "G",
+        "file": "that_s_a_plenty_Bb_tenor.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "altosax",
+        "transposition": 9,
+        "clef": "treble",
+        "key_written": "D",
+        "file": "that_s_a_plenty_Eb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "trombone",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "F",
+        "file": "that_s_a_plenty_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "concert",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "F",
+        "file": "that_s_a_plenty_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "piano",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "F",
+        "file": "that_s_a_plenty_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "guitar",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "F",
+        "file": "that_s_a_plenty_guitar.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "contrabass",
+        "transposition": -12,
+        "clef": "bass",
+        "key_written": "F",
+        "file": "that_s_a_plenty_bass.pdf",
+        "file_id": null
+      }
+    ]
+  },
+  {
+    "id": 87,
+    "title": "Oh, Didn't He Ramble",
+    "composer": "Bob Cole & J. Rosamond Johnson",
+    "genre": "jazz",
+    "type": "piece",
+    "style": "dixieland",
+    "key_concert": "G",
+    "versions": [
+      {
+        "instrument": "trumpet",
+        "transposition": 2,
+        "clef": "treble",
+        "key_written": "A",
+        "file": "oh__didn_t_he_ramble_Bb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "clarinet",
+        "transposition": 2,
+        "clef": "treble",
+        "key_written": "A",
+        "file": "oh__didn_t_he_ramble_Bb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "tenorsax",
+        "transposition": 14,
+        "clef": "treble",
+        "key_written": "A",
+        "file": "oh__didn_t_he_ramble_Bb_tenor.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "altosax",
+        "transposition": 9,
+        "clef": "treble",
+        "key_written": "E",
+        "file": "oh__didn_t_he_ramble_Eb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "trombone",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "G",
+        "file": "oh__didn_t_he_ramble_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "concert",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "G",
+        "file": "oh__didn_t_he_ramble_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "piano",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "G",
+        "file": "oh__didn_t_he_ramble_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "guitar",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "G",
+        "file": "oh__didn_t_he_ramble_guitar.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "contrabass",
+        "transposition": -12,
+        "clef": "bass",
+        "key_written": "G",
+        "file": "oh__didn_t_he_ramble_bass.pdf",
+        "file_id": null
+      }
+    ]
+  },
+  {
+    "id": 88,
+    "title": "Nobody Knows You When You're Down and Out",
+    "composer": "Jimmy Cox",
+    "genre": "jazz",
+    "type": "piece",
+    "style": "blues",
+    "key_concert": "F",
+    "versions": [
+      {
+        "instrument": "trumpet",
+        "transposition": 2,
+        "clef": "treble",
+        "key_written": "G",
+        "file": "nobody_knows_you_when_you_re_down_and_out_Bb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "clarinet",
+        "transposition": 2,
+        "clef": "treble",
+        "key_written": "G",
+        "file": "nobody_knows_you_when_you_re_down_and_out_Bb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "tenorsax",
+        "transposition": 14,
+        "clef": "treble",
+        "key_written": "G",
+        "file": "nobody_knows_you_when_you_re_down_and_out_Bb_tenor.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "altosax",
+        "transposition": 9,
+        "clef": "treble",
+        "key_written": "D",
+        "file": "nobody_knows_you_when_you_re_down_and_out_Eb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "trombone",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "F",
+        "file": "nobody_knows_you_when_you_re_down_and_out_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "concert",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "F",
+        "file": "nobody_knows_you_when_you_re_down_and_out_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "piano",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "F",
+        "file": "nobody_knows_you_when_you_re_down_and_out_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "guitar",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "F",
+        "file": "nobody_knows_you_when_you_re_down_and_out_guitar.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "contrabass",
+        "transposition": -12,
+        "clef": "bass",
+        "key_written": "F",
+        "file": "nobody_knows_you_when_you_re_down_and_out_bass.pdf",
+        "file_id": null
+      }
+    ]
+  },
+  {
+    "id": 89,
+    "title": "A Good Man Is Hard to Find",
+    "composer": "Eddie Green",
+    "genre": "jazz",
+    "type": "piece",
+    "style": "blues",
+    "key_concert": "C",
+    "versions": [
+      {
+        "instrument": "trumpet",
+        "transposition": 2,
+        "clef": "treble",
+        "key_written": "D",
+        "file": "a_good_man_is_hard_to_find_Bb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "clarinet",
+        "transposition": 2,
+        "clef": "treble",
+        "key_written": "D",
+        "file": "a_good_man_is_hard_to_find_Bb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "tenorsax",
+        "transposition": 14,
+        "clef": "treble",
+        "key_written": "D",
+        "file": "a_good_man_is_hard_to_find_Bb_tenor.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "altosax",
+        "transposition": 9,
+        "clef": "treble",
+        "key_written": "A",
+        "file": "a_good_man_is_hard_to_find_Eb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "trombone",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "C",
+        "file": "a_good_man_is_hard_to_find_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "concert",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "C",
+        "file": "a_good_man_is_hard_to_find_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "piano",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "C",
+        "file": "a_good_man_is_hard_to_find_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "guitar",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "C",
+        "file": "a_good_man_is_hard_to_find_guitar.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "contrabass",
+        "transposition": -12,
+        "clef": "bass",
+        "key_written": "C",
+        "file": "a_good_man_is_hard_to_find_bass.pdf",
+        "file_id": null
+      }
+    ]
+  },
+  {
+    "id": 90,
+    "title": "Second Line (Joe Avery Blues)",
+    "composer": "Traditional",
+    "genre": "jazz",
+    "type": "piece",
+    "style": "dixieland",
+    "key_concert": "B♭",
+    "versions": [
+      {
+        "instrument": "trumpet",
+        "transposition": 2,
+        "clef": "treble",
+        "key_written": "C",
+        "file": "second_line__joe_avery_blues_Bb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "clarinet",
+        "transposition": 2,
+        "clef": "treble",
+        "key_written": "C",
+        "file": "second_line__joe_avery_blues_Bb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "tenorsax",
+        "transposition": 14,
+        "clef": "treble",
+        "key_written": "C",
+        "file": "second_line__joe_avery_blues_Bb_tenor.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "altosax",
+        "transposition": 9,
+        "clef": "treble",
+        "key_written": "G",
+        "file": "second_line__joe_avery_blues_Eb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "trombone",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "B♭",
+        "file": "second_line__joe_avery_blues_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "concert",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "B♭",
+        "file": "second_line__joe_avery_blues_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "piano",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "B♭",
+        "file": "second_line__joe_avery_blues_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "guitar",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "B♭",
+        "file": "second_line__joe_avery_blues_guitar.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "contrabass",
+        "transposition": -12,
+        "clef": "bass",
+        "key_written": "B♭",
+        "file": "second_line__joe_avery_blues_bass.pdf",
+        "file_id": null
+      }
+    ]
+  },
+  {
+    "id": 91,
+    "title": "Indiana (Back Home Again in Indiana)",
+    "composer": "James F. Hanley",
+    "genre": "jazz",
+    "type": "piece",
+    "style": "standard",
+    "key_concert": "G",
+    "versions": [
+      {
+        "instrument": "trumpet",
+        "transposition": 2,
+        "clef": "treble",
+        "key_written": "A",
+        "file": "indiana__back_home_again_in_indiana_Bb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "clarinet",
+        "transposition": 2,
+        "clef": "treble",
+        "key_written": "A",
+        "file": "indiana__back_home_again_in_indiana_Bb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "tenorsax",
+        "transposition": 14,
+        "clef": "treble",
+        "key_written": "A",
+        "file": "indiana__back_home_again_in_indiana_Bb_tenor.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "altosax",
+        "transposition": 9,
+        "clef": "treble",
+        "key_written": "E",
+        "file": "indiana__back_home_again_in_indiana_Eb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "trombone",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "G",
+        "file": "indiana__back_home_again_in_indiana_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "concert",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "G",
+        "file": "indiana__back_home_again_in_indiana_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "piano",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "G",
+        "file": "indiana__back_home_again_in_indiana_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "guitar",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "G",
+        "file": "indiana__back_home_again_in_indiana_guitar.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "contrabass",
+        "transposition": -12,
+        "clef": "bass",
+        "key_written": "G",
+        "file": "indiana__back_home_again_in_indiana_bass.pdf",
+        "file_id": null
+      }
+    ]
+  },
+  {
+    "id": 92,
+    "title": "Rose Room",
+    "composer": "Art Hickman",
+    "genre": "jazz",
+    "type": "piece",
+    "style": "standard",
+    "key_concert": "A♭",
+    "versions": [
+      {
+        "instrument": "trumpet",
+        "transposition": 2,
+        "clef": "treble",
+        "key_written": "B♭",
+        "file": "rose_room_Bb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "clarinet",
+        "transposition": 2,
+        "clef": "treble",
+        "key_written": "B♭",
+        "file": "rose_room_Bb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "tenorsax",
+        "transposition": 14,
+        "clef": "treble",
+        "key_written": "B♭",
+        "file": "rose_room_Bb_tenor.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "altosax",
+        "transposition": 9,
+        "clef": "treble",
+        "key_written": "F",
+        "file": "rose_room_Eb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "trombone",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "A♭",
+        "file": "rose_room_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "concert",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "A♭",
+        "file": "rose_room_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "piano",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "A♭",
+        "file": "rose_room_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "guitar",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "A♭",
+        "file": "rose_room_guitar.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "contrabass",
+        "transposition": -12,
+        "clef": "bass",
+        "key_written": "A♭",
+        "file": "rose_room_bass.pdf",
+        "file_id": null
+      }
+    ]
+  },
+  {
+    "id": 93,
+    "title": "Avalon",
+    "composer": "Vincent Rose",
+    "genre": "jazz",
+    "type": "piece",
+    "style": "standard",
+    "key_concert": "F",
+    "versions": [
+      {
+        "instrument": "trumpet",
+        "transposition": 2,
+        "clef": "treble",
+        "key_written": "G",
+        "file": "avalon_Bb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "clarinet",
+        "transposition": 2,
+        "clef": "treble",
+        "key_written": "G",
+        "file": "avalon_Bb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "tenorsax",
+        "transposition": 14,
+        "clef": "treble",
+        "key_written": "G",
+        "file": "avalon_Bb_tenor.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "altosax",
+        "transposition": 9,
+        "clef": "treble",
+        "key_written": "D",
+        "file": "avalon_Eb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "trombone",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "F",
+        "file": "avalon_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "concert",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "F",
+        "file": "avalon_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "piano",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "F",
+        "file": "avalon_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "guitar",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "F",
+        "file": "avalon_guitar.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "contrabass",
+        "transposition": -12,
+        "clef": "bass",
+        "key_written": "F",
+        "file": "avalon_bass.pdf",
+        "file_id": null
+      }
+    ]
+  },
+  {
+    "id": 94,
+    "title": "Dardanella",
+    "composer": "Fred Fisher & Felix Bernard",
+    "genre": "jazz",
+    "type": "piece",
+    "style": "standard",
+    "key_concert": "C",
+    "versions": [
+      {
+        "instrument": "trumpet",
+        "transposition": 2,
+        "clef": "treble",
+        "key_written": "D",
+        "file": "dardanella_Bb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "clarinet",
+        "transposition": 2,
+        "clef": "treble",
+        "key_written": "D",
+        "file": "dardanella_Bb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "tenorsax",
+        "transposition": 14,
+        "clef": "treble",
+        "key_written": "D",
+        "file": "dardanella_Bb_tenor.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "altosax",
+        "transposition": 9,
+        "clef": "treble",
+        "key_written": "A",
+        "file": "dardanella_Eb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "trombone",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "C",
+        "file": "dardanella_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "concert",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "C",
+        "file": "dardanella_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "piano",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "C",
+        "file": "dardanella_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "guitar",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "C",
+        "file": "dardanella_guitar.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "contrabass",
+        "transposition": -12,
+        "clef": "bass",
+        "key_written": "C",
+        "file": "dardanella_bass.pdf",
+        "file_id": null
+      }
+    ]
+  },
+  {
+    "id": 95,
+    "title": "Twelfth Street Rag",
+    "composer": "Euday L. Bowman",
+    "genre": "jazz",
+    "type": "piece",
+    "style": "ragtime",
+    "key_concert": "E♭",
+    "versions": [
+      {
+        "instrument": "trumpet",
+        "transposition": 2,
+        "clef": "treble",
+        "key_written": "F",
+        "file": "twelfth_street_rag_Bb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "clarinet",
+        "transposition": 2,
+        "clef": "treble",
+        "key_written": "F",
+        "file": "twelfth_street_rag_Bb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "tenorsax",
+        "transposition": 14,
+        "clef": "treble",
+        "key_written": "F",
+        "file": "twelfth_street_rag_Bb_tenor.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "altosax",
+        "transposition": 9,
+        "clef": "treble",
+        "key_written": "C",
+        "file": "twelfth_street_rag_Eb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "trombone",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "E♭",
+        "file": "twelfth_street_rag_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "concert",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "E♭",
+        "file": "twelfth_street_rag_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "piano",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "E♭",
+        "file": "twelfth_street_rag_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "guitar",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "E♭",
+        "file": "twelfth_street_rag_guitar.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "contrabass",
+        "transposition": -12,
+        "clef": "bass",
+        "key_written": "E♭",
+        "file": "twelfth_street_rag_bass.pdf",
+        "file_id": null
+      }
+    ]
+  },
+  {
+    "id": 96,
+    "title": "Do It Again",
+    "composer": "George Gershwin",
+    "genre": "jazz",
+    "type": "piece",
+    "style": "standard",
+    "key_concert": "F",
+    "versions": [
+      {
+        "instrument": "trumpet",
+        "transposition": 2,
+        "clef": "treble",
+        "key_written": "G",
+        "file": "do_it_again_Bb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "clarinet",
+        "transposition": 2,
+        "clef": "treble",
+        "key_written": "G",
+        "file": "do_it_again_Bb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "tenorsax",
+        "transposition": 14,
+        "clef": "treble",
+        "key_written": "G",
+        "file": "do_it_again_Bb_tenor.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "altosax",
+        "transposition": 9,
+        "clef": "treble",
+        "key_written": "D",
+        "file": "do_it_again_Eb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "trombone",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "F",
+        "file": "do_it_again_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "concert",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "F",
+        "file": "do_it_again_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "piano",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "F",
+        "file": "do_it_again_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "guitar",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "F",
+        "file": "do_it_again_guitar.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "contrabass",
+        "transposition": -12,
+        "clef": "bass",
+        "key_written": "F",
+        "file": "do_it_again_bass.pdf",
+        "file_id": null
+      }
+    ]
+  },
+  {
+    "id": 97,
+    "title": "Stairway to Paradise",
+    "composer": "George Gershwin",
+    "genre": "jazz",
+    "type": "piece",
+    "style": "standard",
+    "key_concert": "C",
+    "versions": [
+      {
+        "instrument": "trumpet",
+        "transposition": 2,
+        "clef": "treble",
+        "key_written": "D",
+        "file": "stairway_to_paradise_Bb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "clarinet",
+        "transposition": 2,
+        "clef": "treble",
+        "key_written": "D",
+        "file": "stairway_to_paradise_Bb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "tenorsax",
+        "transposition": 14,
+        "clef": "treble",
+        "key_written": "D",
+        "file": "stairway_to_paradise_Bb_tenor.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "altosax",
+        "transposition": 9,
+        "clef": "treble",
+        "key_written": "A",
+        "file": "stairway_to_paradise_Eb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "trombone",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "C",
+        "file": "stairway_to_paradise_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "concert",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "C",
+        "file": "stairway_to_paradise_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "piano",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "C",
+        "file": "stairway_to_paradise_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "guitar",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "C",
+        "file": "stairway_to_paradise_guitar.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "contrabass",
+        "transposition": -12,
+        "clef": "bass",
+        "key_written": "C",
+        "file": "stairway_to_paradise_bass.pdf",
+        "file_id": null
+      }
+    ]
+  },
+  {
+    "id": 98,
+    "title": "Carolina in the Morning",
+    "composer": "Walter Donaldson",
+    "genre": "jazz",
+    "type": "piece",
+    "style": "standard",
+    "key_concert": "C",
+    "versions": [
+      {
+        "instrument": "trumpet",
+        "transposition": 2,
+        "clef": "treble",
+        "key_written": "D",
+        "file": "carolina_in_the_morning_Bb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "clarinet",
+        "transposition": 2,
+        "clef": "treble",
+        "key_written": "D",
+        "file": "carolina_in_the_morning_Bb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "tenorsax",
+        "transposition": 14,
+        "clef": "treble",
+        "key_written": "D",
+        "file": "carolina_in_the_morning_Bb_tenor.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "altosax",
+        "transposition": 9,
+        "clef": "treble",
+        "key_written": "A",
+        "file": "carolina_in_the_morning_Eb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "trombone",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "C",
+        "file": "carolina_in_the_morning_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "concert",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "C",
+        "file": "carolina_in_the_morning_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "piano",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "C",
+        "file": "carolina_in_the_morning_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "guitar",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "C",
+        "file": "carolina_in_the_morning_guitar.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "contrabass",
+        "transposition": -12,
+        "clef": "bass",
+        "key_written": "C",
+        "file": "carolina_in_the_morning_bass.pdf",
+        "file_id": null
+      }
+    ]
+  },
+  {
+    "id": 99,
+    "title": "April Showers",
+    "composer": "Louis Silvers",
+    "genre": "jazz",
+    "type": "piece",
+    "style": "standard",
+    "key_concert": "G",
+    "versions": [
+      {
+        "instrument": "trumpet",
+        "transposition": 2,
+        "clef": "treble",
+        "key_written": "A",
+        "file": "april_showers_Bb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "clarinet",
+        "transposition": 2,
+        "clef": "treble",
+        "key_written": "A",
+        "file": "april_showers_Bb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "tenorsax",
+        "transposition": 14,
+        "clef": "treble",
+        "key_written": "A",
+        "file": "april_showers_Bb_tenor.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "altosax",
+        "transposition": 9,
+        "clef": "treble",
+        "key_written": "E",
+        "file": "april_showers_Eb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "trombone",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "G",
+        "file": "april_showers_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "concert",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "G",
+        "file": "april_showers_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "piano",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "G",
+        "file": "april_showers_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "guitar",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "G",
+        "file": "april_showers_guitar.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "contrabass",
+        "transposition": -12,
+        "clef": "bass",
+        "key_written": "G",
+        "file": "april_showers_bass.pdf",
+        "file_id": null
+      }
+    ]
+  },
+  {
+    "id": 100,
+    "title": "Chicago (That Toddlin' Town)",
+    "composer": "Fred Fisher",
+    "genre": "jazz",
+    "type": "piece",
+    "style": "standard",
+    "key_concert": "F",
+    "versions": [
+      {
+        "instrument": "trumpet",
+        "transposition": 2,
+        "clef": "treble",
+        "key_written": "G",
+        "file": "chicago__that_toddlin__town_Bb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "clarinet",
+        "transposition": 2,
+        "clef": "treble",
+        "key_written": "G",
+        "file": "chicago__that_toddlin__town_Bb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "tenorsax",
+        "transposition": 14,
+        "clef": "treble",
+        "key_written": "G",
+        "file": "chicago__that_toddlin__town_Bb_tenor.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "altosax",
+        "transposition": 9,
+        "clef": "treble",
+        "key_written": "D",
+        "file": "chicago__that_toddlin__town_Eb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "trombone",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "F",
+        "file": "chicago__that_toddlin__town_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "concert",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "F",
+        "file": "chicago__that_toddlin__town_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "piano",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "F",
+        "file": "chicago__that_toddlin__town_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "guitar",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "F",
+        "file": "chicago__that_toddlin__town_guitar.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "contrabass",
+        "transposition": -12,
+        "clef": "bass",
+        "key_written": "F",
+        "file": "chicago__that_toddlin__town_bass.pdf",
+        "file_id": null
+      }
+    ]
+  },
+  {
+    "id": 101,
+    "title": "Ballin' the Jack",
+    "composer": "Chris Smith",
+    "genre": "jazz",
+    "type": "piece",
+    "style": "early jazz",
+    "key_concert": "B♭",
+    "versions": [
+      {
+        "instrument": "trumpet",
+        "transposition": 2,
+        "clef": "treble",
+        "key_written": "C",
+        "file": "ballin__the_jack_Bb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "clarinet",
+        "transposition": 2,
+        "clef": "treble",
+        "key_written": "C",
+        "file": "ballin__the_jack_Bb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "tenorsax",
+        "transposition": 14,
+        "clef": "treble",
+        "key_written": "C",
+        "file": "ballin__the_jack_Bb_tenor.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "altosax",
+        "transposition": 9,
+        "clef": "treble",
+        "key_written": "G",
+        "file": "ballin__the_jack_Eb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "trombone",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "B♭",
+        "file": "ballin__the_jack_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "concert",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "B♭",
+        "file": "ballin__the_jack_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "piano",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "B♭",
+        "file": "ballin__the_jack_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "guitar",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "B♭",
+        "file": "ballin__the_jack_guitar.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "contrabass",
+        "transposition": -12,
+        "clef": "bass",
+        "key_written": "B♭",
+        "file": "ballin__the_jack_bass.pdf",
+        "file_id": null
+      }
+    ]
+  },
+  {
+    "id": 102,
+    "title": "Linger Awhile",
+    "composer": "Vincent Rose",
+    "genre": "jazz",
+    "type": "piece",
+    "style": "standard",
+    "key_concert": "C",
+    "versions": [
+      {
+        "instrument": "trumpet",
+        "transposition": 2,
+        "clef": "treble",
+        "key_written": "D",
+        "file": "linger_awhile_Bb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "clarinet",
+        "transposition": 2,
+        "clef": "treble",
+        "key_written": "D",
+        "file": "linger_awhile_Bb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "tenorsax",
+        "transposition": 14,
+        "clef": "treble",
+        "key_written": "D",
+        "file": "linger_awhile_Bb_tenor.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "altosax",
+        "transposition": 9,
+        "clef": "treble",
+        "key_written": "A",
+        "file": "linger_awhile_Eb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "trombone",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "C",
+        "file": "linger_awhile_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "concert",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "C",
+        "file": "linger_awhile_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "piano",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "C",
+        "file": "linger_awhile_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "guitar",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "C",
+        "file": "linger_awhile_guitar.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "contrabass",
+        "transposition": -12,
+        "clef": "bass",
+        "key_written": "C",
+        "file": "linger_awhile_bass.pdf",
+        "file_id": null
+      }
+    ]
+  },
+  {
+    "id": 103,
+    "title": "Poor Butterfly",
+    "composer": "Raymond Hubbell",
+    "genre": "jazz",
+    "type": "piece",
+    "style": "ballad",
+    "key_concert": "A♭",
+    "versions": [
+      {
+        "instrument": "trumpet",
+        "transposition": 2,
+        "clef": "treble",
+        "key_written": "B♭",
+        "file": "poor_butterfly_Bb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "clarinet",
+        "transposition": 2,
+        "clef": "treble",
+        "key_written": "B♭",
+        "file": "poor_butterfly_Bb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "tenorsax",
+        "transposition": 14,
+        "clef": "treble",
+        "key_written": "B♭",
+        "file": "poor_butterfly_Bb_tenor.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "altosax",
+        "transposition": 9,
+        "clef": "treble",
+        "key_written": "F",
+        "file": "poor_butterfly_Eb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "trombone",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "A♭",
+        "file": "poor_butterfly_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "concert",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "A♭",
+        "file": "poor_butterfly_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "piano",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "A♭",
+        "file": "poor_butterfly_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "guitar",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "A♭",
+        "file": "poor_butterfly_guitar.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "contrabass",
+        "transposition": -12,
+        "clef": "bass",
+        "key_written": "A♭",
+        "file": "poor_butterfly_bass.pdf",
+        "file_id": null
+      }
+    ]
+  },
+  {
+    "id": 104,
+    "title": "Pretty Baby",
+    "composer": "Egbert Van Alstyne & Tony Jackson",
+    "genre": "jazz",
+    "type": "piece",
+    "style": "standard",
+    "key_concert": "E♭",
+    "versions": [
+      {
+        "instrument": "trumpet",
+        "transposition": 2,
+        "clef": "treble",
+        "key_written": "F",
+        "file": "pretty_baby_Bb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "clarinet",
+        "transposition": 2,
+        "clef": "treble",
+        "key_written": "F",
+        "file": "pretty_baby_Bb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "tenorsax",
+        "transposition": 14,
+        "clef": "treble",
+        "key_written": "F",
+        "file": "pretty_baby_Bb_tenor.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "altosax",
+        "transposition": 9,
+        "clef": "treble",
+        "key_written": "C",
+        "file": "pretty_baby_Eb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "trombone",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "E♭",
+        "file": "pretty_baby_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "concert",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "E♭",
+        "file": "pretty_baby_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "piano",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "E♭",
+        "file": "pretty_baby_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "guitar",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "E♭",
+        "file": "pretty_baby_guitar.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "contrabass",
+        "transposition": -12,
+        "clef": "bass",
+        "key_written": "E♭",
+        "file": "pretty_baby_bass.pdf",
+        "file_id": null
+      }
+    ]
+  },
+  {
+    "id": 105,
+    "title": "Somebody Stole My Gal",
+    "composer": "Leo Wood",
+    "genre": "jazz",
+    "type": "piece",
+    "style": "standard",
+    "key_concert": "E♭",
+    "versions": [
+      {
+        "instrument": "trumpet",
+        "transposition": 2,
+        "clef": "treble",
+        "key_written": "F",
+        "file": "somebody_stole_my_gal_Bb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "clarinet",
+        "transposition": 2,
+        "clef": "treble",
+        "key_written": "F",
+        "file": "somebody_stole_my_gal_Bb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "tenorsax",
+        "transposition": 14,
+        "clef": "treble",
+        "key_written": "F",
+        "file": "somebody_stole_my_gal_Bb_tenor.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "altosax",
+        "transposition": 9,
+        "clef": "treble",
+        "key_written": "C",
+        "file": "somebody_stole_my_gal_Eb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "trombone",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "E♭",
+        "file": "somebody_stole_my_gal_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "concert",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "E♭",
+        "file": "somebody_stole_my_gal_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "piano",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "E♭",
+        "file": "somebody_stole_my_gal_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "guitar",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "E♭",
+        "file": "somebody_stole_my_gal_guitar.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "contrabass",
+        "transposition": -12,
+        "clef": "bass",
+        "key_written": "E♭",
+        "file": "somebody_stole_my_gal_bass.pdf",
+        "file_id": null
+      }
+    ]
+  },
+  {
+    "id": 106,
+    "title": "Down by the Riverside",
+    "composer": "Traditional",
+    "genre": "spiritual",
+    "type": "piece",
+    "style": "spiritual",
+    "key_concert": "G",
+    "versions": [
+      {
+        "instrument": "trumpet",
+        "transposition": 2,
+        "clef": "treble",
+        "key_written": "A",
+        "file": "down_by_the_riverside_Bb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "clarinet",
+        "transposition": 2,
+        "clef": "treble",
+        "key_written": "A",
+        "file": "down_by_the_riverside_Bb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "tenorsax",
+        "transposition": 14,
+        "clef": "treble",
+        "key_written": "A",
+        "file": "down_by_the_riverside_Bb_tenor.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "altosax",
+        "transposition": 9,
+        "clef": "treble",
+        "key_written": "E",
+        "file": "down_by_the_riverside_Eb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "trombone",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "G",
+        "file": "down_by_the_riverside_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "concert",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "G",
+        "file": "down_by_the_riverside_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "piano",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "G",
+        "file": "down_by_the_riverside_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "guitar",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "G",
+        "file": "down_by_the_riverside_guitar.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "contrabass",
+        "transposition": -12,
+        "clef": "bass",
+        "key_written": "G",
+        "file": "down_by_the_riverside_bass.pdf",
+        "file_id": null
+      }
+    ]
+  },
+  {
+    "id": 107,
+    "title": "Go Down, Moses",
+    "composer": "Traditional",
+    "genre": "spiritual",
+    "type": "piece",
+    "style": "spiritual",
+    "key_concert": "B♭",
+    "versions": [
+      {
+        "instrument": "trumpet",
+        "transposition": 2,
+        "clef": "treble",
+        "key_written": "C",
+        "file": "go_down__moses_Bb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "clarinet",
+        "transposition": 2,
+        "clef": "treble",
+        "key_written": "C",
+        "file": "go_down__moses_Bb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "tenorsax",
+        "transposition": 14,
+        "clef": "treble",
+        "key_written": "C",
+        "file": "go_down__moses_Bb_tenor.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "altosax",
+        "transposition": 9,
+        "clef": "treble",
+        "key_written": "G",
+        "file": "go_down__moses_Eb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "trombone",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "B♭",
+        "file": "go_down__moses_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "concert",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "B♭",
+        "file": "go_down__moses_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "piano",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "B♭",
+        "file": "go_down__moses_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "guitar",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "B♭",
+        "file": "go_down__moses_guitar.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "contrabass",
+        "transposition": -12,
+        "clef": "bass",
+        "key_written": "B♭",
+        "file": "go_down__moses_bass.pdf",
+        "file_id": null
+      }
+    ]
+  },
+  {
+    "id": 108,
+    "title": "Swing Low, Sweet Chariot",
+    "composer": "Traditional",
+    "genre": "spiritual",
+    "type": "piece",
+    "style": "spiritual",
+    "key_concert": "A♭",
+    "versions": [
+      {
+        "instrument": "trumpet",
+        "transposition": 2,
+        "clef": "treble",
+        "key_written": "B♭",
+        "file": "swing_low__sweet_chariot_Bb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "clarinet",
+        "transposition": 2,
+        "clef": "treble",
+        "key_written": "B♭",
+        "file": "swing_low__sweet_chariot_Bb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "tenorsax",
+        "transposition": 14,
+        "clef": "treble",
+        "key_written": "B♭",
+        "file": "swing_low__sweet_chariot_Bb_tenor.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "altosax",
+        "transposition": 9,
+        "clef": "treble",
+        "key_written": "F",
+        "file": "swing_low__sweet_chariot_Eb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "trombone",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "A♭",
+        "file": "swing_low__sweet_chariot_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "concert",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "A♭",
+        "file": "swing_low__sweet_chariot_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "piano",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "A♭",
+        "file": "swing_low__sweet_chariot_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "guitar",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "A♭",
+        "file": "swing_low__sweet_chariot_guitar.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "contrabass",
+        "transposition": -12,
+        "clef": "bass",
+        "key_written": "A♭",
+        "file": "swing_low__sweet_chariot_bass.pdf",
+        "file_id": null
+      }
+    ]
+  },
+  {
+    "id": 109,
+    "title": "Just a Closer Walk with Thee",
+    "composer": "Traditional",
+    "genre": "spiritual",
+    "type": "piece",
+    "style": "spiritual",
+    "key_concert": "B♭",
+    "versions": [
+      {
+        "instrument": "trumpet",
+        "transposition": 2,
+        "clef": "treble",
+        "key_written": "C",
+        "file": "just_a_closer_walk_with_thee_Bb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "clarinet",
+        "transposition": 2,
+        "clef": "treble",
+        "key_written": "C",
+        "file": "just_a_closer_walk_with_thee_Bb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "tenorsax",
+        "transposition": 14,
+        "clef": "treble",
+        "key_written": "C",
+        "file": "just_a_closer_walk_with_thee_Bb_tenor.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "altosax",
+        "transposition": 9,
+        "clef": "treble",
+        "key_written": "G",
+        "file": "just_a_closer_walk_with_thee_Eb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "trombone",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "B♭",
+        "file": "just_a_closer_walk_with_thee_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "concert",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "B♭",
+        "file": "just_a_closer_walk_with_thee_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "piano",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "B♭",
+        "file": "just_a_closer_walk_with_thee_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "guitar",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "B♭",
+        "file": "just_a_closer_walk_with_thee_guitar.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "contrabass",
+        "transposition": -12,
+        "clef": "bass",
+        "key_written": "B♭",
+        "file": "just_a_closer_walk_with_thee_bass.pdf",
+        "file_id": null
+      }
+    ]
+  },
+  {
+    "id": 110,
+    "title": "Joshua Fit the Battle of Jericho",
+    "composer": "Traditional",
+    "genre": "spiritual",
+    "type": "piece",
+    "style": "spiritual",
+    "key_concert": "F",
+    "versions": [
+      {
+        "instrument": "trumpet",
+        "transposition": 2,
+        "clef": "treble",
+        "key_written": "G",
+        "file": "joshua_fit_the_battle_of_jericho_Bb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "clarinet",
+        "transposition": 2,
+        "clef": "treble",
+        "key_written": "G",
+        "file": "joshua_fit_the_battle_of_jericho_Bb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "tenorsax",
+        "transposition": 14,
+        "clef": "treble",
+        "key_written": "G",
+        "file": "joshua_fit_the_battle_of_jericho_Bb_tenor.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "altosax",
+        "transposition": 9,
+        "clef": "treble",
+        "key_written": "D",
+        "file": "joshua_fit_the_battle_of_jericho_Eb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "trombone",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "F",
+        "file": "joshua_fit_the_battle_of_jericho_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "concert",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "F",
+        "file": "joshua_fit_the_battle_of_jericho_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "piano",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "F",
+        "file": "joshua_fit_the_battle_of_jericho_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "guitar",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "F",
+        "file": "joshua_fit_the_battle_of_jericho_guitar.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "contrabass",
+        "transposition": -12,
+        "clef": "bass",
+        "key_written": "F",
+        "file": "joshua_fit_the_battle_of_jericho_bass.pdf",
+        "file_id": null
+      }
+    ]
+  },
+  {
+    "id": 111,
+    "title": "Nobody Knows the Trouble I've Seen",
+    "composer": "Traditional",
+    "genre": "spiritual",
+    "type": "piece",
+    "style": "spiritual",
+    "key_concert": "E♭",
+    "versions": [
+      {
+        "instrument": "trumpet",
+        "transposition": 2,
+        "clef": "treble",
+        "key_written": "F",
+        "file": "nobody_knows_the_trouble_i_ve_seen_Bb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "clarinet",
+        "transposition": 2,
+        "clef": "treble",
+        "key_written": "F",
+        "file": "nobody_knows_the_trouble_i_ve_seen_Bb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "tenorsax",
+        "transposition": 14,
+        "clef": "treble",
+        "key_written": "F",
+        "file": "nobody_knows_the_trouble_i_ve_seen_Bb_tenor.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "altosax",
+        "transposition": 9,
+        "clef": "treble",
+        "key_written": "C",
+        "file": "nobody_knows_the_trouble_i_ve_seen_Eb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "trombone",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "E♭",
+        "file": "nobody_knows_the_trouble_i_ve_seen_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "concert",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "E♭",
+        "file": "nobody_knows_the_trouble_i_ve_seen_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "piano",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "E♭",
+        "file": "nobody_knows_the_trouble_i_ve_seen_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "guitar",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "E♭",
+        "file": "nobody_knows_the_trouble_i_ve_seen_guitar.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "contrabass",
+        "transposition": -12,
+        "clef": "bass",
+        "key_written": "E♭",
+        "file": "nobody_knows_the_trouble_i_ve_seen_bass.pdf",
+        "file_id": null
+      }
+    ]
+  },
+  {
+    "id": 112,
+    "title": "Go Tell It on the Mountain",
+    "composer": "Traditional",
+    "genre": "spiritual",
+    "type": "piece",
+    "style": "spiritual",
+    "key_concert": "G",
+    "versions": [
+      {
+        "instrument": "trumpet",
+        "transposition": 2,
+        "clef": "treble",
+        "key_written": "A",
+        "file": "go_tell_it_on_the_mountain_Bb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "clarinet",
+        "transposition": 2,
+        "clef": "treble",
+        "key_written": "A",
+        "file": "go_tell_it_on_the_mountain_Bb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "tenorsax",
+        "transposition": 14,
+        "clef": "treble",
+        "key_written": "A",
+        "file": "go_tell_it_on_the_mountain_Bb_tenor.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "altosax",
+        "transposition": 9,
+        "clef": "treble",
+        "key_written": "E",
+        "file": "go_tell_it_on_the_mountain_Eb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "trombone",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "G",
+        "file": "go_tell_it_on_the_mountain_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "concert",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "G",
+        "file": "go_tell_it_on_the_mountain_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "piano",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "G",
+        "file": "go_tell_it_on_the_mountain_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "guitar",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "G",
+        "file": "go_tell_it_on_the_mountain_guitar.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "contrabass",
+        "transposition": -12,
+        "clef": "bass",
+        "key_written": "G",
+        "file": "go_tell_it_on_the_mountain_bass.pdf",
+        "file_id": null
+      }
+    ]
+  },
+  {
+    "id": 113,
+    "title": "Deep River",
+    "composer": "Traditional",
+    "genre": "spiritual",
+    "type": "piece",
+    "style": "spiritual",
+    "key_concert": "F",
+    "versions": [
+      {
+        "instrument": "trumpet",
+        "transposition": 2,
+        "clef": "treble",
+        "key_written": "G",
+        "file": "deep_river_Bb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "clarinet",
+        "transposition": 2,
+        "clef": "treble",
+        "key_written": "G",
+        "file": "deep_river_Bb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "tenorsax",
+        "transposition": 14,
+        "clef": "treble",
+        "key_written": "G",
+        "file": "deep_river_Bb_tenor.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "altosax",
+        "transposition": 9,
+        "clef": "treble",
+        "key_written": "D",
+        "file": "deep_river_Eb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "trombone",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "F",
+        "file": "deep_river_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "concert",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "F",
+        "file": "deep_river_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "piano",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "F",
+        "file": "deep_river_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "guitar",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "F",
+        "file": "deep_river_guitar.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "contrabass",
+        "transposition": -12,
+        "clef": "bass",
+        "key_written": "F",
+        "file": "deep_river_bass.pdf",
+        "file_id": null
+      }
+    ]
+  },
+  {
+    "id": 114,
+    "title": "Indian Summer",
+    "composer": "Victor Herbert",
+    "genre": "jazz",
+    "type": "piece",
+    "style": "ballad",
+    "key_concert": "G",
+    "versions": [
+      {
+        "instrument": "trumpet",
+        "transposition": 2,
+        "clef": "treble",
+        "key_written": "A",
+        "file": "indian_summer_Bb.pdf",
+        "file_id": "BQACAgIAAxkDAAIBsGozsjURGV_JzlEym5NPguSzlT84AAKoogACguGhSeZe0UV6XgJjPAQ"
+      },
+      {
+        "instrument": "clarinet",
+        "transposition": 2,
+        "clef": "treble",
+        "key_written": "A",
+        "file": "indian_summer_Bb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "tenorsax",
+        "transposition": 14,
+        "clef": "treble",
+        "key_written": "A",
+        "file": "indian_summer_Bb_tenor.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "altosax",
+        "transposition": 9,
+        "clef": "treble",
+        "key_written": "E",
+        "file": "indian_summer_Eb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "trombone",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "G",
+        "file": "indian_summer_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "concert",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "G",
+        "file": "indian_summer_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "piano",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "G",
+        "file": "indian_summer_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "guitar",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "G",
+        "file": "indian_summer_guitar.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "contrabass",
+        "transposition": -12,
+        "clef": "bass",
+        "key_written": "G",
+        "file": "indian_summer_bass.pdf",
+        "file_id": null
+      }
+    ],
+    "audio": {
+      "play": "audio/indian_summer.mp3",
+      "minus": "audio/indian_summer_minus.mp3",
+      "play_file_id": null,
+      "minus_file_id": null
+    }
+  },
+  {
+    "id": 115,
+    "title": "Paper Doll",
+    "composer": "Johnny S. Black",
+    "genre": "jazz",
+    "type": "piece",
+    "style": "standard",
+    "key_concert": "F",
+    "versions": [
+      {
+        "instrument": "trumpet",
+        "transposition": 2,
+        "clef": "treble",
+        "key_written": "G",
+        "file": "paper_doll_Bb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "clarinet",
+        "transposition": 2,
+        "clef": "treble",
+        "key_written": "G",
+        "file": "paper_doll_Bb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "tenorsax",
+        "transposition": 14,
+        "clef": "treble",
+        "key_written": "G",
+        "file": "paper_doll_Bb_tenor.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "altosax",
+        "transposition": 9,
+        "clef": "treble",
+        "key_written": "D",
+        "file": "paper_doll_Eb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "trombone",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "F",
+        "file": "paper_doll_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "concert",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "F",
+        "file": "paper_doll_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "piano",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "F",
+        "file": "paper_doll_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "guitar",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "F",
+        "file": "paper_doll_guitar.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "contrabass",
+        "transposition": -12,
+        "clef": "bass",
+        "key_written": "F",
+        "file": "paper_doll_bass.pdf",
+        "file_id": null
+      }
+    ],
+    "audio": {
+      "play": "audio/paper_doll.mp3",
+      "minus": "audio/paper_doll_minus.mp3",
+      "play_file_id": null,
+      "minus_file_id": null
+    }
+  },
+  {
+    "id": 116,
+    "title": "You Made Me Love You",
+    "composer": "James V. Monaco",
+    "genre": "jazz",
+    "type": "piece",
+    "style": "standard",
+    "key_concert": "C",
+    "versions": [
+      {
+        "instrument": "trumpet",
+        "transposition": 2,
+        "clef": "treble",
+        "key_written": "D",
+        "file": "you_made_me_love_you_Bb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "clarinet",
+        "transposition": 2,
+        "clef": "treble",
+        "key_written": "D",
+        "file": "you_made_me_love_you_Bb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "tenorsax",
+        "transposition": 14,
+        "clef": "treble",
+        "key_written": "D",
+        "file": "you_made_me_love_you_Bb_tenor.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "altosax",
+        "transposition": 9,
+        "clef": "treble",
+        "key_written": "A",
+        "file": "you_made_me_love_you_Eb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "trombone",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "C",
+        "file": "you_made_me_love_you_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "concert",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "C",
+        "file": "you_made_me_love_you_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "piano",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "C",
+        "file": "you_made_me_love_you_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "guitar",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "C",
+        "file": "you_made_me_love_you_guitar.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "contrabass",
+        "transposition": -12,
+        "clef": "bass",
+        "key_written": "C",
+        "file": "you_made_me_love_you_bass.pdf",
+        "file_id": null
+      }
+    ],
+    "audio": {
+      "play": "audio/you_made_me_love_you.mp3",
+      "minus": "audio/you_made_me_love_you_minus.mp3",
+      "play_file_id": null,
+      "minus_file_id": null
+    }
+  },
+  {
+    "id": 117,
+    "title": "My Buddy",
+    "composer": "Walter Donaldson",
+    "genre": "jazz",
+    "type": "piece",
+    "style": "ballad",
+    "key_concert": "G",
+    "versions": [
+      {
+        "instrument": "trumpet",
+        "transposition": 2,
+        "clef": "treble",
+        "key_written": "A",
+        "file": "my_buddy_Bb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "clarinet",
+        "transposition": 2,
+        "clef": "treble",
+        "key_written": "A",
+        "file": "my_buddy_Bb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "tenorsax",
+        "transposition": 14,
+        "clef": "treble",
+        "key_written": "A",
+        "file": "my_buddy_Bb_tenor.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "altosax",
+        "transposition": 9,
+        "clef": "treble",
+        "key_written": "E",
+        "file": "my_buddy_Eb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "trombone",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "G",
+        "file": "my_buddy_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "concert",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "G",
+        "file": "my_buddy_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "piano",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "G",
+        "file": "my_buddy_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "guitar",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "G",
+        "file": "my_buddy_guitar.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "contrabass",
+        "transposition": -12,
+        "clef": "bass",
+        "key_written": "G",
+        "file": "my_buddy_bass.pdf",
+        "file_id": null
+      }
+    ],
+    "audio": {
+      "play": "audio/my_buddy.mp3",
+      "minus": "audio/my_buddy_minus.mp3",
+      "play_file_id": null,
+      "minus_file_id": null
+    }
+  },
+  {
+    "id": 118,
+    "title": "Peg o' My Heart",
+    "composer": "Fred Fisher",
+    "genre": "jazz",
+    "type": "piece",
+    "style": "standard",
+    "key_concert": "B♭",
+    "versions": [
+      {
+        "instrument": "trumpet",
+        "transposition": 2,
+        "clef": "treble",
+        "key_written": "C",
+        "file": "peg_o__my_heart_Bb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "clarinet",
+        "transposition": 2,
+        "clef": "treble",
+        "key_written": "C",
+        "file": "peg_o__my_heart_Bb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "tenorsax",
+        "transposition": 14,
+        "clef": "treble",
+        "key_written": "C",
+        "file": "peg_o__my_heart_Bb_tenor.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "altosax",
+        "transposition": 9,
+        "clef": "treble",
+        "key_written": "G",
+        "file": "peg_o__my_heart_Eb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "trombone",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "B♭",
+        "file": "peg_o__my_heart_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "concert",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "B♭",
+        "file": "peg_o__my_heart_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "piano",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "B♭",
+        "file": "peg_o__my_heart_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "guitar",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "B♭",
+        "file": "peg_o__my_heart_guitar.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "contrabass",
+        "transposition": -12,
+        "clef": "bass",
+        "key_written": "B♭",
+        "file": "peg_o__my_heart_bass.pdf",
+        "file_id": null
+      }
+    ],
+    "audio": {
+      "play": "audio/peg_o__my_heart.mp3",
+      "minus": "audio/peg_o__my_heart_minus.mp3",
+      "play_file_id": null,
+      "minus_file_id": null
+    }
+  },
+  {
+    "id": 119,
+    "title": "Bill Bailey, Won't You Please Come Home",
+    "composer": "Hughie Cannon",
+    "genre": "jazz",
+    "type": "piece",
+    "style": "dixieland",
+    "key_concert": "F",
+    "versions": [
+      {
+        "instrument": "trumpet",
+        "transposition": 2,
+        "clef": "treble",
+        "key_written": "G",
+        "file": "bill_bailey__won_t_you_please_come_home_Bb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "clarinet",
+        "transposition": 2,
+        "clef": "treble",
+        "key_written": "G",
+        "file": "bill_bailey__won_t_you_please_come_home_Bb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "tenorsax",
+        "transposition": 14,
+        "clef": "treble",
+        "key_written": "G",
+        "file": "bill_bailey__won_t_you_please_come_home_Bb_tenor.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "altosax",
+        "transposition": 9,
+        "clef": "treble",
+        "key_written": "D",
+        "file": "bill_bailey__won_t_you_please_come_home_Eb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "trombone",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "F",
+        "file": "bill_bailey__won_t_you_please_come_home_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "concert",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "F",
+        "file": "bill_bailey__won_t_you_please_come_home_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "piano",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "F",
+        "file": "bill_bailey__won_t_you_please_come_home_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "guitar",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "F",
+        "file": "bill_bailey__won_t_you_please_come_home_guitar.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "contrabass",
+        "transposition": -12,
+        "clef": "bass",
+        "key_written": "F",
+        "file": "bill_bailey__won_t_you_please_come_home_bass.pdf",
+        "file_id": null
+      }
+    ],
+    "audio": {
+      "play": "audio/bill_bailey__won_t_you_please_come_home.mp3",
+      "minus": "audio/bill_bailey__won_t_you_please_come_home_minus.mp3",
+      "play_file_id": null,
+      "minus_file_id": null
+    }
+  },
+  {
+    "id": 120,
+    "title": "Moonlight Bay",
+    "composer": "Percy Wenrich",
+    "genre": "jazz",
+    "type": "piece",
+    "style": "standard",
+    "key_concert": "B♭",
+    "versions": [
+      {
+        "instrument": "trumpet",
+        "transposition": 2,
+        "clef": "treble",
+        "key_written": "C",
+        "file": "moonlight_bay_Bb.pdf",
+        "file_id": "BQACAgIAAxkDAAIBwmo06q-zy0nzS1BHppm2qM4XexOrAAJSnAACUpWoSQuYHryRFee3PAQ"
+      },
+      {
+        "instrument": "clarinet",
+        "transposition": 2,
+        "clef": "treble",
+        "key_written": "C",
+        "file": "moonlight_bay_Bb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "tenorsax",
+        "transposition": 14,
+        "clef": "treble",
+        "key_written": "C",
+        "file": "moonlight_bay_Bb_tenor.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "altosax",
+        "transposition": 9,
+        "clef": "treble",
+        "key_written": "G",
+        "file": "moonlight_bay_Eb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "trombone",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "B♭",
+        "file": "moonlight_bay_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "concert",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "B♭",
+        "file": "moonlight_bay_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "piano",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "B♭",
+        "file": "moonlight_bay_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "guitar",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "B♭",
+        "file": "moonlight_bay_guitar.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "contrabass",
+        "transposition": -12,
+        "clef": "bass",
+        "key_written": "B♭",
+        "file": "moonlight_bay_bass.pdf",
+        "file_id": null
+      }
+    ],
+    "audio": {
+      "play": "audio/moonlight_bay.mp3",
+      "minus": "audio/moonlight_bay_minus.mp3",
+      "play_file_id": "CQACAgIAAxkDAAIBw2o06r5E42074KPtvRtYKAABS0YWDAACVJwAAlKVqEmFTu13ZT_xsDwE",
+      "minus_file_id": null
+    }
+  },
+  {
+    "id": 121,
+    "title": "By the Light of the Silvery Moon",
+    "composer": "Gus Edwards",
+    "genre": "jazz",
+    "type": "piece",
+    "style": "standard",
+    "key_concert": "C",
+    "versions": [
+      {
+        "instrument": "trumpet",
+        "transposition": 2,
+        "clef": "treble",
+        "key_written": "D",
+        "file": "by_the_light_of_the_silvery_moon_Bb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "clarinet",
+        "transposition": 2,
+        "clef": "treble",
+        "key_written": "D",
+        "file": "by_the_light_of_the_silvery_moon_Bb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "tenorsax",
+        "transposition": 14,
+        "clef": "treble",
+        "key_written": "D",
+        "file": "by_the_light_of_the_silvery_moon_Bb_tenor.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "altosax",
+        "transposition": 9,
+        "clef": "treble",
+        "key_written": "A",
+        "file": "by_the_light_of_the_silvery_moon_Eb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "trombone",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "C",
+        "file": "by_the_light_of_the_silvery_moon_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "concert",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "C",
+        "file": "by_the_light_of_the_silvery_moon_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "piano",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "C",
+        "file": "by_the_light_of_the_silvery_moon_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "guitar",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "C",
+        "file": "by_the_light_of_the_silvery_moon_guitar.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "contrabass",
+        "transposition": -12,
+        "clef": "bass",
+        "key_written": "C",
+        "file": "by_the_light_of_the_silvery_moon_bass.pdf",
+        "file_id": null
+      }
+    ],
+    "audio": {
+      "play": "audio/by_the_light_of_the_silvery_moon.mp3",
+      "minus": "audio/by_the_light_of_the_silvery_moon_minus.mp3",
+      "play_file_id": null,
+      "minus_file_id": null
+    }
+  },
+  {
+    "id": 122,
+    "title": "I'm Forever Blowing Bubbles",
+    "composer": "John Kellette",
+    "genre": "jazz",
+    "type": "piece",
+    "style": "standard",
+    "key_concert": "B♭",
+    "versions": [
+      {
+        "instrument": "trumpet",
+        "transposition": 2,
+        "clef": "treble",
+        "key_written": "C",
+        "file": "i_m_forever_blowing_bubbles_Bb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "clarinet",
+        "transposition": 2,
+        "clef": "treble",
+        "key_written": "C",
+        "file": "i_m_forever_blowing_bubbles_Bb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "tenorsax",
+        "transposition": 14,
+        "clef": "treble",
+        "key_written": "C",
+        "file": "i_m_forever_blowing_bubbles_Bb_tenor.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "altosax",
+        "transposition": 9,
+        "clef": "treble",
+        "key_written": "G",
+        "file": "i_m_forever_blowing_bubbles_Eb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "trombone",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "B♭",
+        "file": "i_m_forever_blowing_bubbles_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "concert",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "B♭",
+        "file": "i_m_forever_blowing_bubbles_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "piano",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "B♭",
+        "file": "i_m_forever_blowing_bubbles_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "guitar",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "B♭",
+        "file": "i_m_forever_blowing_bubbles_guitar.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "contrabass",
+        "transposition": -12,
+        "clef": "bass",
+        "key_written": "B♭",
+        "file": "i_m_forever_blowing_bubbles_bass.pdf",
+        "file_id": null
+      }
+    ],
+    "audio": {
+      "play": "audio/i_m_forever_blowing_bubbles.mp3",
+      "minus": "audio/i_m_forever_blowing_bubbles_minus.mp3",
+      "play_file_id": null,
+      "minus_file_id": null
+    }
+  },
+  {
+    "id": 123,
+    "title": "Let Me Call You Sweetheart",
+    "composer": "Leo Friedman",
+    "genre": "jazz",
+    "type": "piece",
+    "style": "standard",
+    "key_concert": "B♭",
+    "versions": [
+      {
+        "instrument": "trumpet",
+        "transposition": 2,
+        "clef": "treble",
+        "key_written": "C",
+        "file": "let_me_call_you_sweetheart_Bb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "clarinet",
+        "transposition": 2,
+        "clef": "treble",
+        "key_written": "C",
+        "file": "let_me_call_you_sweetheart_Bb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "tenorsax",
+        "transposition": 14,
+        "clef": "treble",
+        "key_written": "C",
+        "file": "let_me_call_you_sweetheart_Bb_tenor.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "altosax",
+        "transposition": 9,
+        "clef": "treble",
+        "key_written": "G",
+        "file": "let_me_call_you_sweetheart_Eb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "trombone",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "B♭",
+        "file": "let_me_call_you_sweetheart_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "concert",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "B♭",
+        "file": "let_me_call_you_sweetheart_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "piano",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "B♭",
+        "file": "let_me_call_you_sweetheart_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "guitar",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "B♭",
+        "file": "let_me_call_you_sweetheart_guitar.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "contrabass",
+        "transposition": -12,
+        "clef": "bass",
+        "key_written": "B♭",
+        "file": "let_me_call_you_sweetheart_bass.pdf",
+        "file_id": null
+      }
+    ],
+    "audio": {
+      "play": "audio/let_me_call_you_sweetheart.mp3",
+      "minus": "audio/let_me_call_you_sweetheart_minus.mp3",
+      "play_file_id": null,
+      "minus_file_id": null
+    }
+  },
+  {
+    "id": 124,
+    "title": "When Irish Eyes Are Smiling",
+    "composer": "Ernest Ball",
+    "genre": "jazz",
+    "type": "piece",
+    "style": "standard",
+    "key_concert": "C",
+    "versions": [
+      {
+        "instrument": "trumpet",
+        "transposition": 2,
+        "clef": "treble",
+        "key_written": "D",
+        "file": "when_irish_eyes_are_smiling_Bb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "clarinet",
+        "transposition": 2,
+        "clef": "treble",
+        "key_written": "D",
+        "file": "when_irish_eyes_are_smiling_Bb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "tenorsax",
+        "transposition": 14,
+        "clef": "treble",
+        "key_written": "D",
+        "file": "when_irish_eyes_are_smiling_Bb_tenor.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "altosax",
+        "transposition": 9,
+        "clef": "treble",
+        "key_written": "A",
+        "file": "when_irish_eyes_are_smiling_Eb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "trombone",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "C",
+        "file": "when_irish_eyes_are_smiling_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "concert",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "C",
+        "file": "when_irish_eyes_are_smiling_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "piano",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "C",
+        "file": "when_irish_eyes_are_smiling_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "guitar",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "C",
+        "file": "when_irish_eyes_are_smiling_guitar.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "contrabass",
+        "transposition": -12,
+        "clef": "bass",
+        "key_written": "C",
+        "file": "when_irish_eyes_are_smiling_bass.pdf",
+        "file_id": null
+      }
+    ],
+    "audio": {
+      "play": "audio/when_irish_eyes_are_smiling.mp3",
+      "minus": "audio/when_irish_eyes_are_smiling_minus.mp3",
+      "play_file_id": null,
+      "minus_file_id": null
+    }
+  },
+  {
+    "id": 125,
+    "title": "Daisy Bell (Bicycle Built for Two)",
+    "composer": "Harry Dacre",
+    "genre": "jazz",
+    "type": "piece",
+    "style": "standard",
+    "key_concert": "G",
+    "versions": [
+      {
+        "instrument": "trumpet",
+        "transposition": 2,
+        "clef": "treble",
+        "key_written": "A",
+        "file": "daisy_bell__bicycle_built_for_two_Bb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "clarinet",
+        "transposition": 2,
+        "clef": "treble",
+        "key_written": "A",
+        "file": "daisy_bell__bicycle_built_for_two_Bb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "tenorsax",
+        "transposition": 14,
+        "clef": "treble",
+        "key_written": "A",
+        "file": "daisy_bell__bicycle_built_for_two_Bb_tenor.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "altosax",
+        "transposition": 9,
+        "clef": "treble",
+        "key_written": "E",
+        "file": "daisy_bell__bicycle_built_for_two_Eb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "trombone",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "G",
+        "file": "daisy_bell__bicycle_built_for_two_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "concert",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "G",
+        "file": "daisy_bell__bicycle_built_for_two_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "piano",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "G",
+        "file": "daisy_bell__bicycle_built_for_two_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "guitar",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "G",
+        "file": "daisy_bell__bicycle_built_for_two_guitar.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "contrabass",
+        "transposition": -12,
+        "clef": "bass",
+        "key_written": "G",
+        "file": "daisy_bell__bicycle_built_for_two_bass.pdf",
+        "file_id": null
+      }
+    ],
+    "audio": {
+      "play": "audio/daisy_bell__bicycle_built_for_two.mp3",
+      "minus": "audio/daisy_bell__bicycle_built_for_two_minus.mp3",
+      "play_file_id": null,
+      "minus_file_id": null
+    }
+  },
+  {
+    "id": 126,
+    "title": "Oh! You Beautiful Doll",
+    "composer": "Nat D. Ayer",
+    "genre": "jazz",
+    "type": "piece",
+    "style": "standard",
+    "key_concert": "A♭",
+    "versions": [
+      {
+        "instrument": "trumpet",
+        "transposition": 2,
+        "clef": "treble",
+        "key_written": "B♭",
+        "file": "oh__you_beautiful_doll_Bb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "clarinet",
+        "transposition": 2,
+        "clef": "treble",
+        "key_written": "B♭",
+        "file": "oh__you_beautiful_doll_Bb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "tenorsax",
+        "transposition": 14,
+        "clef": "treble",
+        "key_written": "B♭",
+        "file": "oh__you_beautiful_doll_Bb_tenor.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "altosax",
+        "transposition": 9,
+        "clef": "treble",
+        "key_written": "F",
+        "file": "oh__you_beautiful_doll_Eb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "trombone",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "A♭",
+        "file": "oh__you_beautiful_doll_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "concert",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "A♭",
+        "file": "oh__you_beautiful_doll_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "piano",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "A♭",
+        "file": "oh__you_beautiful_doll_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "guitar",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "A♭",
+        "file": "oh__you_beautiful_doll_guitar.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "contrabass",
+        "transposition": -12,
+        "clef": "bass",
+        "key_written": "A♭",
+        "file": "oh__you_beautiful_doll_bass.pdf",
+        "file_id": null
+      }
+    ],
+    "audio": {
+      "play": "audio/oh__you_beautiful_doll.mp3",
+      "minus": "audio/oh__you_beautiful_doll_minus.mp3",
+      "play_file_id": null,
+      "minus_file_id": null
+    }
+  },
+  {
+    "id": 127,
+    "title": "Wait 'Till the Sun Shines, Nellie",
+    "composer": "Harry Von Tilzer",
+    "genre": "jazz",
+    "type": "piece",
+    "style": "standard",
+    "key_concert": "B♭",
+    "versions": [
+      {
+        "instrument": "trumpet",
+        "transposition": 2,
+        "clef": "treble",
+        "key_written": "C",
+        "file": "wait__till_the_sun_shines__nellie_Bb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "clarinet",
+        "transposition": 2,
+        "clef": "treble",
+        "key_written": "C",
+        "file": "wait__till_the_sun_shines__nellie_Bb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "tenorsax",
+        "transposition": 14,
+        "clef": "treble",
+        "key_written": "C",
+        "file": "wait__till_the_sun_shines__nellie_Bb_tenor.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "altosax",
+        "transposition": 9,
+        "clef": "treble",
+        "key_written": "G",
+        "file": "wait__till_the_sun_shines__nellie_Eb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "trombone",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "B♭",
+        "file": "wait__till_the_sun_shines__nellie_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "concert",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "B♭",
+        "file": "wait__till_the_sun_shines__nellie_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "piano",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "B♭",
+        "file": "wait__till_the_sun_shines__nellie_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "guitar",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "B♭",
+        "file": "wait__till_the_sun_shines__nellie_guitar.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "contrabass",
+        "transposition": -12,
+        "clef": "bass",
+        "key_written": "B♭",
+        "file": "wait__till_the_sun_shines__nellie_bass.pdf",
+        "file_id": null
+      }
+    ],
+    "audio": {
+      "play": "audio/wait__till_the_sun_shines__nellie.mp3",
+      "minus": "audio/wait__till_the_sun_shines__nellie_minus.mp3",
+      "play_file_id": null,
+      "minus_file_id": null
+    }
+  },
+  {
+    "id": 128,
+    "title": "Balm in Gilead",
+    "composer": "Traditional",
+    "genre": "spiritual",
+    "type": "piece",
+    "style": "spiritual",
+    "key_concert": "G",
+    "versions": [
+      {
+        "instrument": "trumpet",
+        "transposition": 2,
+        "clef": "treble",
+        "key_written": "A",
+        "file": "balm_in_gilead_Bb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "clarinet",
+        "transposition": 2,
+        "clef": "treble",
+        "key_written": "A",
+        "file": "balm_in_gilead_Bb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "tenorsax",
+        "transposition": 14,
+        "clef": "treble",
+        "key_written": "A",
+        "file": "balm_in_gilead_Bb_tenor.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "altosax",
+        "transposition": 9,
+        "clef": "treble",
+        "key_written": "E",
+        "file": "balm_in_gilead_Eb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "trombone",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "G",
+        "file": "balm_in_gilead_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "concert",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "G",
+        "file": "balm_in_gilead_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "piano",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "G",
+        "file": "balm_in_gilead_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "guitar",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "G",
+        "file": "balm_in_gilead_guitar.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "contrabass",
+        "transposition": -12,
+        "clef": "bass",
+        "key_written": "G",
+        "file": "balm_in_gilead_bass.pdf",
+        "file_id": null
+      }
+    ],
+    "audio": {
+      "play": "audio/balm_in_gilead.mp3",
+      "minus": "audio/balm_in_gilead_minus.mp3",
+      "play_file_id": null,
+      "minus_file_id": null
+    }
+  },
+  {
+    "id": 129,
+    "title": "Sometimes I Feel Like a Motherless Child",
+    "composer": "Traditional",
+    "genre": "spiritual",
+    "type": "piece",
+    "style": "spiritual",
+    "key_concert": "C",
+    "versions": [
+      {
+        "instrument": "trumpet",
+        "transposition": 2,
+        "clef": "treble",
+        "key_written": "D",
+        "file": "sometimes_i_feel_like_a_motherless_child_Bb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "clarinet",
+        "transposition": 2,
+        "clef": "treble",
+        "key_written": "D",
+        "file": "sometimes_i_feel_like_a_motherless_child_Bb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "tenorsax",
+        "transposition": 14,
+        "clef": "treble",
+        "key_written": "D",
+        "file": "sometimes_i_feel_like_a_motherless_child_Bb_tenor.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "altosax",
+        "transposition": 9,
+        "clef": "treble",
+        "key_written": "A",
+        "file": "sometimes_i_feel_like_a_motherless_child_Eb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "trombone",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "C",
+        "file": "sometimes_i_feel_like_a_motherless_child_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "concert",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "C",
+        "file": "sometimes_i_feel_like_a_motherless_child_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "piano",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "C",
+        "file": "sometimes_i_feel_like_a_motherless_child_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "guitar",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "C",
+        "file": "sometimes_i_feel_like_a_motherless_child_guitar.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "contrabass",
+        "transposition": -12,
+        "clef": "bass",
+        "key_written": "C",
+        "file": "sometimes_i_feel_like_a_motherless_child_bass.pdf",
+        "file_id": null
+      }
+    ],
+    "audio": {
+      "play": "audio/sometimes_i_feel_like_a_motherless_child.mp3",
+      "minus": "audio/sometimes_i_feel_like_a_motherless_child_minus.mp3",
+      "play_file_id": null,
+      "minus_file_id": null
+    }
+  },
+  {
+    "id": 130,
+    "title": "Were You There",
+    "composer": "Traditional",
+    "genre": "spiritual",
+    "type": "piece",
+    "style": "spiritual",
+    "key_concert": "E♭",
+    "versions": [
+      {
+        "instrument": "trumpet",
+        "transposition": 2,
+        "clef": "treble",
+        "key_written": "F",
+        "file": "were_you_there_Bb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "clarinet",
+        "transposition": 2,
+        "clef": "treble",
+        "key_written": "F",
+        "file": "were_you_there_Bb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "tenorsax",
+        "transposition": 14,
+        "clef": "treble",
+        "key_written": "F",
+        "file": "were_you_there_Bb_tenor.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "altosax",
+        "transposition": 9,
+        "clef": "treble",
+        "key_written": "C",
+        "file": "were_you_there_Eb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "trombone",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "E♭",
+        "file": "were_you_there_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "concert",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "E♭",
+        "file": "were_you_there_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "piano",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "E♭",
+        "file": "were_you_there_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "guitar",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "E♭",
+        "file": "were_you_there_guitar.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "contrabass",
+        "transposition": -12,
+        "clef": "bass",
+        "key_written": "E♭",
+        "file": "were_you_there_bass.pdf",
+        "file_id": null
+      }
+    ],
+    "audio": {
+      "play": "audio/were_you_there.mp3",
+      "minus": "audio/were_you_there_minus.mp3",
+      "play_file_id": null,
+      "minus_file_id": null
+    }
+  },
+  {
+    "id": 131,
+    "title": "Amazing Grace",
+    "composer": "Traditional",
+    "genre": "spiritual",
+    "type": "piece",
+    "style": "spiritual",
+    "key_concert": "G",
+    "versions": [
+      {
+        "instrument": "trumpet",
+        "transposition": 2,
+        "clef": "treble",
+        "key_written": "A",
+        "file": "amazing_grace_Bb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "clarinet",
+        "transposition": 2,
+        "clef": "treble",
+        "key_written": "A",
+        "file": "amazing_grace_Bb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "tenorsax",
+        "transposition": 14,
+        "clef": "treble",
+        "key_written": "A",
+        "file": "amazing_grace_Bb_tenor.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "altosax",
+        "transposition": 9,
+        "clef": "treble",
+        "key_written": "E",
+        "file": "amazing_grace_Eb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "trombone",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "G",
+        "file": "amazing_grace_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "concert",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "G",
+        "file": "amazing_grace_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "piano",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "G",
+        "file": "amazing_grace_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "guitar",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "G",
+        "file": "amazing_grace_guitar.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "contrabass",
+        "transposition": -12,
+        "clef": "bass",
+        "key_written": "G",
+        "file": "amazing_grace_bass.pdf",
+        "file_id": null
+      }
+    ],
+    "audio": {
+      "play": "audio/amazing_grace.mp3",
+      "minus": "audio/amazing_grace_minus.mp3",
+      "play_file_id": null,
+      "minus_file_id": null
+    }
+  },
+  {
+    "id": 132,
+    "title": "Shenandoah",
+    "composer": "Traditional",
+    "genre": "folk",
+    "type": "piece",
+    "style": "folk",
+    "key_concert": "F",
+    "versions": [
+      {
+        "instrument": "trumpet",
+        "transposition": 2,
+        "clef": "treble",
+        "key_written": "G",
+        "file": "shenandoah_Bb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "clarinet",
+        "transposition": 2,
+        "clef": "treble",
+        "key_written": "G",
+        "file": "shenandoah_Bb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "tenorsax",
+        "transposition": 14,
+        "clef": "treble",
+        "key_written": "G",
+        "file": "shenandoah_Bb_tenor.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "altosax",
+        "transposition": 9,
+        "clef": "treble",
+        "key_written": "D",
+        "file": "shenandoah_Eb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "trombone",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "F",
+        "file": "shenandoah_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "concert",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "F",
+        "file": "shenandoah_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "piano",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "F",
+        "file": "shenandoah_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "guitar",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "F",
+        "file": "shenandoah_guitar.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "contrabass",
+        "transposition": -12,
+        "clef": "bass",
+        "key_written": "F",
+        "file": "shenandoah_bass.pdf",
+        "file_id": null
+      }
+    ],
+    "audio": {
+      "play": "audio/shenandoah.mp3",
+      "minus": "audio/shenandoah_minus.mp3",
+      "play_file_id": null,
+      "minus_file_id": null
+    }
+  },
+  {
+    "id": 133,
+    "title": "Wayfaring Stranger",
+    "composer": "Traditional",
+    "genre": "folk",
+    "type": "piece",
+    "style": "folk",
+    "key_concert": "G",
+    "versions": [
+      {
+        "instrument": "trumpet",
+        "transposition": 2,
+        "clef": "treble",
+        "key_written": "A",
+        "file": "wayfaring_stranger_Bb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "clarinet",
+        "transposition": 2,
+        "clef": "treble",
+        "key_written": "A",
+        "file": "wayfaring_stranger_Bb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "tenorsax",
+        "transposition": 14,
+        "clef": "treble",
+        "key_written": "A",
+        "file": "wayfaring_stranger_Bb_tenor.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "altosax",
+        "transposition": 9,
+        "clef": "treble",
+        "key_written": "E",
+        "file": "wayfaring_stranger_Eb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "trombone",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "G",
+        "file": "wayfaring_stranger_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "concert",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "G",
+        "file": "wayfaring_stranger_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "piano",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "G",
+        "file": "wayfaring_stranger_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "guitar",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "G",
+        "file": "wayfaring_stranger_guitar.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "contrabass",
+        "transposition": -12,
+        "clef": "bass",
+        "key_written": "G",
+        "file": "wayfaring_stranger_bass.pdf",
+        "file_id": null
+      }
+    ],
+    "audio": {
+      "play": "audio/wayfaring_stranger.mp3",
+      "minus": "audio/wayfaring_stranger_minus.mp3",
+      "play_file_id": null,
+      "minus_file_id": null
+    }
+  },
+  {
+    "id": 134,
+    "title": "Red River Valley",
+    "composer": "Traditional",
+    "genre": "folk",
+    "type": "piece",
+    "style": "folk",
+    "key_concert": "D",
+    "versions": [
+      {
+        "instrument": "trumpet",
+        "transposition": 2,
+        "clef": "treble",
+        "key_written": "E",
+        "file": "red_river_valley_Bb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "clarinet",
+        "transposition": 2,
+        "clef": "treble",
+        "key_written": "E",
+        "file": "red_river_valley_Bb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "tenorsax",
+        "transposition": 14,
+        "clef": "treble",
+        "key_written": "E",
+        "file": "red_river_valley_Bb_tenor.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "altosax",
+        "transposition": 9,
+        "clef": "treble",
+        "key_written": "B",
+        "file": "red_river_valley_Eb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "trombone",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "D",
+        "file": "red_river_valley_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "concert",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "D",
+        "file": "red_river_valley_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "piano",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "D",
+        "file": "red_river_valley_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "guitar",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "D",
+        "file": "red_river_valley_guitar.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "contrabass",
+        "transposition": -12,
+        "clef": "bass",
+        "key_written": "D",
+        "file": "red_river_valley_bass.pdf",
+        "file_id": null
+      }
+    ],
+    "audio": {
+      "play": "audio/red_river_valley.mp3",
+      "minus": "audio/red_river_valley_minus.mp3",
+      "play_file_id": null,
+      "minus_file_id": null
+    }
+  },
+  {
+    "id": 135,
+    "title": "When Johnny Comes Marching Home",
+    "composer": "Traditional",
+    "genre": "folk",
+    "type": "piece",
+    "style": "folk",
+    "key_concert": "B♭",
+    "versions": [
+      {
+        "instrument": "trumpet",
+        "transposition": 2,
+        "clef": "treble",
+        "key_written": "C",
+        "file": "when_johnny_comes_marching_home_Bb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "clarinet",
+        "transposition": 2,
+        "clef": "treble",
+        "key_written": "C",
+        "file": "when_johnny_comes_marching_home_Bb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "tenorsax",
+        "transposition": 14,
+        "clef": "treble",
+        "key_written": "C",
+        "file": "when_johnny_comes_marching_home_Bb_tenor.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "altosax",
+        "transposition": 9,
+        "clef": "treble",
+        "key_written": "G",
+        "file": "when_johnny_comes_marching_home_Eb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "trombone",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "B♭",
+        "file": "when_johnny_comes_marching_home_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "concert",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "B♭",
+        "file": "when_johnny_comes_marching_home_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "piano",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "B♭",
+        "file": "when_johnny_comes_marching_home_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "guitar",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "B♭",
+        "file": "when_johnny_comes_marching_home_guitar.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "contrabass",
+        "transposition": -12,
+        "clef": "bass",
+        "key_written": "B♭",
+        "file": "when_johnny_comes_marching_home_bass.pdf",
+        "file_id": null
+      }
+    ],
+    "audio": {
+      "play": "audio/when_johnny_comes_marching_home.mp3",
+      "minus": "audio/when_johnny_comes_marching_home_minus.mp3",
+      "play_file_id": null,
+      "minus_file_id": null
+    }
+  },
+  {
+    "id": 136,
+    "title": "Streets of Laredo",
+    "composer": "Traditional",
+    "genre": "folk",
+    "type": "piece",
+    "style": "folk",
+    "key_concert": "D",
+    "versions": [
+      {
+        "instrument": "trumpet",
+        "transposition": 2,
+        "clef": "treble",
+        "key_written": "E",
+        "file": "streets_of_laredo_Bb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "clarinet",
+        "transposition": 2,
+        "clef": "treble",
+        "key_written": "E",
+        "file": "streets_of_laredo_Bb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "tenorsax",
+        "transposition": 14,
+        "clef": "treble",
+        "key_written": "E",
+        "file": "streets_of_laredo_Bb_tenor.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "altosax",
+        "transposition": 9,
+        "clef": "treble",
+        "key_written": "B",
+        "file": "streets_of_laredo_Eb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "trombone",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "D",
+        "file": "streets_of_laredo_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "concert",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "D",
+        "file": "streets_of_laredo_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "piano",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "D",
+        "file": "streets_of_laredo_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "guitar",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "D",
+        "file": "streets_of_laredo_guitar.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "contrabass",
+        "transposition": -12,
+        "clef": "bass",
+        "key_written": "D",
+        "file": "streets_of_laredo_bass.pdf",
+        "file_id": null
+      }
+    ],
+    "audio": {
+      "play": "audio/streets_of_laredo.mp3",
+      "minus": "audio/streets_of_laredo_minus.mp3",
+      "play_file_id": null,
+      "minus_file_id": null
+    }
+  },
+  {
+    "id": 137,
+    "title": "Michael, Row the Boat Ashore",
+    "composer": "Traditional",
+    "genre": "spiritual",
+    "type": "piece",
+    "style": "spiritual",
+    "key_concert": "E♭",
+    "versions": [
+      {
+        "instrument": "trumpet",
+        "transposition": 2,
+        "clef": "treble",
+        "key_written": "F",
+        "file": "michael__row_the_boat_ashore_Bb.pdf",
+        "file_id": "BQACAgIAAxkDAAIBxWo09Ot9nR1Aeg_UP7qaJ15s3obfAAKmnAACUpWoSXo2SWa7_ppCPAQ"
+      },
+      {
+        "instrument": "clarinet",
+        "transposition": 2,
+        "clef": "treble",
+        "key_written": "F",
+        "file": "michael__row_the_boat_ashore_Bb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "tenorsax",
+        "transposition": 14,
+        "clef": "treble",
+        "key_written": "F",
+        "file": "michael__row_the_boat_ashore_Bb_tenor.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "altosax",
+        "transposition": 9,
+        "clef": "treble",
+        "key_written": "C",
+        "file": "michael__row_the_boat_ashore_Eb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "trombone",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "E♭",
+        "file": "michael__row_the_boat_ashore_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "concert",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "E♭",
+        "file": "michael__row_the_boat_ashore_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "piano",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "E♭",
+        "file": "michael__row_the_boat_ashore_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "guitar",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "E♭",
+        "file": "michael__row_the_boat_ashore_guitar.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "contrabass",
+        "transposition": -12,
+        "clef": "bass",
+        "key_written": "E♭",
+        "file": "michael__row_the_boat_ashore_bass.pdf",
+        "file_id": null
+      }
+    ],
+    "audio": {
+      "play": "audio/michael__row_the_boat_ashore.mp3",
+      "minus": "audio/michael__row_the_boat_ashore_minus.mp3",
+      "play_file_id": null,
+      "minus_file_id": null
+    }
+  },
+  {
+    "id": 138,
+    "title": "She'll Be Comin' 'Round the Mountain",
+    "composer": "Traditional",
+    "genre": "folk",
+    "type": "piece",
+    "style": "folk",
+    "key_concert": "G",
+    "versions": [
+      {
+        "instrument": "trumpet",
+        "transposition": 2,
+        "clef": "treble",
+        "key_written": "A",
+        "file": "she_ll_be_comin___round_the_mountain_Bb.pdf",
+        "file_id": "BQACAgIAAxkDAAIBvmo06nIeiRaLB3T-zqVhmHlbnGDFAAJKnAACUpWoSVhNOVtcYd4QPAQ"
+      },
+      {
+        "instrument": "clarinet",
+        "transposition": 2,
+        "clef": "treble",
+        "key_written": "A",
+        "file": "she_ll_be_comin___round_the_mountain_Bb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "tenorsax",
+        "transposition": 14,
+        "clef": "treble",
+        "key_written": "A",
+        "file": "she_ll_be_comin___round_the_mountain_Bb_tenor.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "altosax",
+        "transposition": 9,
+        "clef": "treble",
+        "key_written": "E",
+        "file": "she_ll_be_comin___round_the_mountain_Eb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "trombone",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "G",
+        "file": "she_ll_be_comin___round_the_mountain_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "concert",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "G",
+        "file": "she_ll_be_comin___round_the_mountain_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "piano",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "G",
+        "file": "she_ll_be_comin___round_the_mountain_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "guitar",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "G",
+        "file": "she_ll_be_comin___round_the_mountain_guitar.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "contrabass",
+        "transposition": -12,
+        "clef": "bass",
+        "key_written": "G",
+        "file": "she_ll_be_comin___round_the_mountain_bass.pdf",
+        "file_id": null
+      }
+    ],
+    "audio": {
+      "play": "audio/she_ll_be_comin___round_the_mountain.mp3",
+      "minus": "audio/she_ll_be_comin___round_the_mountain_minus.mp3",
+      "play_file_id": "CQACAgIAAxkDAAIBv2o06ncYOAF8gvYzFIZmKLkuwKmwAAJMnAACUpWoSaoDE3Px1hrFPAQ",
+      "minus_file_id": "CQACAgIAAxkDAAIBwGo06ouoqq3OOtpR50yMWoPEnPEWAAJNnAACUpWoSZnIVxLfFKdfPAQ"
+    }
+  },
+  {
+    "id": 139,
+    "title": "Camptown Races",
+    "composer": "Stephen Foster",
+    "genre": "folk",
+    "type": "piece",
+    "style": "folk",
+    "key_concert": "C",
+    "versions": [
+      {
+        "instrument": "trumpet",
+        "transposition": 2,
+        "clef": "treble",
+        "key_written": "D",
+        "file": "camptown_races_Bb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "clarinet",
+        "transposition": 2,
+        "clef": "treble",
+        "key_written": "D",
+        "file": "camptown_races_Bb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "tenorsax",
+        "transposition": 14,
+        "clef": "treble",
+        "key_written": "D",
+        "file": "camptown_races_Bb_tenor.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "altosax",
+        "transposition": 9,
+        "clef": "treble",
+        "key_written": "A",
+        "file": "camptown_races_Eb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "trombone",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "C",
+        "file": "camptown_races_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "concert",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "C",
+        "file": "camptown_races_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "piano",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "C",
+        "file": "camptown_races_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "guitar",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "C",
+        "file": "camptown_races_guitar.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "contrabass",
+        "transposition": -12,
+        "clef": "bass",
+        "key_written": "C",
+        "file": "camptown_races_bass.pdf",
+        "file_id": null
+      }
+    ],
+    "audio": {
+      "play": "audio/camptown_races.mp3",
+      "minus": "audio/camptown_races_minus.mp3",
+      "play_file_id": null,
+      "minus_file_id": null
+    }
+  },
+  {
+    "id": 140,
+    "title": "Beautiful Dreamer",
+    "composer": "Stephen Foster",
+    "genre": "folk",
+    "type": "piece",
+    "style": "ballad",
+    "key_concert": "D",
+    "versions": [
+      {
+        "instrument": "trumpet",
+        "transposition": 2,
+        "clef": "treble",
+        "key_written": "E",
+        "file": "beautiful_dreamer_Bb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "clarinet",
+        "transposition": 2,
+        "clef": "treble",
+        "key_written": "E",
+        "file": "beautiful_dreamer_Bb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "tenorsax",
+        "transposition": 14,
+        "clef": "treble",
+        "key_written": "E",
+        "file": "beautiful_dreamer_Bb_tenor.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "altosax",
+        "transposition": 9,
+        "clef": "treble",
+        "key_written": "B",
+        "file": "beautiful_dreamer_Eb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "trombone",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "D",
+        "file": "beautiful_dreamer_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "concert",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "D",
+        "file": "beautiful_dreamer_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "piano",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "D",
+        "file": "beautiful_dreamer_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "guitar",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "D",
+        "file": "beautiful_dreamer_guitar.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "contrabass",
+        "transposition": -12,
+        "clef": "bass",
+        "key_written": "D",
+        "file": "beautiful_dreamer_bass.pdf",
+        "file_id": null
+      }
+    ],
+    "audio": {
+      "play": "audio/beautiful_dreamer.mp3",
+      "minus": "audio/beautiful_dreamer_minus.mp3",
+      "play_file_id": null,
+      "minus_file_id": null
+    }
+  },
+  {
+    "id": 141,
+    "title": "Old Folks at Home (Swanee River)",
+    "composer": "Stephen Foster",
+    "genre": "folk",
+    "type": "piece",
+    "style": "folk",
+    "key_concert": "D",
+    "versions": [
+      {
+        "instrument": "trumpet",
+        "transposition": 2,
+        "clef": "treble",
+        "key_written": "E",
+        "file": "old_folks_at_home__swanee_river_Bb.pdf",
+        "file_id": "BQACAgIAAxkDAAIBomoyr2Q-xEAnZx5zPg92Einnb_dYAAK3lwACguGZSavGbs0tN8x_PAQ"
+      },
+      {
+        "instrument": "clarinet",
+        "transposition": 2,
+        "clef": "treble",
+        "key_written": "E",
+        "file": "old_folks_at_home__swanee_river_Bb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "tenorsax",
+        "transposition": 14,
+        "clef": "treble",
+        "key_written": "E",
+        "file": "old_folks_at_home__swanee_river_Bb_tenor.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "altosax",
+        "transposition": 9,
+        "clef": "treble",
+        "key_written": "B",
+        "file": "old_folks_at_home__swanee_river_Eb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "trombone",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "D",
+        "file": "old_folks_at_home__swanee_river_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "concert",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "D",
+        "file": "old_folks_at_home__swanee_river_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "piano",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "D",
+        "file": "old_folks_at_home__swanee_river_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "guitar",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "D",
+        "file": "old_folks_at_home__swanee_river_guitar.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "contrabass",
+        "transposition": -12,
+        "clef": "bass",
+        "key_written": "D",
+        "file": "old_folks_at_home__swanee_river_bass.pdf",
+        "file_id": null
+      }
+    ],
+    "audio": {
+      "play": "audio/old_folks_at_home__swanee_river.mp3",
+      "minus": "audio/old_folks_at_home__swanee_river_minus.mp3",
+      "play_file_id": null,
+      "minus_file_id": null
+    }
+  },
+  {
+    "id": 142,
+    "title": "Smiles",
+    "composer": "Lee S. Roberts",
+    "genre": "jazz",
+    "type": "piece",
+    "style": "standard",
+    "key_concert": "A♭",
+    "versions": [
+      {
+        "instrument": "trumpet",
+        "transposition": 2,
+        "clef": "treble",
+        "key_written": "B♭",
+        "file": "smiles_Bb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "clarinet",
+        "transposition": 2,
+        "clef": "treble",
+        "key_written": "B♭",
+        "file": "smiles_Bb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "tenorsax",
+        "transposition": 14,
+        "clef": "treble",
+        "key_written": "B♭",
+        "file": "smiles_Bb_tenor.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "altosax",
+        "transposition": 9,
+        "clef": "treble",
+        "key_written": "F",
+        "file": "smiles_Eb.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "trombone",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "A♭",
+        "file": "smiles_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "concert",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "A♭",
+        "file": "smiles_concert.pdf",
+        "file_id": "BQACAgIAAxkDAAIBnmoyrxzAbIzI0iDDibi3-6kPZx4fAAKzlwACguGZSXqEQwzUbppdPAQ"
+      },
+      {
+        "instrument": "piano",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "A♭",
+        "file": "smiles_concert.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "guitar",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "A♭",
+        "file": "smiles_guitar.pdf",
+        "file_id": null
+      },
+      {
+        "instrument": "contrabass",
+        "transposition": -12,
+        "clef": "bass",
+        "key_written": "A♭",
+        "file": "smiles_bass.pdf",
+        "file_id": null
+      }
+    ],
+    "audio": {
+      "play": "audio/smiles.mp3",
+      "minus": "audio/smiles_minus.mp3",
+      "play_file_id": null,
+      "minus_file_id": null
+    }
+  },
+  {
+    "id": 143,
+    "title": "The Entertainer",
+    "composer": "Scott Joplin",
+    "genre": "ragtime",
+    "type": "piece",
+    "style": "ragtime",
+    "key_concert": "C",
+    "versions": [
+      {
+        "instrument": "piano",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "C",
+        "file": "joplin_entertainer.pdf",
+        "file_id": null
+      }
+    ]
+  },
+  {
+    "id": 144,
+    "title": "Magnetic Rag",
+    "composer": "Scott Joplin",
+    "genre": "ragtime",
+    "type": "piece",
+    "style": "ragtime",
+    "key_concert": "—",
+    "versions": [
+      {
+        "instrument": "piano",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "—",
+        "file": "joplin_magnetic.pdf",
+        "file_id": null
+      }
+    ]
+  },
+  {
+    "id": 145,
+    "title": "Peacherine Rag",
+    "composer": "Scott Joplin",
+    "genre": "ragtime",
+    "type": "piece",
+    "style": "ragtime",
+    "key_concert": "—",
+    "versions": [
+      {
+        "instrument": "piano",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "—",
+        "file": "joplin_peacherine.pdf",
+        "file_id": null
+      }
+    ]
+  },
+  {
+    "id": 146,
+    "title": "Searchlight Rag",
+    "composer": "Scott Joplin",
+    "genre": "ragtime",
+    "type": "piece",
+    "style": "ragtime",
+    "key_concert": "—",
+    "versions": [
+      {
+        "instrument": "piano",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "—",
+        "file": "joplin_search.pdf",
+        "file_id": null
+      }
+    ]
+  },
+  {
+    "id": 147,
+    "title": "Bethena (A Concert Waltz)",
+    "composer": "Scott Joplin",
+    "genre": "ragtime",
+    "type": "piece",
+    "style": "ragtime",
+    "key_concert": "—",
+    "versions": [
+      {
+        "instrument": "piano",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "—",
+        "file": "joplin_bethena.pdf",
+        "file_id": null
+      }
+    ]
+  },
+  {
+    "id": 148,
+    "title": "Recuerdos de la Alhambra",
+    "composer": "Francisco Tárrega",
+    "genre": "romantic",
+    "type": "piece",
+    "style": "romantic",
+    "key_concert": "—",
+    "versions": [
+      {
+        "instrument": "guitar",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "—",
+        "file": "guitar_recuerdos_de_la_alhambra.pdf",
+        "file_id": null
+      }
+    ]
+  },
+  {
+    "id": 149,
+    "title": "Capricho Árabe",
+    "composer": "Francisco Tárrega",
+    "genre": "romantic",
+    "type": "piece",
+    "style": "romantic",
+    "key_concert": "—",
+    "versions": [
+      {
+        "instrument": "guitar",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "—",
+        "file": "guitar_capricho_árabe.pdf",
+        "file_id": null
+      }
+    ]
+  },
+  {
+    "id": 150,
+    "title": "Adelita (Mazurka)",
+    "composer": "Francisco Tárrega",
+    "genre": "romantic",
+    "type": "piece",
+    "style": "romantic",
+    "key_concert": "—",
+    "versions": [
+      {
+        "instrument": "guitar",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "—",
+        "file": "guitar_adelita__mazurka.pdf",
+        "file_id": null
+      }
+    ]
+  },
+  {
+    "id": 151,
+    "title": "Claro de Luna",
+    "composer": "Francisco Tárrega",
+    "genre": "romantic",
+    "type": "piece",
+    "style": "romantic",
+    "key_concert": "—",
+    "versions": [
+      {
+        "instrument": "guitar",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "—",
+        "file": "guitar_claro_de_luna.pdf",
+        "file_id": null
+      }
+    ]
+  },
+  {
+    "id": 152,
+    "title": "Étude Op.60 No.1",
+    "composer": "Matteo Carcassi",
+    "genre": "classical",
+    "type": "etude",
+    "style": "classical",
+    "key_concert": "—",
+    "versions": [
+      {
+        "instrument": "guitar",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "—",
+        "file": "guitar_étude_op_60_no_1.pdf",
+        "file_id": null
+      }
+    ]
+  },
+  {
+    "id": 153,
+    "title": "Étude Op.60 No.2",
+    "composer": "Matteo Carcassi",
+    "genre": "classical",
+    "type": "etude",
+    "style": "classical",
+    "key_concert": "—",
+    "versions": [
+      {
+        "instrument": "guitar",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "—",
+        "file": "guitar_étude_op_60_no_2.pdf",
+        "file_id": null
+      }
+    ]
+  },
+  {
+    "id": 154,
+    "title": "Étude Op.60 No.3",
+    "composer": "Matteo Carcassi",
+    "genre": "classical",
+    "type": "etude",
+    "style": "classical",
+    "key_concert": "—",
+    "versions": [
+      {
+        "instrument": "guitar",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "—",
+        "file": "guitar_étude_op_60_no_3.pdf",
+        "file_id": null
+      }
+    ]
+  },
+  {
+    "id": 155,
+    "title": "Étude Op.60 No.7",
+    "composer": "Matteo Carcassi",
+    "genre": "classical",
+    "type": "etude",
+    "style": "classical",
+    "key_concert": "—",
+    "versions": [
+      {
+        "instrument": "guitar",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "—",
+        "file": "guitar_étude_op_60_no_7.pdf",
+        "file_id": null
+      }
+    ]
+  },
+  {
+    "id": 156,
+    "title": "Étude Op.60 No.9",
+    "composer": "Matteo Carcassi",
+    "genre": "classical",
+    "type": "etude",
+    "style": "classical",
+    "key_concert": "—",
+    "versions": [
+      {
+        "instrument": "guitar",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "—",
+        "file": "guitar_étude_op_60_no_9.pdf",
+        "file_id": null
+      }
+    ]
+  },
+  {
+    "id": 157,
+    "title": "Étude Op.6 No.1",
+    "composer": "Fernando Sor",
+    "genre": "classical",
+    "type": "etude",
+    "style": "classical",
+    "key_concert": "—",
+    "versions": [
+      {
+        "instrument": "guitar",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "—",
+        "file": "guitar_étude_op_6_no_1.pdf",
+        "file_id": null
+      }
+    ]
+  },
+  {
+    "id": 158,
+    "title": "Étude Op.6 No.8",
+    "composer": "Fernando Sor",
+    "genre": "classical",
+    "type": "etude",
+    "style": "classical",
+    "key_concert": "—",
+    "versions": [
+      {
+        "instrument": "guitar",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "—",
+        "file": "guitar_étude_op_6_no_8.pdf",
+        "file_id": null
+      }
+    ]
+  },
+  {
+    "id": 159,
+    "title": "Étude Op.6 No.12",
+    "composer": "Fernando Sor",
+    "genre": "classical",
+    "type": "etude",
+    "style": "classical",
+    "key_concert": "—",
+    "versions": [
+      {
+        "instrument": "guitar",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "—",
+        "file": "guitar_étude_op_6_no_12.pdf",
+        "file_id": null
+      }
+    ]
+  },
+  {
+    "id": 160,
+    "title": "Étude Op.35 No.1",
+    "composer": "Fernando Sor",
+    "genre": "classical",
+    "type": "etude",
+    "style": "classical",
+    "key_concert": "—",
+    "versions": [
+      {
+        "instrument": "guitar",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "—",
+        "file": "guitar_étude_op_35_no_1.pdf",
+        "file_id": null
+      }
+    ]
+  },
+  {
+    "id": 161,
+    "title": "Étude Op.35 No.22",
+    "composer": "Fernando Sor",
+    "genre": "classical",
+    "type": "etude",
+    "style": "classical",
+    "key_concert": "—",
+    "versions": [
+      {
+        "instrument": "guitar",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "—",
+        "file": "guitar_étude_op_35_no_22.pdf",
+        "file_id": null
+      }
+    ]
+  },
+  {
+    "id": 162,
+    "title": "Le Papillon Op.50 No.1",
+    "composer": "Mauro Giuliani",
+    "genre": "classical",
+    "type": "etude",
+    "style": "classical",
+    "key_concert": "—",
+    "versions": [
+      {
+        "instrument": "guitar",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "—",
+        "file": "guitar_le_papillon_op_50_no_1.pdf",
+        "file_id": null
+      }
+    ]
+  },
+  {
+    "id": 163,
+    "title": "Le Papillon Op.50 No.5",
+    "composer": "Mauro Giuliani",
+    "genre": "classical",
+    "type": "etude",
+    "style": "classical",
+    "key_concert": "—",
+    "versions": [
+      {
+        "instrument": "guitar",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "—",
+        "file": "guitar_le_papillon_op_50_no_5.pdf",
+        "file_id": null
+      }
+    ]
+  },
+  {
+    "id": 164,
+    "title": "Le Papillon Op.50 No.19",
+    "composer": "Mauro Giuliani",
+    "genre": "classical",
+    "type": "etude",
+    "style": "classical",
+    "key_concert": "—",
+    "versions": [
+      {
+        "instrument": "guitar",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "—",
+        "file": "guitar_le_papillon_op_50_no_19.pdf",
+        "file_id": null
+      }
+    ]
+  },
+  {
+    "id": 165,
+    "title": "Étude Op.3 No.1",
+    "composer": "Dionisio Aguado",
+    "genre": "classical",
+    "type": "etude",
+    "style": "classical",
+    "key_concert": "—",
+    "versions": [
+      {
+        "instrument": "guitar",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "—",
+        "file": "guitar_étude_op_3_no_1.pdf",
+        "file_id": null
+      }
+    ]
+  },
+  {
+    "id": 166,
+    "title": "Étude Op.3 No.6",
+    "composer": "Dionisio Aguado",
+    "genre": "classical",
+    "type": "etude",
+    "style": "classical",
+    "key_concert": "—",
+    "versions": [
+      {
+        "instrument": "guitar",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "—",
+        "file": "guitar_étude_op_3_no_6.pdf",
+        "file_id": null
+      }
+    ]
+  },
+  {
+    "id": 167,
+    "title": "Elegy in D",
+    "composer": "Giovanni Bottesini",
+    "genre": "romantic",
+    "type": "piece",
+    "style": "romantic",
+    "key_concert": "—",
+    "versions": [
+      {
+        "instrument": "contrabass",
+        "transposition": -12,
+        "clef": "bass",
+        "key_written": "—",
+        "file": "bass_elegy_in_d.pdf",
+        "file_id": null
+      }
+    ]
+  },
+  {
+    "id": 168,
+    "title": "Rêverie",
+    "composer": "Giovanni Bottesini",
+    "genre": "romantic",
+    "type": "piece",
+    "style": "romantic",
+    "key_concert": "—",
+    "versions": [
+      {
+        "instrument": "contrabass",
+        "transposition": -12,
+        "clef": "bass",
+        "key_written": "—",
+        "file": "bass_rêverie.pdf",
+        "file_id": null
+      }
+    ]
+  },
+  {
+    "id": 169,
+    "title": "Contrabass-Schule (1830)",
+    "composer": "Friedrich Theodor Fröhlich",
+    "genre": "method",
+    "type": "book",
+    "style": "method",
+    "key_concert": "—",
+    "versions": [
+      {
+        "instrument": "contrabass",
+        "transposition": -12,
+        "clef": "bass",
+        "key_written": "—",
+        "file": "bass_contrabass_schule__1830.pdf",
+        "file_id": null
+      }
+    ]
+  },
+  {
+    "id": 170,
+    "title": "Étude Op.60 No.4",
+    "composer": "Matteo Carcassi",
+    "genre": "classical",
+    "type": "etude",
+    "style": "classical",
+    "key_concert": "—",
+    "versions": [
+      {
+        "instrument": "guitar",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "—",
+        "file": "guitar_étude_op_60_no_4.pdf",
+        "file_id": null
+      }
+    ]
+  },
+  {
+    "id": 171,
+    "title": "Étude Op.60 No.5",
+    "composer": "Matteo Carcassi",
+    "genre": "classical",
+    "type": "etude",
+    "style": "classical",
+    "key_concert": "—",
+    "versions": [
+      {
+        "instrument": "guitar",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "—",
+        "file": "guitar_étude_op_60_no_5.pdf",
+        "file_id": null
+      }
+    ]
+  },
+  {
+    "id": 172,
+    "title": "Étude Op.60 No.6",
+    "composer": "Matteo Carcassi",
+    "genre": "classical",
+    "type": "etude",
+    "style": "classical",
+    "key_concert": "—",
+    "versions": [
+      {
+        "instrument": "guitar",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "—",
+        "file": "guitar_étude_op_60_no_6.pdf",
+        "file_id": null
+      }
+    ]
+  },
+  {
+    "id": 173,
+    "title": "Étude Op.60 No.8",
+    "composer": "Matteo Carcassi",
+    "genre": "classical",
+    "type": "etude",
+    "style": "classical",
+    "key_concert": "—",
+    "versions": [
+      {
+        "instrument": "guitar",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "—",
+        "file": "guitar_étude_op_60_no_8.pdf",
+        "file_id": null
+      }
+    ]
+  },
+  {
+    "id": 174,
+    "title": "Étude Op.60 No.10",
+    "composer": "Matteo Carcassi",
+    "genre": "classical",
+    "type": "etude",
+    "style": "classical",
+    "key_concert": "—",
+    "versions": [
+      {
+        "instrument": "guitar",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "—",
+        "file": "guitar_étude_op_60_no_10.pdf",
+        "file_id": null
+      }
+    ]
+  },
+  {
+    "id": 175,
+    "title": "Étude Op.60 No.11",
+    "composer": "Matteo Carcassi",
+    "genre": "classical",
+    "type": "etude",
+    "style": "classical",
+    "key_concert": "—",
+    "versions": [
+      {
+        "instrument": "guitar",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "—",
+        "file": "guitar_étude_op_60_no_11.pdf",
+        "file_id": null
+      }
+    ]
+  },
+  {
+    "id": 176,
+    "title": "Étude Op.60 No.12",
+    "composer": "Matteo Carcassi",
+    "genre": "classical",
+    "type": "etude",
+    "style": "classical",
+    "key_concert": "—",
+    "versions": [
+      {
+        "instrument": "guitar",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "—",
+        "file": "guitar_étude_op_60_no_12.pdf",
+        "file_id": null
+      }
+    ]
+  },
+  {
+    "id": 177,
+    "title": "Étude Op.60 No.13",
+    "composer": "Matteo Carcassi",
+    "genre": "classical",
+    "type": "etude",
+    "style": "classical",
+    "key_concert": "—",
+    "versions": [
+      {
+        "instrument": "guitar",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "—",
+        "file": "guitar_étude_op_60_no_13.pdf",
+        "file_id": null
+      }
+    ]
+  },
+  {
+    "id": 178,
+    "title": "Étude Op.60 No.14",
+    "composer": "Matteo Carcassi",
+    "genre": "classical",
+    "type": "etude",
+    "style": "classical",
+    "key_concert": "—",
+    "versions": [
+      {
+        "instrument": "guitar",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "—",
+        "file": "guitar_étude_op_60_no_14.pdf",
+        "file_id": null
+      }
+    ]
+  },
+  {
+    "id": 179,
+    "title": "Étude Op.60 No.15",
+    "composer": "Matteo Carcassi",
+    "genre": "classical",
+    "type": "etude",
+    "style": "classical",
+    "key_concert": "—",
+    "versions": [
+      {
+        "instrument": "guitar",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "—",
+        "file": "guitar_étude_op_60_no_15.pdf",
+        "file_id": null
+      }
+    ]
+  },
+  {
+    "id": 180,
+    "title": "Étude Op.60 No.16",
+    "composer": "Matteo Carcassi",
+    "genre": "classical",
+    "type": "etude",
+    "style": "classical",
+    "key_concert": "—",
+    "versions": [
+      {
+        "instrument": "guitar",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "—",
+        "file": "guitar_étude_op_60_no_16.pdf",
+        "file_id": null
+      }
+    ]
+  },
+  {
+    "id": 181,
+    "title": "Étude Op.60 No.17",
+    "composer": "Matteo Carcassi",
+    "genre": "classical",
+    "type": "etude",
+    "style": "classical",
+    "key_concert": "—",
+    "versions": [
+      {
+        "instrument": "guitar",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "—",
+        "file": "guitar_étude_op_60_no_17.pdf",
+        "file_id": null
+      }
+    ]
+  },
+  {
+    "id": 182,
+    "title": "Étude Op.60 No.18",
+    "composer": "Matteo Carcassi",
+    "genre": "classical",
+    "type": "etude",
+    "style": "classical",
+    "key_concert": "—",
+    "versions": [
+      {
+        "instrument": "guitar",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "—",
+        "file": "guitar_étude_op_60_no_18.pdf",
+        "file_id": null
+      }
+    ]
+  },
+  {
+    "id": 183,
+    "title": "Étude Op.60 No.19",
+    "composer": "Matteo Carcassi",
+    "genre": "classical",
+    "type": "etude",
+    "style": "classical",
+    "key_concert": "—",
+    "versions": [
+      {
+        "instrument": "guitar",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "—",
+        "file": "guitar_étude_op_60_no_19.pdf",
+        "file_id": null
+      }
+    ]
+  },
+  {
+    "id": 184,
+    "title": "Étude Op.60 No.20",
+    "composer": "Matteo Carcassi",
+    "genre": "classical",
+    "type": "etude",
+    "style": "classical",
+    "key_concert": "—",
+    "versions": [
+      {
+        "instrument": "guitar",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "—",
+        "file": "guitar_étude_op_60_no_20.pdf",
+        "file_id": null
+      }
+    ]
+  },
+  {
+    "id": 185,
+    "title": "Étude Op.60 No.21",
+    "composer": "Matteo Carcassi",
+    "genre": "classical",
+    "type": "etude",
+    "style": "classical",
+    "key_concert": "—",
+    "versions": [
+      {
+        "instrument": "guitar",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "—",
+        "file": "guitar_étude_op_60_no_21.pdf",
+        "file_id": null
+      }
+    ]
+  },
+  {
+    "id": 186,
+    "title": "Étude Op.60 No.22",
+    "composer": "Matteo Carcassi",
+    "genre": "classical",
+    "type": "etude",
+    "style": "classical",
+    "key_concert": "—",
+    "versions": [
+      {
+        "instrument": "guitar",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "—",
+        "file": "guitar_étude_op_60_no_22.pdf",
+        "file_id": null
+      }
+    ]
+  },
+  {
+    "id": 187,
+    "title": "Étude Op.60 No.23",
+    "composer": "Matteo Carcassi",
+    "genre": "classical",
+    "type": "etude",
+    "style": "classical",
+    "key_concert": "—",
+    "versions": [
+      {
+        "instrument": "guitar",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "—",
+        "file": "guitar_étude_op_60_no_23.pdf",
+        "file_id": null
+      }
+    ]
+  },
+  {
+    "id": 188,
+    "title": "Étude Op.60 No.24",
+    "composer": "Matteo Carcassi",
+    "genre": "classical",
+    "type": "etude",
+    "style": "classical",
+    "key_concert": "—",
+    "versions": [
+      {
+        "instrument": "guitar",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "—",
+        "file": "guitar_étude_op_60_no_24.pdf",
+        "file_id": null
+      }
+    ]
+  },
+  {
+    "id": 189,
+    "title": "Étude Op.60 No.25",
+    "composer": "Matteo Carcassi",
+    "genre": "classical",
+    "type": "etude",
+    "style": "classical",
+    "key_concert": "—",
+    "versions": [
+      {
+        "instrument": "guitar",
+        "transposition": 0,
+        "clef": "treble",
+        "key_written": "—",
+        "file": "guitar_étude_op_60_no_25.pdf",
+        "file_id": null
+      }
+    ]
+  },
+  {
+    "id": 190,
+    "title": "Contrabass-Schule, Op.136 (1891)",
+    "composer": "Theodor Michaelis",
+    "genre": "method",
+    "type": "book",
+    "style": "method",
+    "key_concert": "—",
+    "versions": [
+      {
+        "instrument": "contrabass",
+        "transposition": -12,
+        "clef": "bass",
+        "key_written": "—",
+        "file": "bass_contrabass_schule__op_136__1891.pdf",
+        "file_id": null
+      }
+    ]
+  }
+]

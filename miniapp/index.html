@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover" />
+<title>Тюнер · JazzTone</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ctext transform='rotate(-20 32 34)' x='3' y='48' font-size='56'%3E%F0%9F%8E%BA%3C/text%3E%3C/svg%3E" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap" rel="stylesheet" />
+<script src="https://telegram.org/js/telegram-web-app.js"></script>
+<style>
+  :root {
+    --ease-out: cubic-bezier(0.23, 1, 0.32, 1);
+    --ease-in-out: cubic-bezier(0.77, 0, 0.175, 1);
+
+    /* Harmonised with the main site (dark + brass). Telegram bg var as fallback. */
+    --bg: var(--tg-theme-bg-color, #0f1115);
+    --surface: #181b22;
+    --surface-2: #1f232c;
+    --line: #262b35;
+    --text: #f2f4f8;
+    --muted: #8a91a0;
+    --brass: #e9b665;
+    --brass-deep: #c8902f;
+
+    --good: #34d399;   /* in tune */
+    --off:  #f5a524;   /* slightly off */
+    --bad:  #f04f6a;   /* far off */
+
+    --c: var(--muted); /* live accent, set by JS */
+  }
+
+  * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+  html, body { height: 100%; margin: 0; }
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Inter", system-ui, sans-serif;
+    display: flex; flex-direction: column; align-items: center; justify-content: space-between;
+    padding: max(18px, env(safe-area-inset-top)) 20px max(24px, env(safe-area-inset-bottom));
+    overflow: hidden; user-select: none; -webkit-user-select: none;
+  }
+
+  /* Aurora — same language as the landing */
+  .aurora { position: fixed; inset: -25% -15%; z-index: -1; filter: blur(80px); opacity: 0.5; pointer-events: none; }
+  .aurora span { position: absolute; display: block; border-radius: 50%; will-change: transform; }
+  .aurora .a1 { width: 60vw; height: 60vw; left: -10vw; top: -12vw;
+    background: radial-gradient(circle at 30% 30%, rgba(233,182,101,0.5), transparent 62%);
+    animation: drift1 28s var(--ease-in-out) infinite alternate; }
+  .aurora .a2 { width: 52vw; height: 52vw; right: -12vw; bottom: -14vw;
+    background: radial-gradient(circle at 60% 40%, rgba(79,140,255,0.30), transparent 60%);
+    animation: drift2 34s var(--ease-in-out) infinite alternate; }
+  @keyframes drift1 { from { transform: translate3d(0,0,0) scale(1); } to { transform: translate3d(7vw,5vw,0) scale(1.12); } }
+  @keyframes drift2 { from { transform: translate3d(0,0,0) scale(1.06); } to { transform: translate3d(-6vw,-5vw,0) scale(0.94); } }
+
+  .top { width: 100%; max-width: 420px; display: flex; align-items: center; justify-content: space-between; }
+  .brand { display: flex; flex-direction: column; gap: 1px; }
+  .brand .wm { font-family: "Fraunces", Georgia, serif; font-weight: 600; font-size: 19px; letter-spacing: -0.02em; }
+  .brand .wm .dot { color: var(--brass); }
+  .brand .sub { color: var(--muted); font-size: 12.5px; font-weight: 500; font-variant-numeric: tabular-nums; }
+  .lang-toggle { display: inline-flex; background: rgba(255,255,255,0.05); border: 1px solid var(--line); border-radius: 999px; padding: 3px; }
+  .lang-toggle button { border: 0; background: transparent; color: var(--muted); font: inherit; font-size: 12px; font-weight: 700; padding: 5px 9px; border-radius: 999px; cursor: pointer; transition: color 160ms var(--ease-out), background 200ms var(--ease-out); }
+  .lang-toggle button:active { transform: scale(0.96); }
+  .lang-toggle button.active { color: #1a1206; background: linear-gradient(180deg, #f3c578, var(--brass)); }
+
+  .note-wrap { flex: 1; width: 100%; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2px; }
+  .note {
+    font-size: clamp(78px, 30vw, 150px); font-weight: 700; line-height: 1; letter-spacing: -0.03em;
+    font-variant-numeric: tabular-nums; color: var(--c);
+    transition: color 220ms var(--ease-out), transform 260ms var(--ease-out), filter 200ms ease; transform: scale(1);
+  }
+  .note .oct { font-size: 0.42em; color: var(--muted); font-weight: 600; vertical-align: super; }
+  body.locked .note { transform: scale(1.04); }
+  .note.changing { filter: blur(3px); opacity: 0.6; }
+  .cents { font-size: 16px; font-weight: 600; color: var(--c); font-variant-numeric: tabular-nums; transition: color 220ms var(--ease-out); min-height: 22px; text-align: center; }
+
+  /* Animated "playing instrument" scene — sits ABOVE the meter */
+  .scene { width: min(74vw, 290px); height: min(26vw, 100px); margin-top: 4px; }
+  .scene canvas { width: 100%; height: 100%; display: block; }
+
+  /* Pitch meter (restored) */
+  .gauge { position: relative; width: min(76vw, 300px); height: min(28vw, 112px); margin-top: 8px; }
+  .gauge svg { width: 100%; height: 100%; overflow: visible; display: block; }
+  .arc-bg { stroke: var(--line); }
+  .arc-good { stroke: var(--good); opacity: 0.25; transition: opacity 220ms var(--ease-out); }
+  body.locked .arc-good { opacity: 0.7; }
+  .tick { stroke: var(--muted); opacity: 0.32; }
+  .tick.center { stroke: var(--text); opacity: 0.6; }
+  .needle { position: absolute; left: 50%; bottom: 6px; width: 3px; height: 80%; margin-left: -1.5px; border-radius: 3px;
+    background: var(--c); transform-origin: bottom center; transform: rotate(0deg);
+    box-shadow: 0 0 14px color-mix(in srgb, var(--c) 55%, transparent); transition: background 220ms var(--ease-out); }
+  .pivot { position: absolute; left: 50%; bottom: 6px; width: 13px; height: 13px; margin-left: -6.5px; margin-bottom: -6.5px;
+    border-radius: 50%; background: var(--c); transition: background 220ms var(--ease-out); }
+
+  .hz { margin-top: 8px; color: var(--muted); font-size: 13.5px; font-variant-numeric: tabular-nums; min-height: 18px; }
+
+  .controls { width: 100%; display: flex; flex-direction: column; gap: 12px; align-items: center; }
+  .btn {
+    appearance: none; border: 1px solid transparent; width: 100%; max-width: 360px; padding: 15px 20px; border-radius: 16px;
+    background: linear-gradient(180deg, #f3c578, var(--brass)); color: #1a1206; font-size: 16px; font-weight: 700; font-family: inherit; cursor: pointer;
+    box-shadow: 0 8px 30px rgba(233,182,101,0.26);
+    transition: transform 160ms var(--ease-out), background 200ms ease, box-shadow 200ms ease, color 200ms ease;
+  }
+  .btn:active { transform: scale(0.97); }
+  .btn.stop { background: rgba(255,255,255,0.05); color: var(--text); border-color: var(--line); box-shadow: none; }
+
+  .instruments { display: flex; flex-wrap: wrap; justify-content: center; gap: 6px; max-width: 400px; }
+  .chip {
+    appearance: none; border: 1px solid var(--line); background: var(--surface); color: var(--muted);
+    font-family: inherit; font-size: 13px; font-weight: 600; padding: 8px 13px; border-radius: 11px; cursor: pointer;
+    transition: color 180ms var(--ease-out), background 180ms var(--ease-out), border-color 180ms var(--ease-out), transform 140ms var(--ease-out);
+  }
+  .chip:active { transform: scale(0.96); }
+  .chip[aria-pressed="true"] { color: #1a1206; background: linear-gradient(180deg, #f3c578, var(--brass)); border-color: transparent; }
+
+  .hint { color: var(--muted); font-size: 13px; min-height: 16px; text-align: center; }
+
+  @media (prefers-reduced-motion: reduce) {
+    .note, .cents, .arc-good { transition-duration: 0ms; }
+    body.locked .note { transform: none; }
+    .aurora span { animation: none !important; }
+  }
+</style>
+</head>
+<body>
+  <div class="aurora" aria-hidden="true"><span class="a1"></span><span class="a2"></span></div>
+
+  <div class="top">
+    <div class="brand">
+      <span class="wm">JazzTone<span class="dot">.</span></span>
+      <span class="sub"><span id="subLabel">Тюнер</span> · A4 = 440 Hz</span>
+    </div>
+    <span class="lang-toggle" role="group" aria-label="Language">
+      <button data-lang="ru">RU</button><button data-lang="en">EN</button>
+    </span>
+  </div>
+
+  <div class="note-wrap">
+    <div class="note" id="note">–</div>
+    <div class="cents" id="cents"></div>
+    <div class="scene"><canvas id="scene"></canvas></div>
+
+    <div class="gauge">
+      <svg viewBox="0 0 200 100" aria-hidden="true">
+        <path class="arc-bg" d="M 16 96 A 84 84 0 0 1 184 96" fill="none" stroke-width="6" stroke-linecap="round"/>
+        <path class="arc-good" d="M 88 13.2 A 84 84 0 0 1 112 13.2" fill="none" stroke-width="6" stroke-linecap="round"/>
+        <line class="tick" x1="16"  y1="96" x2="24"  y2="90"/>
+        <line class="tick" x1="58"  y1="40" x2="64"  y2="48"/>
+        <line class="tick center" x1="100" y1="12" x2="100" y2="24"/>
+        <line class="tick" x1="142" y1="40" x2="136" y2="48"/>
+        <line class="tick" x1="184" y1="96" x2="176" y2="90"/>
+      </svg>
+      <div class="needle" id="needle"></div>
+      <div class="pivot" id="pivot"></div>
+    </div>
+
+    <div class="hz" id="hz"></div>
+  </div>
+
+  <div class="controls">
+    <div class="instruments" id="instruments" role="group" aria-label="Instrument"></div>
+    <button class="btn" id="toggleBtn">Включить микрофон</button>
+    <div class="hint" id="hint">Сыграй ровную ноту рядом с микрофоном</div>
+  </div>
+
+<script>
+"use strict";
+const tg = window.Telegram && window.Telegram.WebApp;
+if (tg) { try { tg.ready(); tg.expand(); } catch (e) {} }
+
+const A4 = 440;
+const NOTE_NAMES = ['C','C♯','D','D♯','E','F','F♯','G','G♯','A','A♯','B'];
+const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+const root = document.documentElement;
+
+// ---- i18n (язык синхронизируется с сайтом через общий localStorage 'jt_lang') ----
+const I18N = {
+  ru: { title: "Тюнер · JazzTone", sub: "Тюнер", mic_on: "Включить микрофон", mic_stop: "Стоп",
+        hint: "Сыграй ровную ноту рядом с микрофоном", mic_denied: "Нет доступа к микрофону. Разреши его в настройках.",
+        in_tune: "в строе", sharp: "высит ♯ — возьми ниже 🔽", flat: "низит ♭ — возьми выше 🔼", hz: "Гц" },
+  en: { title: "Tuner · JazzTone", sub: "Tuner", mic_on: "Enable microphone", mic_stop: "Stop",
+        hint: "Play a steady note near the mic", mic_denied: "No microphone access. Allow it in settings.",
+        in_tune: "in tune", sharp: "sharp ♯ — ease down 🔽", flat: "flat ♭ — lift up 🔼", hz: "Hz" },
+};
+const params = new URLSearchParams(location.search);
+let LANG = params.get('lang');
+if (LANG !== 'ru' && LANG !== 'en') { try { LANG = localStorage.getItem('jt_lang'); } catch (e) {} }
+if (LANG !== 'ru' && LANG !== 'en') { LANG = (navigator.language || 'ru').toLowerCase().indexOf('ru') === 0 ? 'ru' : 'en'; }
+function L() { return I18N[LANG]; }
+
+// ---- DOM ----
+const noteEl = document.getElementById('note');
+const centsEl = document.getElementById('cents');
+const hzEl = document.getElementById('hz');
+const hintEl = document.getElementById('hint');
+const toggleBtn = document.getElementById('toggleBtn');
+const subLabel = document.getElementById('subLabel');
+const needleEl = document.getElementById('needle');
+let dispAngle = 0, targetAngle = 0;   // стрелка монометра (сглаживание)
+
+// Транспозиция: смещение в полутонах от концертной высоты к ПИСАННОЙ ноте инструмента.
+const INSTRUMENTS = [
+  { id:'concert',  ru:'Concert',       en:'Concert',       t:0,  emoji:'🎵' },
+  { id:'trumpet',  ru:'Труба B♭',      en:'Trumpet B♭',    t:2,  emoji:'🎺' },
+  { id:'trombone', ru:'Тромбон',       en:'Trombone',      t:0,  emoji:'🎺' },
+  { id:'tenor',    ru:'Тенор-сакс B♭', en:'Tenor sax B♭',  t:2,  emoji:'🎷' },
+  { id:'alto',     ru:'Альт-сакс E♭',  en:'Alto sax E♭',   t:9,  emoji:'🎷' },
+  { id:'clarinet', ru:'Кларнет B♭',    en:'Clarinet B♭',   t:2,  emoji:'🎷' },
+  { id:'bass',     ru:'Контрабас',     en:'Double bass',   t:0,  emoji:'🎻' },
+  { id:'guitar',   ru:'Гитара',        en:'Guitar',        t:0,  emoji:'🎸' },
+  { id:'piano',    ru:'Фортепиано',    en:'Piano',         t:0,  emoji:'🎹' },
+];
+let transpose = 2;            // по умолчанию — Труба B♭
+let sceneEmoji = '🎺';
+let scenePop = 0;             // «пружинка» при смене инструмента
+const instrumentsEl = document.getElementById('instruments');
+const chipEls = [];
+INSTRUMENTS.forEach(ins => {
+  const b = document.createElement('button');
+  b.className = 'chip'; b.type = 'button'; b._ins = ins;
+  b.textContent = ins[LANG];
+  b.setAttribute('aria-pressed', ins.id === 'trumpet' ? 'true' : 'false');
+  b.onclick = () => {
+    transpose = ins.t; sceneEmoji = ins.emoji; scenePop = 1;
+    for (const c of instrumentsEl.children) c.setAttribute('aria-pressed', c === b ? 'true' : 'false');
+  };
+  instrumentsEl.appendChild(b); chipEls.push(b);
+});
+
+function applyLang(lang) {
+  LANG = (lang === 'en') ? 'en' : 'ru';
+  document.documentElement.lang = LANG;
+  document.title = L().title;
+  subLabel.textContent = L().sub;
+  toggleBtn.textContent = running ? L().mic_stop : L().mic_on;
+  if (!running) hintEl.textContent = L().hint;
+  chipEls.forEach(b => { b.textContent = b._ins[LANG]; });
+  document.querySelectorAll('.lang-toggle button').forEach(b => b.classList.toggle('active', b.getAttribute('data-lang') === LANG));
+  try { localStorage.setItem('jt_lang', LANG); } catch (e) {}
+}
+document.querySelectorAll('.lang-toggle button').forEach(b =>
+  b.addEventListener('click', () => applyLang(b.getAttribute('data-lang'))));
+
+// ---- Animated playing-instrument scene (canvas) ----
+const sceneCanvas = document.getElementById('scene');
+const sctx = sceneCanvas.getContext('2d');
+let scW = 300, scH = 132;
+function sizeScene() {
+  const dpr = Math.min(window.devicePixelRatio || 1, 2);
+  const r = sceneCanvas.getBoundingClientRect();
+  scW = r.width || 300; scH = r.height || 132;
+  sceneCanvas.width = Math.round(scW * dpr); sceneCanvas.height = Math.round(scH * dpr);
+  sctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+}
+window.addEventListener('resize', sizeScene);
+
+let sceneActive = false, sceneCents = 0, st = 0, puffs = [], sceneHidden = false;
+function getCss(name) { return getComputedStyle(root).getPropertyValue(name).trim(); }
+function tuningColor(absC) { return absC <= 5 ? getCss('--good') : absC <= 20 ? getCss('--off') : getCss('--bad'); }
+
+function sceneFrame() {
+  requestAnimationFrame(sceneFrame);
+  if (sceneHidden) return;
+  // стрелка монометра — плавный лерп к цели (Emil: spring-like)
+  dispAngle += (targetAngle - dispAngle) * (reduceMotion ? 1 : 0.18);
+  needleEl.style.transform = 'rotate(' + dispAngle.toFixed(2) + 'deg)';
+  st++;
+  sctx.clearRect(0, 0, scW, scH);
+  const cx = scW / 2, baseY = scH - 18;
+  const bob = reduceMotion ? 0 : Math.sin(st * 0.16) * (sceneActive ? 3.2 : 2);
+  if (scenePop > 0) scenePop = Math.max(0, scenePop - 0.06);
+
+  // direction of drift encodes intonation: sharp → right, flat → left, in-tune → up
+  const absC = Math.abs(sceneCents);
+  const col = sceneActive ? tuningColor(absC) : getCss('--brass');
+  const dir = sceneActive ? Math.max(-1, Math.min(1, sceneCents / 22)) : 0;
+
+  // emit notes (faster when actively detecting a pitch)
+  if (!reduceMotion) {
+    const rate = sceneActive ? 9 : 18;
+    if (st % rate === 0)
+      puffs.push({ x: cx + 6, y: baseY - 44 + bob, life: 0,
+        dx: dir * 1.1 + (Math.random() - 0.5) * 0.3, vy: 0.9 + Math.random() * 0.4,
+        ch: Math.random() < 0.5 ? '♪' : '♫', col: col });
+  }
+  for (let i = puffs.length - 1; i >= 0; i--) {
+    const p = puffs[i]; p.life++; p.x += p.dx; p.y -= p.vy;
+    sctx.globalAlpha = Math.max(0, 1 - p.life / 46);
+    sctx.fillStyle = p.col; sctx.font = '20px serif'; sctx.textAlign = 'center';
+    sctx.fillText(p.ch, p.x, p.y);
+    if (p.life > 46) puffs.splice(i, 1);
+  }
+  sctx.globalAlpha = 1;
+
+  // the instrument itself — bobbing, with a soft pop on selection
+  const scale = 1 + (reduceMotion ? 0 : scenePop * 0.28);
+  sctx.save();
+  sctx.translate(cx, baseY + bob);
+  sctx.scale(scale, scale);
+  sctx.rotate(-12 * Math.PI / 180);
+  sctx.font = '62px serif'; sctx.textAlign = 'center'; sctx.textBaseline = 'alphabetic';
+  sctx.fillText(sceneEmoji, 0, 0);
+  sctx.restore();
+}
+document.addEventListener('visibilitychange', () => { sceneHidden = document.hidden; });
+
+// ---- Audio / pitch ----
+let audioCtx, analyser, micStream;
+let abuf = new Float32Array(4096);
+let running = false;
+let lastMidi = null;
+
+function autoCorrelate(b, sampleRate) {
+  let SIZE = b.length, rms = 0;
+  for (let i = 0; i < SIZE; i++) { const v = b[i]; rms += v * v; }
+  rms = Math.sqrt(rms / SIZE);
+  if (rms < 0.01) return -1;
+  let r1 = 0, r2 = SIZE - 1, thres = 0.2;
+  for (let i = 0; i < SIZE / 2; i++) if (Math.abs(b[i]) < thres) { r1 = i; break; }
+  for (let i = 1; i < SIZE / 2; i++) if (Math.abs(b[SIZE - i]) < thres) { r2 = SIZE - i; break; }
+  b = b.subarray(r1, r2); SIZE = b.length;
+  if (SIZE < 64) return -1;
+  const c = new Float32Array(SIZE);
+  for (let i = 0; i < SIZE; i++) for (let j = 0; j < SIZE - i; j++) c[i] += b[j] * b[j + i];
+  let d = 0; while (d < SIZE - 1 && c[d] > c[d + 1]) d++;
+  let maxval = -1, maxpos = -1;
+  for (let i = d; i < SIZE; i++) if (c[i] > maxval) { maxval = c[i]; maxpos = i; }
+  let T0 = maxpos; if (T0 <= 0) return -1;
+  const x1 = c[T0 - 1] || 0, x2 = c[T0], x3 = c[T0 + 1] || 0;
+  const a = (x1 + x3 - 2 * x2) / 2, b2 = (x3 - x1) / 2;
+  if (a) T0 = T0 - b2 / (2 * a);
+  return sampleRate / T0;
+}
+
+function setAccent(col) { root.style.setProperty('--c', col); }
+
+let noteText = '–', noteOct = '';
+function swapNote(name, oct) {
+  noteText = name; noteOct = oct;
+  if (reduceMotion) { renderNote(); return; }
+  noteEl.classList.add('changing');
+  setTimeout(() => { renderNote(); noteEl.classList.remove('changing'); }, 90);
+}
+function renderNote() {
+  noteEl.innerHTML = noteText + (noteOct !== '' ? '<span class="oct">' + noteOct + '</span>' : '');
+}
+
+function detect() {
+  analyser.getFloatTimeDomainData(abuf);
+  const freq = autoCorrelate(abuf, audioCtx.sampleRate);
+  if (freq < 0 || freq < 30 || freq > 2000) {
+    hintEl.textContent = L().hint;
+    sceneActive = false; sceneCents = 0; targetAngle = 0;
+    setAccent(getCss('--muted'));
+    document.body.classList.remove('locked');
+    hzEl.textContent = '';
+    if (lastMidi !== null) { lastMidi = null; swapNote('–', ''); }
+  } else {
+    const midiF = 12 * Math.log2(freq / A4) + 69;
+    const midi = Math.round(midiF);
+    const cents = Math.round((midiF - midi) * 100);
+    const dispMidi = midi + transpose;
+    const name = NOTE_NAMES[((dispMidi % 12) + 12) % 12];
+    const oct = Math.floor(dispMidi / 12) - 1;
+    if (midi !== lastMidi) { lastMidi = midi; swapNote(name, oct); }
+
+    const absC = Math.abs(cents);
+    sceneActive = true; sceneCents = cents;
+    targetAngle = Math.max(-50, Math.min(50, cents)) / 50 * 45;  // ±45°
+    setAccent(tuningColor(absC));
+
+    const target = A4 * Math.pow(2, (midi - 69) / 12);
+    const hzDev = freq - target;
+    const advice = absC <= 5 ? '  ·  ' + L().in_tune : '  ·  ' + (cents > 0 ? L().sharp : L().flat);
+    centsEl.textContent = (hzDev > 0 ? '+' : '') + hzDev.toFixed(1) + ' ' + L().hz + advice;
+    hzEl.textContent = freq.toFixed(1) + ' Hz';
+    hintEl.textContent = '';
+    document.body.classList.toggle('locked', absC <= 5);
+  }
+}
+
+let detectTimer = null;
+async function start() {
+  try {
+    micStream = await navigator.mediaDevices.getUserMedia({
+      audio: { echoCancellation: false, noiseSuppression: false, autoGainControl: false }
+    });
+  } catch (e) {
+    hintEl.textContent = L().mic_denied;
+    return;
+  }
+  audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+  const src = audioCtx.createMediaStreamSource(micStream);
+  analyser = audioCtx.createAnalyser();
+  analyser.fftSize = 4096;
+  src.connect(analyser);
+  running = true;
+  toggleBtn.textContent = L().mic_stop;
+  toggleBtn.classList.add('stop');
+  if (tg && tg.HapticFeedback) try { tg.HapticFeedback.impactOccurred('light'); } catch (e) {}
+  detectTimer = setInterval(detect, 45);
+}
+function stop() {
+  running = false;
+  if (detectTimer) clearInterval(detectTimer);
+  if (micStream) micStream.getTracks().forEach(t => t.stop());
+  if (audioCtx) audioCtx.close();
+  toggleBtn.textContent = L().mic_on;
+  toggleBtn.classList.remove('stop');
+  document.body.classList.remove('locked');
+  setAccent(getCss('--muted'));
+  noteText = '–'; noteOct = ''; renderNote();
+  centsEl.textContent = ''; hzEl.textContent = '';
+  hintEl.textContent = L().hint;
+  sceneActive = false; sceneCents = 0; targetAngle = 0; dispAngle = 0;
+  needleEl.style.transform = 'rotate(0deg)';
+  lastMidi = null;
+}
+toggleBtn.onclick = () => { running ? stop() : start(); };
+
+// ---- init ----
+applyLang(LANG);
+sizeScene();
+requestAnimationFrame(sceneFrame);
+
+/* Interactive "playing trumpet" favicon (matches the landing) */
+(function () {
+  var rm = reduceMotion;
+  var link = document.querySelector("link[rel='icon']") || document.createElement('link');
+  link.rel = 'icon'; document.head.appendChild(link);
+  var cvs = document.createElement('canvas'); cvs.width = cvs.height = 64;
+  var c = cvs.getContext('2d'); var t = 0, paused = false, fp = [];
+  function trumpet(bob) {
+    c.save(); c.translate(32, 36 + bob); c.rotate(-22 * Math.PI / 180);
+    c.font = '56px serif'; c.textAlign = 'center'; c.textBaseline = 'middle';
+    c.fillText('🎺', 0, 0); c.restore();
+  }
+  function frame() {
+    if (paused) return;
+    c.clearRect(0, 0, 64, 64); t++;
+    var bob = Math.sin(t * 0.18) * 2.2;
+    if (t % 13 === 0) fp.push({ x: 46, y: 16 + bob, life: 0, dx: 0.45 + Math.random() * 0.5, ch: Math.random() < 0.5 ? '♪' : '♫' });
+    for (var i = fp.length - 1; i >= 0; i--) {
+      var p = fp[i]; p.life++; p.x += p.dx; p.y -= 0.85;
+      c.globalAlpha = Math.max(0, 1 - p.life / 24); c.fillStyle = '#e9b665';
+      c.font = '17px serif'; c.textAlign = 'left'; c.fillText(p.ch, p.x, p.y);
+      if (p.life > 24) fp.splice(i, 1);
+    }
+    c.globalAlpha = 1; trumpet(bob); link.href = cvs.toDataURL('image/png');
+  }
+  if (rm) { trumpet(0); link.href = cvs.toDataURL('image/png'); }
+  else { setInterval(frame, 90); document.addEventListener('visibilitychange', function () { paused = document.hidden; }); }
+})();
+</script>
+</body>
+</html>

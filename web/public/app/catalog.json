@@ -1,0 +1,1834 @@
+{
+  "items": [
+    {
+      "id": 23,
+      "title": "Manha de Carnaval (Black Orpheus)",
+      "composer": "Luiz Bonfá",
+      "type": "piece",
+      "style": "jazz",
+      "instruments": [
+        "trumpet"
+      ]
+    },
+    {
+      "id": 44,
+      "title": "Philly Twist",
+      "composer": "Kenny Dorham",
+      "type": "piece",
+      "style": "jazz",
+      "instruments": [
+        "trumpet"
+      ]
+    },
+    {
+      "id": 54,
+      "title": "Wes Tune",
+      "composer": "Wes Montgomery",
+      "type": "piece",
+      "style": "jazz",
+      "instruments": [
+        "trumpet"
+      ]
+    },
+    {
+      "id": 57,
+      "title": "Гаммы и этюды для трубы",
+      "composer": "Тимофей Докшицер",
+      "type": "etude",
+      "style": "classical",
+      "instruments": [
+        "trumpet"
+      ]
+    },
+    {
+      "id": 58,
+      "title": "Избранные этюды для трубы",
+      "composer": "Вурм",
+      "type": "etude",
+      "style": "classical",
+      "instruments": [
+        "trumpet"
+      ]
+    },
+    {
+      "id": 61,
+      "title": "Complete Conservatory Method (Cornet/Trumpet)",
+      "composer": "Jean-Baptiste Arban",
+      "type": "book",
+      "style": "classical",
+      "instruments": [
+        "trumpet"
+      ]
+    },
+    {
+      "id": 62,
+      "title": "New & Modern Grand Method for Cornet/Trumpet",
+      "composer": "Louis Saint-Jacome",
+      "type": "book",
+      "style": "classical",
+      "instruments": [
+        "trumpet"
+      ]
+    },
+    {
+      "id": 63,
+      "title": "Daily Exercises and Scales (Trumpet)",
+      "composer": "Gabriel Parès",
+      "type": "etude",
+      "style": "classical",
+      "instruments": [
+        "trumpet"
+      ]
+    },
+    {
+      "id": 64,
+      "title": "60 Selected Studies (Trombone)",
+      "composer": "Georg Kopprasch",
+      "type": "etude",
+      "style": "classical",
+      "instruments": [
+        "trumpet"
+      ]
+    },
+    {
+      "id": 65,
+      "title": "Melodious Etudes for Trombone",
+      "composer": "Marco Bordogni / Joannès Rochut",
+      "type": "etude",
+      "style": "classical",
+      "instruments": [
+        "trumpet"
+      ]
+    },
+    {
+      "id": 66,
+      "title": "Fig Leaf Rag",
+      "composer": "Scott Joplin",
+      "type": "piece",
+      "style": "ragtime",
+      "instruments": [
+        "trumpet"
+      ]
+    },
+    {
+      "id": 67,
+      "title": "Pineapple Rag",
+      "composer": "Scott Joplin",
+      "type": "piece",
+      "style": "ragtime",
+      "instruments": [
+        "trumpet"
+      ]
+    },
+    {
+      "id": 68,
+      "title": "Blues and Stomps",
+      "composer": "Jelly Roll Morton",
+      "type": "book",
+      "style": "jazz",
+      "instruments": [
+        "trumpet"
+      ]
+    },
+    {
+      "id": 69,
+      "title": "Maple Leaf Rag",
+      "composer": "Scott Joplin",
+      "type": "piece",
+      "style": "ragtime",
+      "instruments": [
+        "trumpet"
+      ]
+    },
+    {
+      "id": 70,
+      "title": "Dead Man Blues",
+      "composer": "Jelly Roll Morton",
+      "type": "piece",
+      "style": "jazz",
+      "instruments": [
+        "trumpet"
+      ]
+    },
+    {
+      "id": 71,
+      "title": "The Easy Winners",
+      "composer": "Scott Joplin",
+      "type": "piece",
+      "style": "ragtime",
+      "instruments": [
+        "trumpet"
+      ]
+    },
+    {
+      "id": 72,
+      "title": "Gladiolus Rag",
+      "composer": "Scott Joplin",
+      "type": "piece",
+      "style": "ragtime",
+      "instruments": [
+        "trumpet"
+      ]
+    },
+    {
+      "id": 73,
+      "title": "Elite Syncopations",
+      "composer": "Scott Joplin",
+      "type": "piece",
+      "style": "ragtime",
+      "instruments": [
+        "trumpet"
+      ]
+    },
+    {
+      "id": 74,
+      "title": "The Cascades",
+      "composer": "Scott Joplin",
+      "type": "piece",
+      "style": "ragtime",
+      "instruments": [
+        "trumpet"
+      ]
+    },
+    {
+      "id": 75,
+      "title": "Original Rags",
+      "composer": "Scott Joplin",
+      "type": "piece",
+      "style": "ragtime",
+      "instruments": [
+        "trumpet"
+      ]
+    },
+    {
+      "id": 76,
+      "title": "Euphonic Sounds",
+      "composer": "Scott Joplin",
+      "type": "piece",
+      "style": "ragtime",
+      "instruments": [
+        "trumpet"
+      ]
+    },
+    {
+      "id": 77,
+      "title": "Something Doing",
+      "composer": "Scott Joplin",
+      "type": "piece",
+      "style": "ragtime",
+      "instruments": [
+        "trumpet"
+      ]
+    },
+    {
+      "id": 78,
+      "title": "Heliotrope Bouquet",
+      "composer": "Scott Joplin",
+      "type": "piece",
+      "style": "ragtime",
+      "instruments": [
+        "trumpet"
+      ]
+    },
+    {
+      "id": 79,
+      "title": "Sugar Cane",
+      "composer": "Scott Joplin",
+      "type": "piece",
+      "style": "ragtime",
+      "instruments": [
+        "trumpet"
+      ]
+    },
+    {
+      "id": 80,
+      "title": "Wall Street Rag",
+      "composer": "Scott Joplin",
+      "type": "piece",
+      "style": "ragtime",
+      "instruments": [
+        "trumpet"
+      ]
+    },
+    {
+      "id": 81,
+      "title": "Country Club",
+      "composer": "Scott Joplin",
+      "type": "piece",
+      "style": "ragtime",
+      "instruments": [
+        "trumpet"
+      ]
+    },
+    {
+      "id": 82,
+      "title": "Sunflower Slow Drag",
+      "composer": "Scott Joplin",
+      "type": "piece",
+      "style": "ragtime",
+      "instruments": [
+        "trumpet"
+      ]
+    },
+    {
+      "id": 83,
+      "title": "When the Saints Go Marching In",
+      "composer": "Traditional",
+      "type": "piece",
+      "style": "dixieland",
+      "instruments": [
+        "trumpet",
+        "clarinet",
+        "tenorsax",
+        "altosax",
+        "trombone",
+        "concert",
+        "piano",
+        "guitar",
+        "contrabass"
+      ]
+    },
+    {
+      "id": 84,
+      "title": "Buddy Bolden's Blues",
+      "composer": "Jelly Roll Morton",
+      "type": "piece",
+      "style": "early jazz",
+      "instruments": [
+        "trumpet",
+        "clarinet",
+        "tenorsax",
+        "altosax",
+        "trombone",
+        "concert",
+        "piano",
+        "guitar",
+        "contrabass"
+      ]
+    },
+    {
+      "id": 85,
+      "title": "Charleston",
+      "composer": "James P. Johnson",
+      "type": "piece",
+      "style": "stride",
+      "instruments": [
+        "trumpet",
+        "clarinet",
+        "tenorsax",
+        "altosax",
+        "trombone",
+        "concert",
+        "piano",
+        "guitar",
+        "contrabass"
+      ]
+    },
+    {
+      "id": 86,
+      "title": "That's a Plenty",
+      "composer": "Lew Pollack",
+      "type": "piece",
+      "style": "dixieland",
+      "instruments": [
+        "trumpet",
+        "clarinet",
+        "tenorsax",
+        "altosax",
+        "trombone",
+        "concert",
+        "piano",
+        "guitar",
+        "contrabass"
+      ]
+    },
+    {
+      "id": 87,
+      "title": "Oh, Didn't He Ramble",
+      "composer": "Bob Cole & J. Rosamond Johnson",
+      "type": "piece",
+      "style": "dixieland",
+      "instruments": [
+        "trumpet",
+        "clarinet",
+        "tenorsax",
+        "altosax",
+        "trombone",
+        "concert",
+        "piano",
+        "guitar",
+        "contrabass"
+      ]
+    },
+    {
+      "id": 88,
+      "title": "Nobody Knows You When You're Down and Out",
+      "composer": "Jimmy Cox",
+      "type": "piece",
+      "style": "blues",
+      "instruments": [
+        "trumpet",
+        "clarinet",
+        "tenorsax",
+        "altosax",
+        "trombone",
+        "concert",
+        "piano",
+        "guitar",
+        "contrabass"
+      ]
+    },
+    {
+      "id": 89,
+      "title": "A Good Man Is Hard to Find",
+      "composer": "Eddie Green",
+      "type": "piece",
+      "style": "blues",
+      "instruments": [
+        "trumpet",
+        "clarinet",
+        "tenorsax",
+        "altosax",
+        "trombone",
+        "concert",
+        "piano",
+        "guitar",
+        "contrabass"
+      ]
+    },
+    {
+      "id": 90,
+      "title": "Second Line (Joe Avery Blues)",
+      "composer": "Traditional",
+      "type": "piece",
+      "style": "dixieland",
+      "instruments": [
+        "trumpet",
+        "clarinet",
+        "tenorsax",
+        "altosax",
+        "trombone",
+        "concert",
+        "piano",
+        "guitar",
+        "contrabass"
+      ]
+    },
+    {
+      "id": 91,
+      "title": "Indiana (Back Home Again in Indiana)",
+      "composer": "James F. Hanley",
+      "type": "piece",
+      "style": "standard",
+      "instruments": [
+        "trumpet",
+        "clarinet",
+        "tenorsax",
+        "altosax",
+        "trombone",
+        "concert",
+        "piano",
+        "guitar",
+        "contrabass"
+      ]
+    },
+    {
+      "id": 92,
+      "title": "Rose Room",
+      "composer": "Art Hickman",
+      "type": "piece",
+      "style": "standard",
+      "instruments": [
+        "trumpet",
+        "clarinet",
+        "tenorsax",
+        "altosax",
+        "trombone",
+        "concert",
+        "piano",
+        "guitar",
+        "contrabass"
+      ]
+    },
+    {
+      "id": 93,
+      "title": "Avalon",
+      "composer": "Vincent Rose",
+      "type": "piece",
+      "style": "standard",
+      "instruments": [
+        "trumpet",
+        "clarinet",
+        "tenorsax",
+        "altosax",
+        "trombone",
+        "concert",
+        "piano",
+        "guitar",
+        "contrabass"
+      ]
+    },
+    {
+      "id": 94,
+      "title": "Dardanella",
+      "composer": "Fred Fisher & Felix Bernard",
+      "type": "piece",
+      "style": "standard",
+      "instruments": [
+        "trumpet",
+        "clarinet",
+        "tenorsax",
+        "altosax",
+        "trombone",
+        "concert",
+        "piano",
+        "guitar",
+        "contrabass"
+      ]
+    },
+    {
+      "id": 95,
+      "title": "Twelfth Street Rag",
+      "composer": "Euday L. Bowman",
+      "type": "piece",
+      "style": "ragtime",
+      "instruments": [
+        "trumpet",
+        "clarinet",
+        "tenorsax",
+        "altosax",
+        "trombone",
+        "concert",
+        "piano",
+        "guitar",
+        "contrabass"
+      ]
+    },
+    {
+      "id": 96,
+      "title": "Do It Again",
+      "composer": "George Gershwin",
+      "type": "piece",
+      "style": "standard",
+      "instruments": [
+        "trumpet",
+        "clarinet",
+        "tenorsax",
+        "altosax",
+        "trombone",
+        "concert",
+        "piano",
+        "guitar",
+        "contrabass"
+      ]
+    },
+    {
+      "id": 97,
+      "title": "Stairway to Paradise",
+      "composer": "George Gershwin",
+      "type": "piece",
+      "style": "standard",
+      "instruments": [
+        "trumpet",
+        "clarinet",
+        "tenorsax",
+        "altosax",
+        "trombone",
+        "concert",
+        "piano",
+        "guitar",
+        "contrabass"
+      ]
+    },
+    {
+      "id": 98,
+      "title": "Carolina in the Morning",
+      "composer": "Walter Donaldson",
+      "type": "piece",
+      "style": "standard",
+      "instruments": [
+        "trumpet",
+        "clarinet",
+        "tenorsax",
+        "altosax",
+        "trombone",
+        "concert",
+        "piano",
+        "guitar",
+        "contrabass"
+      ]
+    },
+    {
+      "id": 99,
+      "title": "April Showers",
+      "composer": "Louis Silvers",
+      "type": "piece",
+      "style": "standard",
+      "instruments": [
+        "trumpet",
+        "clarinet",
+        "tenorsax",
+        "altosax",
+        "trombone",
+        "concert",
+        "piano",
+        "guitar",
+        "contrabass"
+      ]
+    },
+    {
+      "id": 100,
+      "title": "Chicago (That Toddlin' Town)",
+      "composer": "Fred Fisher",
+      "type": "piece",
+      "style": "standard",
+      "instruments": [
+        "trumpet",
+        "clarinet",
+        "tenorsax",
+        "altosax",
+        "trombone",
+        "concert",
+        "piano",
+        "guitar",
+        "contrabass"
+      ]
+    },
+    {
+      "id": 101,
+      "title": "Ballin' the Jack",
+      "composer": "Chris Smith",
+      "type": "piece",
+      "style": "early jazz",
+      "instruments": [
+        "trumpet",
+        "clarinet",
+        "tenorsax",
+        "altosax",
+        "trombone",
+        "concert",
+        "piano",
+        "guitar",
+        "contrabass"
+      ]
+    },
+    {
+      "id": 102,
+      "title": "Linger Awhile",
+      "composer": "Vincent Rose",
+      "type": "piece",
+      "style": "standard",
+      "instruments": [
+        "trumpet",
+        "clarinet",
+        "tenorsax",
+        "altosax",
+        "trombone",
+        "concert",
+        "piano",
+        "guitar",
+        "contrabass"
+      ]
+    },
+    {
+      "id": 103,
+      "title": "Poor Butterfly",
+      "composer": "Raymond Hubbell",
+      "type": "piece",
+      "style": "ballad",
+      "instruments": [
+        "trumpet",
+        "clarinet",
+        "tenorsax",
+        "altosax",
+        "trombone",
+        "concert",
+        "piano",
+        "guitar",
+        "contrabass"
+      ]
+    },
+    {
+      "id": 104,
+      "title": "Pretty Baby",
+      "composer": "Egbert Van Alstyne & Tony Jackson",
+      "type": "piece",
+      "style": "standard",
+      "instruments": [
+        "trumpet",
+        "clarinet",
+        "tenorsax",
+        "altosax",
+        "trombone",
+        "concert",
+        "piano",
+        "guitar",
+        "contrabass"
+      ]
+    },
+    {
+      "id": 105,
+      "title": "Somebody Stole My Gal",
+      "composer": "Leo Wood",
+      "type": "piece",
+      "style": "standard",
+      "instruments": [
+        "trumpet",
+        "clarinet",
+        "tenorsax",
+        "altosax",
+        "trombone",
+        "concert",
+        "piano",
+        "guitar",
+        "contrabass"
+      ]
+    },
+    {
+      "id": 106,
+      "title": "Down by the Riverside",
+      "composer": "Traditional",
+      "type": "piece",
+      "style": "spiritual",
+      "instruments": [
+        "trumpet",
+        "clarinet",
+        "tenorsax",
+        "altosax",
+        "trombone",
+        "concert",
+        "piano",
+        "guitar",
+        "contrabass"
+      ]
+    },
+    {
+      "id": 107,
+      "title": "Go Down, Moses",
+      "composer": "Traditional",
+      "type": "piece",
+      "style": "spiritual",
+      "instruments": [
+        "trumpet",
+        "clarinet",
+        "tenorsax",
+        "altosax",
+        "trombone",
+        "concert",
+        "piano",
+        "guitar",
+        "contrabass"
+      ]
+    },
+    {
+      "id": 108,
+      "title": "Swing Low, Sweet Chariot",
+      "composer": "Traditional",
+      "type": "piece",
+      "style": "spiritual",
+      "instruments": [
+        "trumpet",
+        "clarinet",
+        "tenorsax",
+        "altosax",
+        "trombone",
+        "concert",
+        "piano",
+        "guitar",
+        "contrabass"
+      ]
+    },
+    {
+      "id": 109,
+      "title": "Just a Closer Walk with Thee",
+      "composer": "Traditional",
+      "type": "piece",
+      "style": "spiritual",
+      "instruments": [
+        "trumpet",
+        "clarinet",
+        "tenorsax",
+        "altosax",
+        "trombone",
+        "concert",
+        "piano",
+        "guitar",
+        "contrabass"
+      ]
+    },
+    {
+      "id": 110,
+      "title": "Joshua Fit the Battle of Jericho",
+      "composer": "Traditional",
+      "type": "piece",
+      "style": "spiritual",
+      "instruments": [
+        "trumpet",
+        "clarinet",
+        "tenorsax",
+        "altosax",
+        "trombone",
+        "concert",
+        "piano",
+        "guitar",
+        "contrabass"
+      ]
+    },
+    {
+      "id": 111,
+      "title": "Nobody Knows the Trouble I've Seen",
+      "composer": "Traditional",
+      "type": "piece",
+      "style": "spiritual",
+      "instruments": [
+        "trumpet",
+        "clarinet",
+        "tenorsax",
+        "altosax",
+        "trombone",
+        "concert",
+        "piano",
+        "guitar",
+        "contrabass"
+      ]
+    },
+    {
+      "id": 112,
+      "title": "Go Tell It on the Mountain",
+      "composer": "Traditional",
+      "type": "piece",
+      "style": "spiritual",
+      "instruments": [
+        "trumpet",
+        "clarinet",
+        "tenorsax",
+        "altosax",
+        "trombone",
+        "concert",
+        "piano",
+        "guitar",
+        "contrabass"
+      ]
+    },
+    {
+      "id": 113,
+      "title": "Deep River",
+      "composer": "Traditional",
+      "type": "piece",
+      "style": "spiritual",
+      "instruments": [
+        "trumpet",
+        "clarinet",
+        "tenorsax",
+        "altosax",
+        "trombone",
+        "concert",
+        "piano",
+        "guitar",
+        "contrabass"
+      ]
+    },
+    {
+      "id": 114,
+      "title": "Indian Summer",
+      "composer": "Victor Herbert",
+      "type": "piece",
+      "style": "ballad",
+      "instruments": [
+        "trumpet",
+        "clarinet",
+        "tenorsax",
+        "altosax",
+        "trombone",
+        "concert",
+        "piano",
+        "guitar",
+        "contrabass"
+      ]
+    },
+    {
+      "id": 115,
+      "title": "Paper Doll",
+      "composer": "Johnny S. Black",
+      "type": "piece",
+      "style": "standard",
+      "instruments": [
+        "trumpet",
+        "clarinet",
+        "tenorsax",
+        "altosax",
+        "trombone",
+        "concert",
+        "piano",
+        "guitar",
+        "contrabass"
+      ]
+    },
+    {
+      "id": 116,
+      "title": "You Made Me Love You",
+      "composer": "James V. Monaco",
+      "type": "piece",
+      "style": "standard",
+      "instruments": [
+        "trumpet",
+        "clarinet",
+        "tenorsax",
+        "altosax",
+        "trombone",
+        "concert",
+        "piano",
+        "guitar",
+        "contrabass"
+      ]
+    },
+    {
+      "id": 117,
+      "title": "My Buddy",
+      "composer": "Walter Donaldson",
+      "type": "piece",
+      "style": "ballad",
+      "instruments": [
+        "trumpet",
+        "clarinet",
+        "tenorsax",
+        "altosax",
+        "trombone",
+        "concert",
+        "piano",
+        "guitar",
+        "contrabass"
+      ]
+    },
+    {
+      "id": 118,
+      "title": "Peg o' My Heart",
+      "composer": "Fred Fisher",
+      "type": "piece",
+      "style": "standard",
+      "instruments": [
+        "trumpet",
+        "clarinet",
+        "tenorsax",
+        "altosax",
+        "trombone",
+        "concert",
+        "piano",
+        "guitar",
+        "contrabass"
+      ]
+    },
+    {
+      "id": 119,
+      "title": "Bill Bailey, Won't You Please Come Home",
+      "composer": "Hughie Cannon",
+      "type": "piece",
+      "style": "dixieland",
+      "instruments": [
+        "trumpet",
+        "clarinet",
+        "tenorsax",
+        "altosax",
+        "trombone",
+        "concert",
+        "piano",
+        "guitar",
+        "contrabass"
+      ]
+    },
+    {
+      "id": 120,
+      "title": "Moonlight Bay",
+      "composer": "Percy Wenrich",
+      "type": "piece",
+      "style": "standard",
+      "instruments": [
+        "trumpet",
+        "clarinet",
+        "tenorsax",
+        "altosax",
+        "trombone",
+        "concert",
+        "piano",
+        "guitar",
+        "contrabass"
+      ]
+    },
+    {
+      "id": 121,
+      "title": "By the Light of the Silvery Moon",
+      "composer": "Gus Edwards",
+      "type": "piece",
+      "style": "standard",
+      "instruments": [
+        "trumpet",
+        "clarinet",
+        "tenorsax",
+        "altosax",
+        "trombone",
+        "concert",
+        "piano",
+        "guitar",
+        "contrabass"
+      ]
+    },
+    {
+      "id": 122,
+      "title": "I'm Forever Blowing Bubbles",
+      "composer": "John Kellette",
+      "type": "piece",
+      "style": "standard",
+      "instruments": [
+        "trumpet",
+        "clarinet",
+        "tenorsax",
+        "altosax",
+        "trombone",
+        "concert",
+        "piano",
+        "guitar",
+        "contrabass"
+      ]
+    },
+    {
+      "id": 123,
+      "title": "Let Me Call You Sweetheart",
+      "composer": "Leo Friedman",
+      "type": "piece",
+      "style": "standard",
+      "instruments": [
+        "trumpet",
+        "clarinet",
+        "tenorsax",
+        "altosax",
+        "trombone",
+        "concert",
+        "piano",
+        "guitar",
+        "contrabass"
+      ]
+    },
+    {
+      "id": 124,
+      "title": "When Irish Eyes Are Smiling",
+      "composer": "Ernest Ball",
+      "type": "piece",
+      "style": "standard",
+      "instruments": [
+        "trumpet",
+        "clarinet",
+        "tenorsax",
+        "altosax",
+        "trombone",
+        "concert",
+        "piano",
+        "guitar",
+        "contrabass"
+      ]
+    },
+    {
+      "id": 125,
+      "title": "Daisy Bell (Bicycle Built for Two)",
+      "composer": "Harry Dacre",
+      "type": "piece",
+      "style": "standard",
+      "instruments": [
+        "trumpet",
+        "clarinet",
+        "tenorsax",
+        "altosax",
+        "trombone",
+        "concert",
+        "piano",
+        "guitar",
+        "contrabass"
+      ]
+    },
+    {
+      "id": 126,
+      "title": "Oh! You Beautiful Doll",
+      "composer": "Nat D. Ayer",
+      "type": "piece",
+      "style": "standard",
+      "instruments": [
+        "trumpet",
+        "clarinet",
+        "tenorsax",
+        "altosax",
+        "trombone",
+        "concert",
+        "piano",
+        "guitar",
+        "contrabass"
+      ]
+    },
+    {
+      "id": 127,
+      "title": "Wait 'Till the Sun Shines, Nellie",
+      "composer": "Harry Von Tilzer",
+      "type": "piece",
+      "style": "standard",
+      "instruments": [
+        "trumpet",
+        "clarinet",
+        "tenorsax",
+        "altosax",
+        "trombone",
+        "concert",
+        "piano",
+        "guitar",
+        "contrabass"
+      ]
+    },
+    {
+      "id": 128,
+      "title": "Balm in Gilead",
+      "composer": "Traditional",
+      "type": "piece",
+      "style": "spiritual",
+      "instruments": [
+        "trumpet",
+        "clarinet",
+        "tenorsax",
+        "altosax",
+        "trombone",
+        "concert",
+        "piano",
+        "guitar",
+        "contrabass"
+      ]
+    },
+    {
+      "id": 129,
+      "title": "Sometimes I Feel Like a Motherless Child",
+      "composer": "Traditional",
+      "type": "piece",
+      "style": "spiritual",
+      "instruments": [
+        "trumpet",
+        "clarinet",
+        "tenorsax",
+        "altosax",
+        "trombone",
+        "concert",
+        "piano",
+        "guitar",
+        "contrabass"
+      ]
+    },
+    {
+      "id": 130,
+      "title": "Were You There",
+      "composer": "Traditional",
+      "type": "piece",
+      "style": "spiritual",
+      "instruments": [
+        "trumpet",
+        "clarinet",
+        "tenorsax",
+        "altosax",
+        "trombone",
+        "concert",
+        "piano",
+        "guitar",
+        "contrabass"
+      ]
+    },
+    {
+      "id": 131,
+      "title": "Amazing Grace",
+      "composer": "Traditional",
+      "type": "piece",
+      "style": "spiritual",
+      "instruments": [
+        "trumpet",
+        "clarinet",
+        "tenorsax",
+        "altosax",
+        "trombone",
+        "concert",
+        "piano",
+        "guitar",
+        "contrabass"
+      ]
+    },
+    {
+      "id": 132,
+      "title": "Shenandoah",
+      "composer": "Traditional",
+      "type": "piece",
+      "style": "folk",
+      "instruments": [
+        "trumpet",
+        "clarinet",
+        "tenorsax",
+        "altosax",
+        "trombone",
+        "concert",
+        "piano",
+        "guitar",
+        "contrabass"
+      ]
+    },
+    {
+      "id": 133,
+      "title": "Wayfaring Stranger",
+      "composer": "Traditional",
+      "type": "piece",
+      "style": "folk",
+      "instruments": [
+        "trumpet",
+        "clarinet",
+        "tenorsax",
+        "altosax",
+        "trombone",
+        "concert",
+        "piano",
+        "guitar",
+        "contrabass"
+      ]
+    },
+    {
+      "id": 134,
+      "title": "Red River Valley",
+      "composer": "Traditional",
+      "type": "piece",
+      "style": "folk",
+      "instruments": [
+        "trumpet",
+        "clarinet",
+        "tenorsax",
+        "altosax",
+        "trombone",
+        "concert",
+        "piano",
+        "guitar",
+        "contrabass"
+      ]
+    },
+    {
+      "id": 135,
+      "title": "When Johnny Comes Marching Home",
+      "composer": "Traditional",
+      "type": "piece",
+      "style": "folk",
+      "instruments": [
+        "trumpet",
+        "clarinet",
+        "tenorsax",
+        "altosax",
+        "trombone",
+        "concert",
+        "piano",
+        "guitar",
+        "contrabass"
+      ]
+    },
+    {
+      "id": 136,
+      "title": "Streets of Laredo",
+      "composer": "Traditional",
+      "type": "piece",
+      "style": "folk",
+      "instruments": [
+        "trumpet",
+        "clarinet",
+        "tenorsax",
+        "altosax",
+        "trombone",
+        "concert",
+        "piano",
+        "guitar",
+        "contrabass"
+      ]
+    },
+    {
+      "id": 137,
+      "title": "Michael, Row the Boat Ashore",
+      "composer": "Traditional",
+      "type": "piece",
+      "style": "spiritual",
+      "instruments": [
+        "trumpet",
+        "clarinet",
+        "tenorsax",
+        "altosax",
+        "trombone",
+        "concert",
+        "piano",
+        "guitar",
+        "contrabass"
+      ]
+    },
+    {
+      "id": 138,
+      "title": "She'll Be Comin' 'Round the Mountain",
+      "composer": "Traditional",
+      "type": "piece",
+      "style": "folk",
+      "instruments": [
+        "trumpet",
+        "clarinet",
+        "tenorsax",
+        "altosax",
+        "trombone",
+        "concert",
+        "piano",
+        "guitar",
+        "contrabass"
+      ]
+    },
+    {
+      "id": 139,
+      "title": "Camptown Races",
+      "composer": "Stephen Foster",
+      "type": "piece",
+      "style": "folk",
+      "instruments": [
+        "trumpet",
+        "clarinet",
+        "tenorsax",
+        "altosax",
+        "trombone",
+        "concert",
+        "piano",
+        "guitar",
+        "contrabass"
+      ]
+    },
+    {
+      "id": 140,
+      "title": "Beautiful Dreamer",
+      "composer": "Stephen Foster",
+      "type": "piece",
+      "style": "ballad",
+      "instruments": [
+        "trumpet",
+        "clarinet",
+        "tenorsax",
+        "altosax",
+        "trombone",
+        "concert",
+        "piano",
+        "guitar",
+        "contrabass"
+      ]
+    },
+    {
+      "id": 141,
+      "title": "Old Folks at Home (Swanee River)",
+      "composer": "Stephen Foster",
+      "type": "piece",
+      "style": "folk",
+      "instruments": [
+        "trumpet",
+        "clarinet",
+        "tenorsax",
+        "altosax",
+        "trombone",
+        "concert",
+        "piano",
+        "guitar",
+        "contrabass"
+      ]
+    },
+    {
+      "id": 142,
+      "title": "Smiles",
+      "composer": "Lee S. Roberts",
+      "type": "piece",
+      "style": "standard",
+      "instruments": [
+        "trumpet",
+        "clarinet",
+        "tenorsax",
+        "altosax",
+        "trombone",
+        "concert",
+        "piano",
+        "guitar",
+        "contrabass"
+      ]
+    },
+    {
+      "id": 143,
+      "title": "The Entertainer",
+      "composer": "Scott Joplin",
+      "type": "piece",
+      "style": "ragtime",
+      "instruments": [
+        "piano"
+      ]
+    },
+    {
+      "id": 144,
+      "title": "Magnetic Rag",
+      "composer": "Scott Joplin",
+      "type": "piece",
+      "style": "ragtime",
+      "instruments": [
+        "piano"
+      ]
+    },
+    {
+      "id": 145,
+      "title": "Peacherine Rag",
+      "composer": "Scott Joplin",
+      "type": "piece",
+      "style": "ragtime",
+      "instruments": [
+        "piano"
+      ]
+    },
+    {
+      "id": 146,
+      "title": "Searchlight Rag",
+      "composer": "Scott Joplin",
+      "type": "piece",
+      "style": "ragtime",
+      "instruments": [
+        "piano"
+      ]
+    },
+    {
+      "id": 147,
+      "title": "Bethena (A Concert Waltz)",
+      "composer": "Scott Joplin",
+      "type": "piece",
+      "style": "ragtime",
+      "instruments": [
+        "piano"
+      ]
+    },
+    {
+      "id": 148,
+      "title": "Recuerdos de la Alhambra",
+      "composer": "Francisco Tárrega",
+      "type": "piece",
+      "style": "romantic",
+      "instruments": [
+        "guitar"
+      ]
+    },
+    {
+      "id": 149,
+      "title": "Capricho Árabe",
+      "composer": "Francisco Tárrega",
+      "type": "piece",
+      "style": "romantic",
+      "instruments": [
+        "guitar"
+      ]
+    },
+    {
+      "id": 150,
+      "title": "Adelita (Mazurka)",
+      "composer": "Francisco Tárrega",
+      "type": "piece",
+      "style": "romantic",
+      "instruments": [
+        "guitar"
+      ]
+    },
+    {
+      "id": 151,
+      "title": "Claro de Luna",
+      "composer": "Francisco Tárrega",
+      "type": "piece",
+      "style": "romantic",
+      "instruments": [
+        "guitar"
+      ]
+    },
+    {
+      "id": 152,
+      "title": "Étude Op.60 No.1",
+      "composer": "Matteo Carcassi",
+      "type": "etude",
+      "style": "classical",
+      "instruments": [
+        "guitar"
+      ]
+    },
+    {
+      "id": 153,
+      "title": "Étude Op.60 No.2",
+      "composer": "Matteo Carcassi",
+      "type": "etude",
+      "style": "classical",
+      "instruments": [
+        "guitar"
+      ]
+    },
+    {
+      "id": 154,
+      "title": "Étude Op.60 No.3",
+      "composer": "Matteo Carcassi",
+      "type": "etude",
+      "style": "classical",
+      "instruments": [
+        "guitar"
+      ]
+    },
+    {
+      "id": 155,
+      "title": "Étude Op.60 No.7",
+      "composer": "Matteo Carcassi",
+      "type": "etude",
+      "style": "classical",
+      "instruments": [
+        "guitar"
+      ]
+    },
+    {
+      "id": 156,
+      "title": "Étude Op.60 No.9",
+      "composer": "Matteo Carcassi",
+      "type": "etude",
+      "style": "classical",
+      "instruments": [
+        "guitar"
+      ]
+    },
+    {
+      "id": 157,
+      "title": "Étude Op.6 No.1",
+      "composer": "Fernando Sor",
+      "type": "etude",
+      "style": "classical",
+      "instruments": [
+        "guitar"
+      ]
+    },
+    {
+      "id": 158,
+      "title": "Étude Op.6 No.8",
+      "composer": "Fernando Sor",
+      "type": "etude",
+      "style": "classical",
+      "instruments": [
+        "guitar"
+      ]
+    },
+    {
+      "id": 159,
+      "title": "Étude Op.6 No.12",
+      "composer": "Fernando Sor",
+      "type": "etude",
+      "style": "classical",
+      "instruments": [
+        "guitar"
+      ]
+    },
+    {
+      "id": 160,
+      "title": "Étude Op.35 No.1",
+      "composer": "Fernando Sor",
+      "type": "etude",
+      "style": "classical",
+      "instruments": [
+        "guitar"
+      ]
+    },
+    {
+      "id": 161,
+      "title": "Étude Op.35 No.22",
+      "composer": "Fernando Sor",
+      "type": "etude",
+      "style": "classical",
+      "instruments": [
+        "guitar"
+      ]
+    },
+    {
+      "id": 162,
+      "title": "Le Papillon Op.50 No.1",
+      "composer": "Mauro Giuliani",
+      "type": "etude",
+      "style": "classical",
+      "instruments": [
+        "guitar"
+      ]
+    },
+    {
+      "id": 163,
+      "title": "Le Papillon Op.50 No.5",
+      "composer": "Mauro Giuliani",
+      "type": "etude",
+      "style": "classical",
+      "instruments": [
+        "guitar"
+      ]
+    },
+    {
+      "id": 164,
+      "title": "Le Papillon Op.50 No.19",
+      "composer": "Mauro Giuliani",
+      "type": "etude",
+      "style": "classical",
+      "instruments": [
+        "guitar"
+      ]
+    },
+    {
+      "id": 165,
+      "title": "Étude Op.3 No.1",
+      "composer": "Dionisio Aguado",
+      "type": "etude",
+      "style": "classical",
+      "instruments": [
+        "guitar"
+      ]
+    },
+    {
+      "id": 166,
+      "title": "Étude Op.3 No.6",
+      "composer": "Dionisio Aguado",
+      "type": "etude",
+      "style": "classical",
+      "instruments": [
+        "guitar"
+      ]
+    },
+    {
+      "id": 167,
+      "title": "Elegy in D",
+      "composer": "Giovanni Bottesini",
+      "type": "piece",
+      "style": "romantic",
+      "instruments": [
+        "contrabass"
+      ]
+    },
+    {
+      "id": 168,
+      "title": "Rêverie",
+      "composer": "Giovanni Bottesini",
+      "type": "piece",
+      "style": "romantic",
+      "instruments": [
+        "contrabass"
+      ]
+    },
+    {
+      "id": 169,
+      "title": "Contrabass-Schule (1830)",
+      "composer": "Friedrich Theodor Fröhlich",
+      "type": "book",
+      "style": "method",
+      "instruments": [
+        "contrabass"
+      ]
+    },
+    {
+      "id": 170,
+      "title": "Étude Op.60 No.4",
+      "composer": "Matteo Carcassi",
+      "type": "etude",
+      "style": "classical",
+      "instruments": [
+        "guitar"
+      ]
+    },
+    {
+      "id": 171,
+      "title": "Étude Op.60 No.5",
+      "composer": "Matteo Carcassi",
+      "type": "etude",
+      "style": "classical",
+      "instruments": [
+        "guitar"
+      ]
+    },
+    {
+      "id": 172,
+      "title": "Étude Op.60 No.6",
+      "composer": "Matteo Carcassi",
+      "type": "etude",
+      "style": "classical",
+      "instruments": [
+        "guitar"
+      ]
+    },
+    {
+      "id": 173,
+      "title": "Étude Op.60 No.8",
+      "composer": "Matteo Carcassi",
+      "type": "etude",
+      "style": "classical",
+      "instruments": [
+        "guitar"
+      ]
+    },
+    {
+      "id": 174,
+      "title": "Étude Op.60 No.10",
+      "composer": "Matteo Carcassi",
+      "type": "etude",
+      "style": "classical",
+      "instruments": [
+        "guitar"
+      ]
+    },
+    {
+      "id": 175,
+      "title": "Étude Op.60 No.11",
+      "composer": "Matteo Carcassi",
+      "type": "etude",
+      "style": "classical",
+      "instruments": [
+        "guitar"
+      ]
+    },
+    {
+      "id": 176,
+      "title": "Étude Op.60 No.12",
+      "composer": "Matteo Carcassi",
+      "type": "etude",
+      "style": "classical",
+      "instruments": [
+        "guitar"
+      ]
+    },
+    {
+      "id": 177,
+      "title": "Étude Op.60 No.13",
+      "composer": "Matteo Carcassi",
+      "type": "etude",
+      "style": "classical",
+      "instruments": [
+        "guitar"
+      ]
+    },
+    {
+      "id": 178,
+      "title": "Étude Op.60 No.14",
+      "composer": "Matteo Carcassi",
+      "type": "etude",
+      "style": "classical",
+      "instruments": [
+        "guitar"
+      ]
+    },
+    {
+      "id": 179,
+      "title": "Étude Op.60 No.15",
+      "composer": "Matteo Carcassi",
+      "type": "etude",
+      "style": "classical",
+      "instruments": [
+        "guitar"
+      ]
+    },
+    {
+      "id": 180,
+      "title": "Étude Op.60 No.16",
+      "composer": "Matteo Carcassi",
+      "type": "etude",
+      "style": "classical",
+      "instruments": [
+        "guitar"
+      ]
+    },
+    {
+      "id": 181,
+      "title": "Étude Op.60 No.17",
+      "composer": "Matteo Carcassi",
+      "type": "etude",
+      "style": "classical",
+      "instruments": [
+        "guitar"
+      ]
+    },
+    {
+      "id": 182,
+      "title": "Étude Op.60 No.18",
+      "composer": "Matteo Carcassi",
+      "type": "etude",
+      "style": "classical",
+      "instruments": [
+        "guitar"
+      ]
+    },
+    {
+      "id": 183,
+      "title": "Étude Op.60 No.19",
+      "composer": "Matteo Carcassi",
+      "type": "etude",
+      "style": "classical",
+      "instruments": [
+        "guitar"
+      ]
+    },
+    {
+      "id": 184,
+      "title": "Étude Op.60 No.20",
+      "composer": "Matteo Carcassi",
+      "type": "etude",
+      "style": "classical",
+      "instruments": [
+        "guitar"
+      ]
+    },
+    {
+      "id": 185,
+      "title": "Étude Op.60 No.21",
+      "composer": "Matteo Carcassi",
+      "type": "etude",
+      "style": "classical",
+      "instruments": [
+        "guitar"
+      ]
+    },
+    {
+      "id": 186,
+      "title": "Étude Op.60 No.22",
+      "composer": "Matteo Carcassi",
+      "type": "etude",
+      "style": "classical",
+      "instruments": [
+        "guitar"
+      ]
+    },
+    {
+      "id": 187,
+      "title": "Étude Op.60 No.23",
+      "composer": "Matteo Carcassi",
+      "type": "etude",
+      "style": "classical",
+      "instruments": [
+        "guitar"
+      ]
+    },
+    {
+      "id": 188,
+      "title": "Étude Op.60 No.24",
+      "composer": "Matteo Carcassi",
+      "type": "etude",
+      "style": "classical",
+      "instruments": [
+        "guitar"
+      ]
+    },
+    {
+      "id": 189,
+      "title": "Étude Op.60 No.25",
+      "composer": "Matteo Carcassi",
+      "type": "etude",
+      "style": "classical",
+      "instruments": [
+        "guitar"
+      ]
+    },
+    {
+      "id": 190,
+      "title": "Contrabass-Schule, Op.136 (1891)",
+      "composer": "Theodor Michaelis",
+      "type": "book",
+      "style": "method",
+      "instruments": [
+        "contrabass"
+      ]
+    }
+  ]
+}

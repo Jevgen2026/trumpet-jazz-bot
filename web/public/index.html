@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>JazzTone — слушай свою игру, играй чище</title>
+<meta name="description" content="AI-тренажёр для духовых: реал-тайм тюнер, анализ интонации в центах, ноты из записи и библиотека партий под твой инструмент. В Telegram." />
+<meta name="theme-color" content="#0f1115" />
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ctext transform='rotate(-20 32 34)' x='3' y='48' font-size='56'%3E%F0%9F%8E%BA%3C/text%3E%3C/svg%3E" />
+
+<!-- Open Graph -->
+<meta property="og:title" content="JazzTone — слушай свою игру, играй чище" />
+<meta property="og:description" content="AI-тренажёр для духовых: тюнер, анализ интонации, ноты из записи. В Telegram." />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://jazztone.app/" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&display=swap" rel="stylesheet" />
+
+<style>
+  :root {
+    --ease-out: cubic-bezier(0.23, 1, 0.32, 1);
+    --ease-in-out: cubic-bezier(0.77, 0, 0.175, 1);
+
+    --bg: #0f1115;
+    --bg-2: #0b0c10;
+    --surface: #181b22;
+    --surface-2: #1f232c;
+    --line: #262b35;
+    --text: #f2f4f8;
+    --muted: #8a91a0;
+
+    --brass: #e9b665;
+    --brass-deep: #c8902f;
+    --blue: #4f8cff;
+    --good: #34d399;
+    --off: #f5a524;
+    --bad: #f04f6a;
+
+    --c: var(--muted);
+    --maxw: 1120px;
+  }
+
+  * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0; background: var(--bg); color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Inter", system-ui, sans-serif;
+    line-height: 1.5; -webkit-font-smoothing: antialiased; overflow-x: hidden;
+  }
+  a { color: inherit; text-decoration: none; }
+  h1, h2, h3 { font-family: "Fraunces", Georgia, "Times New Roman", serif; font-weight: 600; letter-spacing: -0.015em; margin: 0; }
+
+  /* Aurora */
+  .aurora { position: fixed; inset: -20% -10%; z-index: -2; filter: blur(80px); opacity: 0.6; pointer-events: none; }
+  .aurora span { position: absolute; display: block; border-radius: 50%; will-change: transform; }
+  .aurora .a1 { width: 46vw; height: 46vw; left: -6vw; top: -8vw; background: radial-gradient(circle at 30% 30%, rgba(233,182,101,0.55), transparent 62%); animation: drift1 26s var(--ease-in-out) infinite alternate; }
+  .aurora .a2 { width: 40vw; height: 40vw; right: -8vw; top: 4vw; background: radial-gradient(circle at 60% 40%, rgba(79,140,255,0.42), transparent 60%); animation: drift2 32s var(--ease-in-out) infinite alternate; }
+  .aurora .a3 { width: 38vw; height: 38vw; left: 28vw; top: 26vw; background: radial-gradient(circle at 50% 50%, rgba(200,144,47,0.30), transparent 60%); animation: drift3 38s var(--ease-in-out) infinite alternate; }
+  .grain { position: fixed; inset: 0; z-index: -1; pointer-events: none; opacity: 0.04; mix-blend-mode: overlay;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='2'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E"); }
+  @keyframes drift1 { from { transform: translate3d(0,0,0) scale(1); } to { transform: translate3d(6vw,4vw,0) scale(1.12); } }
+  @keyframes drift2 { from { transform: translate3d(0,0,0) scale(1.05); } to { transform: translate3d(-5vw,5vw,0) scale(0.95); } }
+  @keyframes drift3 { from { transform: translate3d(0,0,0) scale(1); } to { transform: translate3d(-4vw,-5vw,0) scale(1.1); } }
+
+  .wrap { max-width: var(--maxw); margin: 0 auto; padding: 0 24px; }
+
+  nav { position: sticky; top: 0; z-index: 50; display: flex; align-items: center; justify-content: space-between;
+    padding: 16px 24px; max-width: var(--maxw); margin: 0 auto; backdrop-filter: saturate(140%) blur(8px); }
+  .brand { font-family: "Fraunces", serif; font-weight: 600; font-size: 21px; letter-spacing: -0.02em; display: inline-flex; align-items: center; gap: 8px; }
+  .brand .dot { color: var(--brass); }
+  .nav-links { display: flex; align-items: center; gap: 6px; }
+  .nav-links a { color: var(--muted); font-size: 14px; font-weight: 500; padding: 8px 12px; border-radius: 10px;
+    transition: color 160ms var(--ease-out), background 160ms var(--ease-out); }
+  @media (hover: hover) and (pointer: fine) { .nav-links a:hover { color: var(--text); background: rgba(255,255,255,0.04); } }
+  .nav-cta { color: var(--text) !important; background: rgba(233,182,101,0.12); border: 1px solid rgba(233,182,101,0.25); }
+  @media (max-width: 720px) { .nav-links .hide-sm { display: none; } }
+
+  /* Language toggle */
+  .lang-toggle { display: inline-flex; background: rgba(255,255,255,0.05); border: 1px solid var(--line); border-radius: 999px; padding: 3px; margin-left: 4px; }
+  .lang-toggle button { border: 0; background: transparent; color: var(--muted); font: inherit; font-size: 12.5px; font-weight: 700; letter-spacing: 0.02em; padding: 5px 10px; border-radius: 999px; cursor: pointer; transition: color 160ms var(--ease-out), background 200ms var(--ease-out); }
+  .lang-toggle button:active { transform: scale(0.96); }
+  .lang-toggle button.active { color: #1a1206; background: linear-gradient(180deg, #f3c578, var(--brass)); }
+
+  .btn { display: inline-flex; align-items: center; gap: 9px; font-size: 15px; font-weight: 600; padding: 13px 22px; border-radius: 14px; border: 1px solid transparent; cursor: pointer;
+    transition: transform 160ms var(--ease-out), background 200ms var(--ease-out), box-shadow 200ms var(--ease-out), border-color 200ms var(--ease-out); }
+  .btn:active { transform: scale(0.97); }
+  .btn-primary { color: #1a1206; background: linear-gradient(180deg, #f3c578, var(--brass)); box-shadow: 0 8px 30px rgba(233,182,101,0.28); }
+  @media (hover: hover) and (pointer: fine) { .btn-primary:hover { box-shadow: 0 12px 40px rgba(233,182,101,0.42); } }
+  .btn-ghost { color: var(--text); background: rgba(255,255,255,0.04); border-color: var(--line); }
+  @media (hover: hover) and (pointer: fine) { .btn-ghost:hover { border-color: #3a4150; background: rgba(255,255,255,0.07); } }
+
+  header.hero { padding: 40px 0 56px; }
+  .hero-grid { display: grid; grid-template-columns: 1.05fr 0.95fr; gap: 48px; align-items: center; }
+  .eyebrow { display: inline-flex; align-items: center; gap: 8px; font-size: 13px; font-weight: 600; letter-spacing: 0.02em; color: var(--brass);
+    background: rgba(233,182,101,0.10); border: 1px solid rgba(233,182,101,0.22); padding: 6px 12px; border-radius: 999px; margin-bottom: 22px; }
+  .eyebrow .live { width: 7px; height: 7px; border-radius: 50%; background: var(--good); animation: ping 2.4s var(--ease-out) infinite; }
+  @keyframes ping { 0% { box-shadow: 0 0 0 0 rgba(52,211,153,0.5);} 70%,100% { box-shadow: 0 0 0 9px rgba(52,211,153,0);} }
+  h1.title { font-size: clamp(40px, 6.4vw, 68px); line-height: 1.02; font-weight: 600; }
+  h1.title .accent { background: linear-gradient(100deg, var(--brass), #ffe6b0 60%, var(--brass-deep)); -webkit-background-clip: text; background-clip: text; color: transparent; font-style: italic; }
+  .lead { color: var(--muted); font-size: clamp(16px, 2.1vw, 19px); margin: 22px 0 30px; max-width: 30em; }
+  .cta-row { display: flex; flex-wrap: wrap; gap: 12px; }
+  .trust { margin-top: 26px; display: flex; flex-wrap: wrap; gap: 8px 18px; color: var(--muted); font-size: 13.5px; font-weight: 500; }
+  .trust b { color: var(--text); font-weight: 600; }
+
+  .tuner-card { position: relative; border-radius: 26px; padding: 30px 28px 26px; background: linear-gradient(180deg, var(--surface), #14171d);
+    border: 1px solid var(--line); box-shadow: 0 40px 90px -30px rgba(0,0,0,0.7), inset 0 1px 0 rgba(255,255,255,0.04); will-change: transform; transform-style: preserve-3d; }
+  .tuner-card::before { content: ""; position: absolute; inset: 0; border-radius: 26px; pointer-events: none; background: radial-gradient(120% 80% at 50% -10%, rgba(233,182,101,0.12), transparent 55%); }
+  .tc-top { display: flex; justify-content: space-between; align-items: center; color: var(--muted); font-size: 13px; font-weight: 600; }
+  .tc-top .pill { background: rgba(255,255,255,0.05); border: 1px solid var(--line); padding: 4px 10px; border-radius: 999px; }
+  .tc-note { text-align: center; margin: 14px 0 2px; }
+  .tc-note .n { font-size: clamp(86px, 18vw, 132px); font-weight: 700; line-height: 1; letter-spacing: -0.03em; font-variant-numeric: tabular-nums; color: var(--c);
+    transition: color 240ms var(--ease-out), transform 280ms var(--ease-out), filter 200ms ease; display: inline-block; }
+  .tc-note .n.changing { filter: blur(7px); opacity: 0.45; transform: scale(0.97); }
+  .tc-note .n .oct { font-size: 0.4em; color: var(--muted); font-weight: 600; vertical-align: super; }
+  .tc-cents { text-align: center; font-size: 16px; font-weight: 600; color: var(--c); font-variant-numeric: tabular-nums; min-height: 22px; transition: color 240ms var(--ease-out); }
+  .gauge { position: relative; width: 100%; height: 96px; margin-top: 6px; }
+  .gauge svg { width: 100%; height: 100%; overflow: visible; display: block; }
+  .arc-bg { fill: none; stroke: var(--surface-2); stroke-width: 6; stroke-linecap: round; }
+  .arc-good { fill: none; stroke: var(--good); stroke-width: 6; stroke-linecap: round; opacity: 0.22; transition: opacity 240ms var(--ease-out); }
+  .tuner-card.locked .arc-good { opacity: 0.7; }
+  .needle { position: absolute; left: 50%; bottom: 8px; width: 3px; height: 74px; margin-left: -1.5px; border-radius: 3px; background: var(--c); transform-origin: bottom center; transform: rotate(0deg);
+    box-shadow: 0 0 14px color-mix(in srgb, var(--c) 55%, transparent); transition: background 240ms var(--ease-out); }
+  .hub { position: absolute; left: 50%; bottom: 4px; width: 12px; height: 12px; margin-left: -6px; border-radius: 50%; background: var(--c); box-shadow: 0 0 0 4px rgba(0,0,0,0.25); }
+  .eq { display: flex; align-items: flex-end; justify-content: center; gap: 5px; height: 30px; margin-top: 18px; }
+  .eq i { width: 5px; border-radius: 3px; background: linear-gradient(180deg, var(--brass), var(--brass-deep)); height: 30%; transform-origin: bottom; will-change: transform; }
+
+  .marquee { margin: 8px 0 0; padding: 22px 0; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line);
+    -webkit-mask-image: linear-gradient(90deg, transparent, #000 8%, #000 92%, transparent); mask-image: linear-gradient(90deg, transparent, #000 8%, #000 92%, transparent); overflow: hidden; }
+  .marquee-track { display: flex; gap: 38px; width: max-content; animation: scroll 38s linear infinite; }
+  .marquee:hover .marquee-track { animation-play-state: paused; }
+  .marquee span { color: var(--muted); font-family: "Fraunces", serif; font-size: 20px; font-style: italic; white-space: nowrap; }
+  .marquee span::after { content: "♪"; color: var(--brass); margin-left: 38px; font-style: normal; }
+  @keyframes scroll { to { transform: translateX(-50%); } }
+
+  section { padding: 76px 0; }
+  .sec-head { max-width: 34em; margin-bottom: 40px; }
+  .sec-head.center { margin-left: auto; margin-right: auto; text-align: center; }
+  .sec-head .kicker { color: var(--brass); font-size: 13px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; }
+  .sec-head h2 { font-size: clamp(28px, 4vw, 40px); margin-top: 10px; }
+  .sec-head p { color: var(--muted); margin-top: 12px; font-size: 17px; }
+
+  .features { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
+  .card { position: relative; border-radius: 20px; padding: 24px; background: var(--surface); border: 1px solid var(--line);
+    transition: transform 260ms var(--ease-out), border-color 260ms var(--ease-out), background 260ms var(--ease-out); will-change: transform; }
+  @media (hover: hover) and (pointer: fine) { .card:hover { transform: translateY(-4px); border-color: #36506b; background: #1b1f27; } }
+  .card .ic { width: 44px; height: 44px; border-radius: 12px; display: grid; place-items: center; font-size: 22px; background: rgba(233,182,101,0.12); border: 1px solid rgba(233,182,101,0.22); margin-bottom: 16px; }
+  .card h3 { font-size: 19px; }
+  .card p { color: var(--muted); font-size: 14.5px; margin: 8px 0 0; }
+  .card .tag { position: absolute; top: 18px; right: 18px; font-size: 11px; font-weight: 700; color: var(--blue); background: rgba(79,140,255,0.12); border: 1px solid rgba(79,140,255,0.25); padding: 3px 8px; border-radius: 999px; }
+
+  /* How it works */
+  .steps { display: grid; grid-template-columns: repeat(3, 1fr); gap: 30px; align-items: start; }
+  .step { text-align: center; }
+  .step .cap { display: inline-flex; align-items: center; gap: 9px; margin: 22px auto 8px; }
+  .step .num { width: 26px; height: 26px; flex: none; border-radius: 50%; display: grid; place-items: center; font-size: 13px; font-weight: 700; color: #1a1206; background: linear-gradient(180deg, #f3c578, var(--brass)); }
+  .step h3 { font-size: 19px; }
+  .step p { color: var(--muted); font-size: 14.5px; margin: 8px auto 0; max-width: 24em; }
+
+  /* Phone mockup ("screenshots") */
+  .phone { width: 232px; max-width: 80%; margin: 0 auto; border-radius: 30px; padding: 8px; background: linear-gradient(160deg, #262a33, #0b0c10); border: 1px solid var(--line);
+    box-shadow: 0 34px 70px -28px rgba(0,0,0,0.85), inset 0 1px 0 rgba(255,255,255,0.05); }
+  .phone .scr { position: relative; border-radius: 23px; background: var(--bg-2); overflow: hidden; min-height: 312px; padding: 14px; text-align: left; border: 1px solid #000; }
+  .scr-bar { font-size: 12px; color: var(--muted); font-weight: 600; padding-bottom: 10px; border-bottom: 1px solid var(--line); margin-bottom: 12px; display: flex; gap: 7px; align-items: center; }
+  .scr-bar .av { width: 18px; height: 18px; border-radius: 50%; background: linear-gradient(180deg, #f3c578, var(--brass)); display: grid; place-items: center; font-size: 11px; }
+  .scr-btn { display: flex; align-items: center; gap: 9px; background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 11px 12px; font-size: 13px; margin-bottom: 8px; }
+  .scr-btn b { margin-left: auto; color: var(--brass); font-variant-numeric: tabular-nums; font-size: 12px; }
+  .mini-note { text-align: center; font-size: 70px; font-weight: 700; color: var(--good); line-height: 1.05; margin-top: 26px; font-variant-numeric: tabular-nums; }
+  .mini-note .o { font-size: 0.36em; color: var(--muted); vertical-align: super; }
+  .mini-cents { text-align: center; color: var(--good); font-weight: 600; font-size: 13px; margin-top: 2px; }
+  .mini-gauge { position: relative; height: 60px; margin-top: 14px; }
+  .mini-gauge svg { width: 100%; height: 100%; overflow: visible; }
+  .mini-gauge .nd { position: absolute; left: 50%; bottom: 6px; width: 3px; height: 46px; margin-left: -1.5px; border-radius: 3px; background: var(--good); transform-origin: bottom center; transform: rotate(-7deg); box-shadow: 0 0 12px rgba(52,211,153,0.5); }
+  .bubble { background: var(--surface); border: 1px solid var(--line); border-radius: 14px; border-top-left-radius: 4px; padding: 12px 14px; font-size: 13px; }
+  .bubble .bh { font-weight: 600; margin-bottom: 8px; }
+  .bubble .row { display: flex; align-items: center; gap: 9px; padding: 5px 0; font-variant-numeric: tabular-nums; }
+  .bubble .row b { margin-left: auto; }
+  .bubble .d { width: 9px; height: 9px; border-radius: 50%; flex: none; }
+  .d.g { background: var(--good); } .d.y { background: var(--off); } .d.o { background: #f5852a; }
+  .bubble .advice { margin-top: 9px; color: var(--muted); font-size: 12.5px; border-top: 1px solid var(--line); padding-top: 9px; }
+
+  .chips { display: flex; flex-wrap: wrap; gap: 10px; }
+  .chip { display: inline-flex; align-items: center; gap: 8px; padding: 9px 15px; border-radius: 999px; background: var(--surface); border: 1px solid var(--line); font-size: 14px; font-weight: 500;
+    transition: transform 200ms var(--ease-out), border-color 200ms var(--ease-out); }
+  @media (hover: hover) and (pointer: fine) { .chip:hover { transform: translateY(-2px); border-color: var(--brass-deep); } }
+  .chip .k { color: var(--brass); font-weight: 700; font-size: 12px; }
+
+  .cta-band { text-align: center; border-radius: 28px; padding: 56px 28px; position: relative; overflow: hidden; background: linear-gradient(160deg, #1b1f27, #121419); border: 1px solid var(--line); }
+  .cta-band::before { content: ""; position: absolute; inset: 0; pointer-events: none; background: radial-gradient(90% 120% at 50% -20%, rgba(233,182,101,0.18), transparent 60%); }
+  .cta-band .btn { position: relative; }
+  .cta-band h2 { font-size: clamp(28px, 4.5vw, 44px); position: relative; }
+  .cta-band p { color: var(--muted); position: relative; margin: 12px auto 26px; max-width: 30em; }
+
+  footer { padding: 48px 0 60px; border-top: 1px solid var(--line); color: var(--muted); font-size: 14px; }
+  .foot-grid { display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 24px; }
+  footer a { color: var(--muted); transition: color 160ms var(--ease-out); }
+  @media (hover: hover) and (pointer: fine) { footer a:hover { color: var(--text); } }
+  .foot-links { display: flex; gap: 22px; flex-wrap: wrap; }
+  .fineprint { margin-top: 22px; font-size: 12.5px; color: #5d6470; max-width: 52em; }
+
+  .reveal { opacity: 0; transform: translateY(16px); transition: opacity 600ms var(--ease-out), transform 600ms var(--ease-out); }
+  .reveal.in { opacity: 1; transform: none; }
+
+  @media (max-width: 860px) {
+    .hero-grid { grid-template-columns: 1fr; gap: 36px; }
+    .features { grid-template-columns: 1fr; }
+    .steps { grid-template-columns: 1fr; gap: 44px; }
+    .tuner-card { max-width: 420px; margin: 0 auto; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    .aurora span, .eq i, .marquee-track, .eyebrow .live { animation: none !important; }
+    .reveal { opacity: 1; transform: none; transition: none; }
+    .tc-note .n { transition: color 240ms var(--ease-out); }
+  }
+</style>
+</head>
+<body>
+  <div class="aurora" aria-hidden="true"><span class="a1"></span><span class="a2"></span><span class="a3"></span></div>
+  <div class="grain" aria-hidden="true"></div>
+
+  <nav>
+    <a class="brand" href="#top">JazzTone<span class="dot">.</span></a>
+    <div class="nav-links">
+      <a class="hide-sm" href="#features" data-i18n="nav_features">Возможности</a>
+      <a class="hide-sm" href="#how" data-i18n="nav_how">Как это работает</a>
+      <a class="hide-sm" href="/tuner/" target="_blank" rel="noopener" data-i18n="nav_tuner">Тюнер</a>
+      <a class="nav-cta" href="https://t.me/JazzTrumpetLibraryBot" target="_blank" rel="noopener" data-i18n="nav_cta">Открыть в Telegram</a>
+      <span class="lang-toggle" role="group" aria-label="Language">
+        <button data-lang="ru">RU</button><button data-lang="en">EN</button>
+      </span>
+    </div>
+  </nav>
+
+  <header class="hero wrap" id="top">
+    <div class="hero-grid">
+      <div>
+        <span class="eyebrow"><span class="live"></span> <span data-i18n="hero_eyebrow">AI-тренажёр для духовых</span></span>
+        <h1 class="title" data-i18n-html="hero_title">Слушай свою игру.<br><span class="accent">Играй красиво.</span></h1>
+        <p class="lead" data-i18n="hero_lead">JazzTone слышит твою трубу или саксофон, ловит фальшь с точностью до герца и подсказывает, как взять чище. Тюнер, разбор интонации и ноты из записи — прямо в Telegram.</p>
+        <div class="cta-row">
+          <a class="btn btn-primary" href="https://t.me/JazzTrumpetLibraryBot" target="_blank" rel="noopener" data-i18n="hero_cta1">🎺 Открыть бота</a>
+          <a class="btn btn-ghost" href="/tuner/" target="_blank" rel="noopener" data-i18n="hero_cta2">Запустить тюнер</a>
+        </div>
+        <div class="trust">
+          <span data-i18n-html="trust1"><b>Труба</b> B♭</span><span data-i18n-html="trust2"><b>Саксофон</b> E♭/B♭</span><span data-i18n-html="trust3"><b>Тромбон</b></span><span data-i18n-html="trust4"><b>Кларнет</b> B♭</span><span data-i18n-html="trust5"><b>Контрабас</b></span><span data-i18n-html="trust6"><b>Гитара</b></span>
+        </div>
+      </div>
+
+      <div class="tuner-card" id="tcard">
+        <div class="tc-top"><span data-i18n="tc_title">Тюнер</span><span class="pill">A = 440 Hz</span></div>
+        <div class="tc-note"><span class="n" id="tnote">A<span class="oct">4</span></span></div>
+        <div class="tc-cents" id="tcents">в строе</div>
+        <div class="gauge">
+          <svg viewBox="0 0 220 96" preserveAspectRatio="xMidYMax meet">
+            <path class="arc-bg" d="M 14 90 A 96 96 0 0 1 206 90" />
+            <path class="arc-good" d="M 92 16.6 A 96 96 0 0 1 128 16.6" />
+          </svg>
+          <div class="needle" id="tneedle"></div>
+          <div class="hub"></div>
+        </div>
+        <div class="eq" id="eq" aria-hidden="true"></div>
+      </div>
+    </div>
+  </header>
+
+  <div class="marquee" aria-hidden="true"><div class="marquee-track" id="mtrack"></div></div>
+
+  <section id="features" class="wrap">
+    <div class="sec-head reveal">
+      <div class="kicker" data-i18n="feat_kicker">Возможности</div>
+      <h2 data-i18n="feat_h2">Не библиотека нот, а тренажёр слуха</h2>
+      <p data-i18n="feat_p">Вся секция в одном боте — от настройки до разбора целого произведения.</p>
+    </div>
+    <div class="features">
+      <div class="card reveal"><div class="ic">🎯</div><h3 data-i18n="f1_h">Реал-тайм тюнер</h3><p data-i18n="f1_p">Web Audio определяет высоту мгновенно. Стрелка на пружине, отклонение в герцах, поддержка строёв всех инструментов.</p></div>
+      <div class="card reveal"><div class="ic">🎤</div><h3 data-i18n="f2_h">Анализ интонации</h3><span class="tag" data-i18n="tag_beta">бета</span><p data-i18n="f2_p">Пришли голосовое — JazzTone разложит фразу по нотам, покажет, где завышаешь или занижаешь, и как это выправить.</p></div>
+      <div class="card reveal"><div class="ic">🎼</div><h3 data-i18n="f3_h">Ноты из записи</h3><span class="tag" data-i18n="tag_beta">бета</span><p data-i18n="f3_p">Сыграй мелодию — получи нотную картинку, MIDI и MusicXML. Чистый монофонический движок без облака.</p></div>
+      <div class="card reveal"><div class="ic">🎷</div><h3 data-i18n="f4_h">Партии под твой строй</h3><p data-i18n="f4_p">Выбери инструмент — отдадим версию в нужной транспозиции и тональности. Один источник, партии для всей секции.</p></div>
+      <div class="card reveal"><div class="ic">🥁</div><h3 data-i18n="f5_h">Метроном</h3><p data-i18n="f5_p">Темп 30–300 BPM, акцент на долю, любой размер. Синтез клика без сторонних библиотек.</p></div>
+      <div class="card reveal"><div class="ic">📚</div><h3 data-i18n="f6_h">Библиотека</h3><p data-i18n="f6_p">Джазовые стандарты и этюды, аккуратно атрибутированные. Public-domain и собственные аранжировки — по-честному.</p></div>
+    </div>
+  </section>
+
+  <section id="how" class="wrap">
+    <div class="sec-head center reveal">
+      <div class="kicker" data-i18n="how_kicker">Как это работает</div>
+      <h2 data-i18n="how_h2">Три шага до чистого звука</h2>
+      <p data-i18n="how_p">Никаких установок и аккаунтов — всё внутри Telegram.</p>
+    </div>
+    <div class="steps">
+      <div class="step reveal">
+        <div class="phone"><div class="scr">
+          <div class="scr-bar"><span class="av">🎺</span>JazzTone</div>
+          <div class="scr-btn" style="font-weight:600;background:transparent;border:0;padding-left:2px" data-i18n="m1_title">🎷 Выбери инструмент</div>
+          <div class="scr-btn">🎺 <span data-i18n="m1_b1">Труба B♭</span> <b>72</b></div>
+          <div class="scr-btn">🎷 <span data-i18n="m1_b2">Тенор-сакс B♭</span> <b>1</b></div>
+          <div class="scr-btn">🎷 <span data-i18n="m1_b3">Альт-сакс E♭</span> <b>1</b></div>
+          <div class="scr-btn">🎵 <span data-i18n="m1_b4">Кларнет B♭</span> <b>1</b></div>
+        </div></div>
+        <div class="cap"><span class="num">1</span><h3 data-i18n="step1_t">Выбери инструмент</h3></div>
+        <p data-i18n="step1_d">Открой бота и выбери строй — труба, сакс, кларнет, тромбон, контрабас, гитара.</p>
+      </div>
+
+      <div class="step reveal">
+        <div class="phone"><div class="scr">
+          <div class="scr-bar"><span class="av">🎯</span><span data-i18n="tc_title">Тюнер</span><span style="margin-left:auto;color:var(--muted)">A=440</span></div>
+          <div class="mini-note">D<span class="o">5</span></div>
+          <div class="mini-cents" data-i18n="m2_cents">в строе · +2 Hz</div>
+          <div class="mini-gauge"><svg viewBox="0 0 220 60" preserveAspectRatio="xMidYMax meet"><path d="M 14 56 A 96 96 0 0 1 206 56" fill="none" stroke="var(--surface-2)" stroke-width="6" stroke-linecap="round"/></svg><div class="nd"></div></div>
+        </div></div>
+        <div class="cap"><span class="num">2</span><h3 data-i18n="step2_t">Сыграй ноту</h3></div>
+        <p data-i18n="step2_d">Тюнер слушает в реальном времени и показывает отклонение в герцах.</p>
+      </div>
+
+      <div class="step reveal">
+        <div class="phone"><div class="scr">
+          <div class="scr-bar"><span class="av">🎤</span>JazzTone</div>
+          <div class="bubble">
+            <div class="bh">🎤 <span data-i18n="m3_title">Анализ игры</span></div>
+            <div class="row"><span class="d g"></span>C5 <b>+2¢</b></div>
+            <div class="row"><span class="d y"></span>D5 <b>+14¢</b></div>
+            <div class="row"><span class="d o"></span>E5 <b>−23¢</b></div>
+            <div class="advice" data-i18n="m3_adv">Завышаешь верхние ноты — поддержи дыханием.</div>
+          </div>
+        </div></div>
+        <div class="cap"><span class="num">3</span><h3 data-i18n="step3_t">Получи разбор</h3></div>
+        <p data-i18n="step3_d">Пришли запись — JazzTone отметит фальшь по нотам и подскажет, как поправить.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="wrap">
+    <div class="sec-head reveal">
+      <div class="kicker" data-i18n="inst_kicker">Инструменты</div>
+      <h2 data-i18n="inst_h2">Транспонирует за тебя</h2>
+      <p data-i18n="inst_p">Выбираешь инструмент — JazzTone сам считает строй и пишет партию в правильной тональности.</p>
+    </div>
+    <div class="chips reveal" id="chips"></div>
+  </section>
+
+  <section class="wrap">
+    <div class="cta-band reveal">
+      <h2 data-i18n="cta_h2">Готов звучать красиво?</h2>
+      <p data-i18n="cta_p">Открой JazzTone в Telegram и сыграй первую ноту — тюнер уже слушает.</p>
+      <a class="btn btn-primary" href="https://t.me/JazzTrumpetLibraryBot" target="_blank" rel="noopener" data-i18n="cta_btn">🎺 Начать в Telegram</a>
+    </div>
+  </section>
+
+  <footer>
+    <div class="wrap foot-grid">
+      <div>
+        <div class="brand" style="font-size:19px">JazzTone<span class="dot">.</span></div>
+        <div style="margin-top:8px" data-i18n="foot_tagline">Слушай свою игру. Играй красиво.</div>
+      </div>
+      <div class="foot-links">
+        <a href="#features" data-i18n="nav_features">Возможности</a>
+        <a href="#how" data-i18n="nav_how">Как это работает</a>
+        <a href="/tuner/" target="_blank" rel="noopener" data-i18n="nav_tuner">Тюнер</a>
+        <a href="https://t.me/JazzTrumpetLibraryBot" target="_blank" rel="noopener" data-i18n="foot_bot">Telegram-бот</a>
+      </div>
+    </div>
+    <div class="wrap fineprint" data-i18n="fineprint">© <span id="year"></span> JazzTone · jazztone.app. Ноты — public-domain произведения и собственные аранжировки; авторские права уважаем.</div>
+  </footer>
+
+<script>
+(function () {
+  "use strict";
+  var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var root = document.documentElement;
+  var YEAR = new Date().getFullYear();
+
+  /* ============ i18n ============ */
+  var I18N = {
+    ru: {
+      title: "JazzTone — слушай свою игру, играй чище",
+      nav_features: "Возможности", nav_how: "Как это работает", nav_tuner: "Тюнер", nav_cta: "Открыть в Telegram",
+      hero_eyebrow: "AI-тренажёр для духовых",
+      hero_title: 'Слушай свою игру.<br><span class="accent">Играй красиво.</span>',
+      hero_lead: "JazzTone слышит твою трубу или саксофон, ловит фальшь с точностью до герца и подсказывает, как взять чище. Тюнер, разбор интонации и ноты из записи — прямо в Telegram.",
+      hero_cta1: "🎺 Открыть бота", hero_cta2: "Запустить тюнер",
+      trust1: "<b>Труба</b> B♭", trust2: "<b>Саксофон</b> E♭/B♭", trust3: "<b>Тромбон</b>", trust4: "<b>Кларнет</b> B♭", trust5: "<b>Контрабас</b>", trust6: "<b>Гитара</b>",
+      tc_title: "Тюнер",
+      feat_kicker: "Возможности", feat_h2: "Не библиотека нот, а тренажёр слуха", feat_p: "Вся секция в одном боте — от настройки до разбора целого произведения.",
+      tag_beta: "бета",
+      f1_h: "Реал-тайм тюнер", f1_p: "Web Audio определяет высоту мгновенно. Стрелка на пружине, отклонение в герцах, поддержка строёв всех инструментов.",
+      f2_h: "Анализ интонации", f2_p: "Пришли голосовое — JazzTone разложит фразу по нотам, покажет, где завышаешь или занижаешь, и как это выправить.",
+      f3_h: "Ноты из записи", f3_p: "Сыграй мелодию — получи нотную картинку, MIDI и MusicXML. Чистый монофонический движок без облака.",
+      f4_h: "Партии под твой строй", f4_p: "Выбери инструмент — отдадим версию в нужной транспозиции и тональности. Один источник, партии для всей секции.",
+      f5_h: "Метроном", f5_p: "Темп 30–300 BPM, акцент на долю, любой размер. Синтез клика без сторонних библиотек.",
+      f6_h: "Библиотека", f6_p: "Джазовые стандарты и этюды, аккуратно атрибутированные. Public-domain и собственные аранжировки — по-честному.",
+      how_kicker: "Как это работает", how_h2: "Три шага до чистого звука", how_p: "Никаких установок и аккаунтов — всё внутри Telegram.",
+      m1_title: "🎷 Выбери инструмент", m1_b1: "Труба B♭", m1_b2: "Тенор-сакс B♭", m1_b3: "Альт-сакс E♭", m1_b4: "Кларнет B♭",
+      m2_cents: "в строе · +2 Hz", m3_title: "Анализ игры", m3_adv: "Завышаешь верхние ноты — поддержи дыханием.",
+      step1_t: "Выбери инструмент", step1_d: "Открой бота и выбери строй — труба, сакс, кларнет, тромбон, контрабас, гитара.",
+      step2_t: "Сыграй ноту", step2_d: "Тюнер слушает в реальном времени и показывает отклонение в герцах.",
+      step3_t: "Получи разбор", step3_d: "Пришли запись — JazzTone отметит фальшь по нотам и подскажет, как поправить.",
+      inst_kicker: "Инструменты", inst_h2: "Транспонирует за тебя", inst_p: "Выбираешь инструмент — JazzTone сам считает строй и пишет партию в правильной тональности.",
+      cta_h2: "Готов звучать красиво?", cta_p: "Открой JazzTone в Telegram и сыграй первую ноту — тюнер уже слушает.", cta_btn: "🎺 Начать в Telegram",
+      foot_tagline: "Слушай свою игру. Играй красиво.", foot_bot: "Telegram-бот",
+      fineprint: "© " + YEAR + " JazzTone · jazztone.app. Ноты — public-domain произведения и собственные аранжировки; авторские права уважаем.",
+      t_intune: "в строе", t_lower: "🔽 возьми ниже", t_higher: "🔼 возьми выше"
+    },
+    en: {
+      title: "JazzTone — hear your playing, play in tune",
+      nav_features: "Features", nav_how: "How it works", nav_tuner: "Tuner", nav_cta: "Open in Telegram",
+      hero_eyebrow: "AI coach for wind players",
+      hero_title: 'Hear your playing.<br><span class="accent">Play beautifully.</span>',
+      hero_lead: "JazzTone listens to your trumpet or sax, catches pitch drift down to the hertz, and tells you how to play cleaner. Tuner, intonation analysis and notation-from-recording — right inside Telegram.",
+      hero_cta1: "🎺 Open the bot", hero_cta2: "Launch tuner",
+      trust1: "<b>Trumpet</b> B♭", trust2: "<b>Sax</b> E♭/B♭", trust3: "<b>Trombone</b>", trust4: "<b>Clarinet</b> B♭", trust5: "<b>Double bass</b>", trust6: "<b>Guitar</b>",
+      tc_title: "Tuner",
+      feat_kicker: "Features", feat_h2: "Not a sheet-music library — an ear coach", feat_p: "Your whole section in one bot — from tuning up to analysing a whole piece.",
+      tag_beta: "beta",
+      f1_h: "Real-time tuner", f1_p: "Web Audio detects pitch instantly. A spring-loaded needle, deviation in hertz, every instrument's transposition.",
+      f2_h: "Intonation analysis", f2_p: "Send a voice message — JazzTone breaks the phrase into notes, shows where you go sharp or flat, and how to fix it.",
+      f3_h: "Notation from a recording", f3_p: "Play a melody — get a notation image, MIDI and MusicXML. A clean monophonic engine, no cloud.",
+      f4_h: "Parts in your key", f4_p: "Pick your instrument — get the version in the right transposition and key. One source, parts for the whole section.",
+      f5_h: "Metronome", f5_p: "30–300 BPM, accent on the beat, any time signature. Click synthesis with zero dependencies.",
+      f6_h: "Library", f6_p: "Jazz standards and études, carefully attributed. Public-domain works and our own arrangements — done honestly.",
+      how_kicker: "How it works", how_h2: "Three steps to a cleaner sound", how_p: "No installs, no accounts — all inside Telegram.",
+      m1_title: "🎷 Pick your instrument", m1_b1: "Trumpet B♭", m1_b2: "Tenor sax B♭", m1_b3: "Alto sax E♭", m1_b4: "Clarinet B♭",
+      m2_cents: "in tune · +2 Hz", m3_title: "Playing analysis", m3_adv: "You're sharp on the top notes — support with your breath.",
+      step1_t: "Pick your instrument", step1_d: "Open the bot and choose your key — trumpet, sax, clarinet, trombone, double bass, guitar.",
+      step2_t: "Play a note", step2_d: "The tuner listens in real time and shows deviation in hertz.",
+      step3_t: "Get your report", step3_d: "Send a recording — JazzTone flags off notes and tells you how to fix them.",
+      inst_kicker: "Instruments", inst_h2: "Transposes for you", inst_p: "Choose an instrument — JazzTone works out the transposition and writes the part in the right key.",
+      cta_h2: "Ready to sound beautiful?", cta_p: "Open JazzTone in Telegram and play your first note — the tuner is already listening.", cta_btn: "🎺 Start in Telegram",
+      foot_tagline: "Hear your playing. Play beautifully.", foot_bot: "Telegram bot",
+      fineprint: "© " + YEAR + " JazzTone · jazztone.app. Sheet music: public-domain works and our own arrangements; we respect copyright.",
+      t_intune: "in tune", t_lower: "🔽 ease down", t_higher: "🔼 lift up"
+    }
+  };
+
+  var instruments = [
+    ["Труба","Trumpet","B♭"],["Тенор-сакс","Tenor sax","B♭"],["Альт-сакс","Alto sax","E♭"],["Кларнет","Clarinet","B♭"],
+    ["Тромбон","Trombone","C"],["Контрабас","Double bass","C"],["Гитара","Guitar","C"],["Фортепиано","Piano","C"]
+  ];
+
+  var LANG = "ru";
+  function dict() { return I18N[LANG]; }
+
+  function applyLang(lang) {
+    LANG = I18N[lang] ? lang : "ru";
+    var d = dict();
+    root.lang = LANG;
+    document.title = d.title;
+    document.querySelectorAll('[data-i18n]').forEach(function (el) {
+      var v = d[el.getAttribute('data-i18n')];
+      if (v != null) el.textContent = v;
+    });
+    document.querySelectorAll('[data-i18n-html]').forEach(function (el) {
+      var v = d[el.getAttribute('data-i18n-html')];
+      if (v != null) el.innerHTML = v;
+    });
+    // re-render localized dynamic bits
+    document.getElementById('chips').innerHTML = instruments.map(function (i) {
+      return '<span class="chip">' + (LANG === 'en' ? i[1] : i[0]) + ' <span class="k">' + i[2] + '</span></span>';
+    }).join('');
+    var y = document.getElementById('year'); if (y) y.textContent = YEAR; // fineprint already has year inline
+    // pass the chosen language to the bot via Telegram deep-link (?start=ru|en)
+    document.querySelectorAll('a[href*="t.me/JazzTrumpetLibraryBot"]').forEach(function (a) {
+      a.href = 'https://t.me/JazzTrumpetLibraryBot?start=' + LANG;
+    });
+    document.querySelectorAll('.lang-toggle button').forEach(function (b) {
+      b.classList.toggle('active', b.getAttribute('data-lang') === LANG);
+    });
+    try { localStorage.setItem('jt_lang', LANG); } catch (e) {}
+  }
+
+  document.querySelectorAll('.lang-toggle button').forEach(function (b) {
+    b.addEventListener('click', function () { applyLang(b.getAttribute('data-lang')); });
+  });
+
+  var saved; try { saved = localStorage.getItem('jt_lang'); } catch (e) {}
+  applyLang(saved || ((navigator.language || 'ru').toLowerCase().indexOf('ru') === 0 ? 'ru' : 'en'));
+
+  /* ============ Marquee ============ */
+  var tunes = ["When the Saints Go Marching In","Summertime","I Got Rhythm","Honeysuckle Rose",
+    "All the Things You Are","Maple Leaf Rag","King Porter Stomp","The Way You Look Tonight","Charleston","Ain't Misbehavin'"];
+  document.getElementById('mtrack').innerHTML = tunes.concat(tunes).map(function (t) { return '<span>' + t + '</span>'; }).join('');
+
+  /* ============ EQ bars ============ */
+  var eq = document.getElementById('eq');
+  for (var i = 0; i < 7; i++) {
+    var b = document.createElement('i');
+    if (!reduce) b.style.animation = 'eqpulse ' + (520 + Math.random() * 420).toFixed(0) + 'ms var(--ease-in-out) ' + (i * 70) + 'ms infinite alternate';
+    eq.appendChild(b);
+  }
+  if (!reduce) {
+    var st = document.createElement('style');
+    st.textContent = '@keyframes eqpulse { from { transform: scaleY(0.28); } to { transform: scaleY(1); } }';
+    document.head.appendChild(st);
+  }
+
+  /* ============ Live tuner simulation ============ */
+  var noteEl = document.getElementById('tnote'), centsEl = document.getElementById('tcents');
+  var needle = document.getElementById('tneedle'), card = document.getElementById('tcard');
+  function getCss(v) { return getComputedStyle(root).getPropertyValue(v).trim(); }
+  var GOOD = getCss('--good'), OFF = getCss('--off');
+  var notes = [["D","4"],["B♭","4"],["A","4"],["F♯","4"],["G","4"],["C","5"],["E♭","4"]];
+  var idx = 0, targetAngle = 0, dispAngle = 0, targetCents = 0, dispCents = 0;
+
+  function nextNote() {
+    idx = (idx + 1) % notes.length;
+    var n = notes[idx];
+    var cents = Math.round((Math.random() * 2 - 1) * (Math.random() < 0.55 ? 6 : 26));
+    targetCents = cents;
+    targetAngle = Math.max(-45, Math.min(45, cents * 1.5));
+    var inTune = Math.abs(cents) <= 8;
+    root.style.setProperty('--c', inTune ? GOOD : OFF);
+    card.classList.toggle('locked', inTune);
+    noteEl.classList.add('changing');
+    setTimeout(function () { noteEl.innerHTML = n[0] + '<span class="oct">' + n[1] + '</span>'; noteEl.classList.remove('changing'); }, 150);
+  }
+  function renderCents() {
+    var c = Math.round(dispCents), d = dict();
+    if (Math.abs(c) <= 4) centsEl.textContent = d.t_intune;
+    else centsEl.textContent = (c > 0 ? '+' : '') + c + '¢ ' + (c > 0 ? d.t_lower : d.t_higher);
+  }
+  if (reduce) {
+    nextNote(); needle.style.transform = 'rotate(' + targetAngle + 'deg)'; dispCents = targetCents; renderCents();
+  } else {
+    nextNote();
+    (function loop() {
+      dispAngle += (targetAngle - dispAngle) * 0.12;
+      dispCents += (targetCents - dispCents) * 0.12;
+      needle.style.transform = 'rotate(' + dispAngle.toFixed(2) + 'deg)';
+      renderCents();
+      requestAnimationFrame(loop);
+    })();
+    setInterval(function () { if (!document.hidden) nextNote(); }, 2200);
+  }
+
+  /* ============ Mouse-spring tilt ============ */
+  if (!reduce && window.matchMedia('(hover: hover) and (pointer: fine)').matches) {
+    var rx = 0, ry = 0, trx = 0, try_ = 0, raf = null;
+    card.addEventListener('pointermove', function (e) {
+      var r = card.getBoundingClientRect();
+      try_ = ((e.clientX - r.left) / r.width - 0.5) * 9;
+      trx = -((e.clientY - r.top) / r.height - 0.5) * 9;
+      if (!raf) raf = requestAnimationFrame(tilt);
+    });
+    card.addEventListener('pointerleave', function () { try_ = 0; trx = 0; if (!raf) raf = requestAnimationFrame(tilt); });
+    function tilt() {
+      rx += (trx - rx) * 0.12; ry += (try_ - ry) * 0.12;
+      card.style.transform = 'perspective(900px) rotateX(' + rx.toFixed(2) + 'deg) rotateY(' + ry.toFixed(2) + 'deg)';
+      if (Math.abs(trx - rx) > 0.05 || Math.abs(try_ - ry) > 0.05) raf = requestAnimationFrame(tilt); else raf = null;
+    }
+  }
+
+  /* ============ Reveal on scroll ============ */
+  if (!reduce && 'IntersectionObserver' in window) {
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (en) {
+        if (en.isIntersecting) {
+          var el = en.target, sibs = Array.prototype.slice.call(el.parentNode.querySelectorAll('.reveal'));
+          el.style.transitionDelay = (Math.min(sibs.indexOf(el), 5) * 60) + 'ms';
+          el.classList.add('in'); io.unobserve(el);
+        }
+      });
+    }, { threshold: 0.15, rootMargin: '-40px' });
+    document.querySelectorAll('.reveal').forEach(function (el) { io.observe(el); });
+  } else {
+    document.querySelectorAll('.reveal').forEach(function (el) { el.classList.add('in'); });
+  }
+
+  /* ============ Interactive "playing trumpet" favicon (bigger, angled up) ============ */
+  (function favicon() {
+    var link = document.querySelector("link[rel='icon']") || document.createElement('link');
+    link.rel = 'icon'; document.head.appendChild(link);
+    var cvs = document.createElement('canvas'); cvs.width = cvs.height = 64;
+    var ctx = cvs.getContext('2d'); var t = 0, paused = false, puffs = [];
+    function drawTrumpet(bob) {
+      ctx.save();
+      ctx.translate(32, 36 + bob);
+      ctx.rotate(-22 * Math.PI / 180);   // bell points up-diagonally
+      ctx.font = '56px serif'; ctx.textAlign = 'center'; ctx.textBaseline = 'middle';
+      ctx.fillText('🎺', 0, 0);
+      ctx.restore();
+    }
+    function frame() {
+      if (paused) return;
+      ctx.clearRect(0, 0, 64, 64); t += 1;
+      var bob = Math.sin(t * 0.18) * 2.2;
+      if (t % 13 === 0) puffs.push({ x: 46, y: 16 + bob, life: 0, dx: 0.45 + Math.random() * 0.5, ch: Math.random() < 0.5 ? '♪' : '♫' });
+      for (var i = puffs.length - 1; i >= 0; i--) {
+        var p = puffs[i]; p.life++; p.x += p.dx; p.y -= 0.85;
+        ctx.globalAlpha = Math.max(0, 1 - p.life / 24); ctx.fillStyle = '#e9b665';
+        ctx.font = '17px serif'; ctx.textAlign = 'left'; ctx.fillText(p.ch, p.x, p.y);
+        if (p.life > 24) puffs.splice(i, 1);
+      }
+      ctx.globalAlpha = 1;
+      drawTrumpet(bob);
+      link.href = cvs.toDataURL('image/png');
+    }
+    if (reduce) { drawTrumpet(0); link.href = cvs.toDataURL('image/png'); }
+    else {
+      setInterval(frame, 90);
+      document.addEventListener('visibilitychange', function () { paused = document.hidden; });
+    }
+  })();
+
+  /* ============ Analytics (Cloudflare Web Analytics — privacy-first, no cookies) ============ */
+  // Paste the token from Cloudflare dash → Analytics & Logs → Web Analytics → Add site (jazztone.app).
+  var CF_ANALYTICS_TOKEN = "";  // Auto Install enabled on the proxied zone — beacon is injected by Cloudflare's edge; leave empty to avoid a double beacon.
+  if (CF_ANALYTICS_TOKEN) {
+    var s = document.createElement('script');
+    s.defer = true; s.src = 'https://static.cloudflareinsights.com/beacon.min.js';
+    s.setAttribute('data-cf-beacon', JSON.stringify({ token: CF_ANALYTICS_TOKEN }));
+    document.body.appendChild(s);
+  }
+})();
+</script>
+</body>
+</html>
