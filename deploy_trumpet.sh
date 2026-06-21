@@ -15,6 +15,10 @@ curl -sL --max-time 300 -o "notes/Saint-Jacome - Grand Method for Cornet_Trumpet
 curl -sL --max-time 300 -o "notes/Pares - Daily Exercises and Scales (Trumpet).pdf" "https://archive.org/download/dailyexercisessc00pars/dailyexercisessc00pars.pdf"
 curl -sL --max-time 300 -o "notes/Kopprasch - 60 Selected Studies (Trombone).pdf" "https://archive.org/download/sixtystudiesfort00kopp/sixtystudiesfort00kopp.pdf"
 curl -sL --max-time 300 -o "notes/Rochut-Bordogni - Melodious Etudes for Trombone.pdf" "https://archive.org/download/melodious-etudes-for-trombone-selected-f/Melodious_etudes_for_trombone_selected_f.pdf"
+echo "STEP lilypond"
+apt-get update -qq
+apt-get install -y lilypond
+lilypond --version | head -1
 echo "STEP requirements"
 printf 'python-telegram-bot==21.9\n' > requirements.txt
 echo "STEP venv"
